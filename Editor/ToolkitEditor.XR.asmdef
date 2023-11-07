@@ -1,0 +1,25 @@
+{
+    "name": "ToolkitEditor.XR",
+    "rootNamespace": "",
+    "references": [
+        "GUID:057460dc3182704448660f7d5291c0a1",
+        "GUID:0b2b191acd5ecdb4da1dd2e73cbe1d45",
+        "GUID:4f6675837be5f1d45a32fb1920bd0217",
+        "GUID:dc960734dc080426fa6612f1c5fe95f3",
+        "GUID:4ddd23ea56a3a40f0aa0036d1624a53e",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:190979c3ed6e41c448f5e9925429edf9",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
