@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class XRBasePositionInteractable
+ |  |  </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class XRBasePositionInteractable
+ |  |  ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.xri/new/master/apiSpec/new?filename=ToolkitEngine_XR_XRBasePositionInteractable.md&amp;value=---%0Auid%3A%20ToolkitEngine.XR.XRBasePositionInteractable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ToolkitEngine.XR.XRBasePositionInteractable">
+
+
+
+  <h1 id="ToolkitEngine_XR_XRBasePositionInteractable" data-uid="ToolkitEngine.XR.XRBasePositionInteractable" class="text-break">
+    Class XRBasePositionInteractable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.XR.html">XR</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class XRBasePositionInteractable : XRBaseInteractable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">XRBasePositionInteractable</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.XR.XRButtonInteractable.html">XRButtonInteractable</a></div>
+      <div><a class="xref" href="ToolkitEngine.XR.XRSlideInteractable.html">XRSlideInteractable</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_m_directionAxis" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.m_directionAxis">
+  m_directionAxis
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Axis m_directionAxis</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.XR.Axis.html">Axis</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_m_isInteractable" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.m_isInteractable">
+  m_isInteractable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_isInteractable</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_m_maxDepth" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.m_maxDepth">
+  m_maxDepth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_maxDepth</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_m_normalizedFlowDepths" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.m_normalizedFlowDepths">
+  m_normalizedFlowDepths
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 m_normalizedFlowDepths</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_controllerInteractors_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.controllerInteractors*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_controllerInteractors" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.controllerInteractors">
+  controllerInteractors
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract IEnumerable&lt;XRBaseControllerInteractor&gt; controllerInteractors { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">XRBaseControllerInteractor</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_depth_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.depth*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_depth" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.depth">
+  depth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float depth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_direction_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.direction*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_direction" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.direction">
+  direction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Direction of motion in world space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 direction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_isInteractable_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.isInteractable*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_isInteractable" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.isInteractable">
+  isInteractable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isInteractable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_isTipflow_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.isTipflow*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_isTipflow" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.isTipflow">
+  isTipflow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTipflow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_normalizedDepth_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.normalizedDepth*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_normalizedDepth" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.normalizedDepth">
+  normalizedDepth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float normalizedDepth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_onDepthChanged_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.onDepthChanged*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_onDepthChanged" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.onDepthChanged">
+  onDepthChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;InteractionEventArgs&gt; onDepthChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html">InteractionEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_onTailflow_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.onTailflow*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_onTailflow" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.onTailflow">
+  onTailflow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;InteractionEventArgs&gt; onTailflow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html">InteractionEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_onTipflow_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.onTipflow*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_onTipflow" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.onTipflow">
+  onTipflow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;InteractionEventArgs&gt; onTipflow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html">InteractionEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_Awake_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.Awake*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_Awake" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.Awake">
+  Awake()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_BeginInteraction_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.BeginInteraction*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_BeginInteraction_BaseInteractionEventArgs_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.BeginInteraction(BaseInteractionEventArgs)">
+  BeginInteraction(BaseInteractionEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BeginInteraction(BaseInteractionEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">BaseInteractionEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_EndInteraction_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.EndInteraction*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_EndInteraction_BaseInteractionEventArgs_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.EndInteraction(BaseInteractionEventArgs)">
+  EndInteraction(BaseInteractionEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void EndInteraction(BaseInteractionEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">BaseInteractionEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_InvokeDepthChanged_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.InvokeDepthChanged*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_InvokeDepthChanged" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.InvokeDepthChanged">
+  InvokeDepthChanged()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InvokeDepthChanged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRBasePositionInteractable_ProcessInteractable_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.ProcessInteractable*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRBasePositionInteractable_ProcessInteractable_XRInteractionUpdateOrder_UpdatePhase_" data-uid="ToolkitEngine.XR.XRBasePositionInteractable.ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase)">
+  ProcessInteractable(UpdatePhase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactables/XRBasePositionInteractable.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updatePhase</code> <span class="xref">UpdatePhase</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/nrvllrgrs" target="_blank">nrvllrgrs</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

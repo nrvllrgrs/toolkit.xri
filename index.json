@@ -1,0 +1,542 @@
+{
+  "api/Global.XRPlayerSpawnPoint.html": {
+    "href": "api/Global.XRPlayerSpawnPoint.html",
+    "title": "Class XRPlayerSpawnPoint | |",
+    "keywords": "Class XRPlayerSpawnPoint Namespace Global public class XRPlayerSpawnPoint : MonoBehaviour Inheritance object XRPlayerSpawnPoint"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace | |",
+    "keywords": "Namespace Classes XRPlayerSpawnPoint"
+  },
+  "api/ToolkitEditor.XR.HapticSettingsDrawer.html": {
+    "href": "api/ToolkitEditor.XR.HapticSettingsDrawer.html",
+    "title": "Class HapticSettingsDrawer | |",
+    "keywords": "Class HapticSettingsDrawer Namespace ToolkitEditor.XR public class HapticSettingsDrawer : PropertyDrawer Inheritance object HapticSettingsDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.XR.MenuItemEditor.html": {
+    "href": "api/ToolkitEditor.XR.MenuItemEditor.html",
+    "title": "Class MenuItemEditor | |",
+    "keywords": "Class MenuItemEditor Namespace ToolkitEditor.XR public static class MenuItemEditor Inheritance object MenuItemEditor Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CopyColliders() public static void CopyColliders() PasteColliders() public static void PasteColliders()"
+  },
+  "api/ToolkitEditor.XR.XRBaseInputEventsEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRBaseInputEventsEditor.html",
+    "title": "Class XRBaseInputEventsEditor | |",
+    "keywords": "Class XRBaseInputEventsEditor Namespace ToolkitEditor.XR public class XRBaseInputEventsEditor : XRInteractionEventsEditor Inheritance object XRInteractionEventsEditor XRBaseInputEventsEditor Derived XRVelocityInputEventsEditor Inherited Members XRInteractionEventsEditor.m_interactable XRInteractionEventsEditor.m_interactionType XRInteractionEventsEditor.m_predicate XRInteractionEventsEditor.m_onInteracted XRInteractionEventsEditor.m_onUninteracted Fields m_leftAction protected SerializedProperty m_leftAction Field Value SerializedProperty m_onCanceled protected SerializedProperty m_onCanceled Field Value SerializedProperty m_onPerformed protected SerializedProperty m_onPerformed Field Value SerializedProperty m_rightAction protected SerializedProperty m_rightAction Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.XRBasePositionInteractableEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRBasePositionInteractableEditor.html",
+    "title": "Class XRBasePositionInteractableEditor | |",
+    "keywords": "Class XRBasePositionInteractableEditor Namespace ToolkitEditor.XR public class XRBasePositionInteractableEditor : XRBaseInteractableEditor Inheritance object XRBasePositionInteractableEditor Derived XRButtonInteractableEditor XRSlideInteractableEditor Fields m_directionAxis protected SerializedProperty m_directionAxis Field Value SerializedProperty m_isInteractable protected SerializedProperty m_isInteractable Field Value SerializedProperty m_maxDepth protected SerializedProperty m_maxDepth Field Value SerializedProperty m_normalizedFlowDepths protected SerializedProperty m_normalizedFlowDepths Field Value SerializedProperty m_onDepthChanged protected SerializedProperty m_onDepthChanged Field Value SerializedProperty m_onTailflow protected SerializedProperty m_onTailflow Field Value SerializedProperty m_onTipflow protected SerializedProperty m_onTipflow Field Value SerializedProperty m_tailflowHaptics protected SerializedProperty m_tailflowHaptics Field Value SerializedProperty m_tailflowSnap protected SerializedProperty m_tailflowSnap Field Value SerializedProperty m_tailflowSpeed protected SerializedProperty m_tailflowSpeed Field Value SerializedProperty m_tipflowHaptics protected SerializedProperty m_tipflowHaptics Field Value SerializedProperty m_useTailflowHaptics protected SerializedProperty m_useTailflowHaptics Field Value SerializedProperty m_useTipflowHaptics protected SerializedProperty m_useTipflowHaptics Field Value SerializedProperty Methods DrawDerivedProperties() protected override void DrawDerivedProperties() DrawEvents() protected override void DrawEvents() DrawHapticEvents() protected virtual void DrawHapticEvents() DrawHapticEventsNested() protected virtual void DrawHapticEventsNested() DrawInteractableEventsNested() protected override void DrawInteractableEventsNested() DrawLinearAxisProperties() protected virtual void DrawLinearAxisProperties() DrawPreview() protected void DrawPreview() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.XRBaseRotationInteractableEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRBaseRotationInteractableEditor.html",
+    "title": "Class XRBaseRotationInteractableEditor | |",
+    "keywords": "Class XRBaseRotationInteractableEditor Namespace ToolkitEditor.XR public class XRBaseRotationInteractableEditor : XRBaseInteractableEditor Inheritance object XRBaseRotationInteractableEditor Fields m_forward protected SerializedProperty m_forward Field Value SerializedProperty m_indexChangedHaptics protected SerializedProperty m_indexChangedHaptics Field Value SerializedProperty m_isInteractable protected SerializedProperty m_isInteractable Field Value SerializedProperty m_onIndexChanged protected SerializedProperty m_onIndexChanged Field Value SerializedProperty m_onValueChanged protected SerializedProperty m_onValueChanged Field Value SerializedProperty m_range protected SerializedProperty m_range Field Value SerializedProperty m_restingAngle protected SerializedProperty m_restingAngle Field Value SerializedProperty m_rotationDirection protected SerializedProperty m_rotationDirection Field Value SerializedProperty m_snap protected SerializedProperty m_snap Field Value SerializedProperty m_snapMode protected SerializedProperty m_snapMode Field Value SerializedProperty m_snapSpeed protected SerializedProperty m_snapSpeed Field Value SerializedProperty m_startingAngle protected SerializedProperty m_startingAngle Field Value SerializedProperty m_stepCount protected SerializedProperty m_stepCount Field Value SerializedProperty m_updateIndexContinuously protected SerializedProperty m_updateIndexContinuously Field Value SerializedProperty m_upward protected SerializedProperty m_upward Field Value SerializedProperty m_useIndexChangedHaptics protected SerializedProperty m_useIndexChangedHaptics Field Value SerializedProperty m_useSteps protected SerializedProperty m_useSteps Field Value SerializedProperty m_useValueChangedHaptics protected SerializedProperty m_useValueChangedHaptics Field Value SerializedProperty m_valueChangedHaptics protected SerializedProperty m_valueChangedHaptics Field Value SerializedProperty Methods DrawAngularAxisProperties() protected virtual void DrawAngularAxisProperties() DrawEvents() protected override void DrawEvents() DrawHapticEvents() protected virtual void DrawHapticEvents() DrawHapticEventsNested() protected virtual void DrawHapticEventsNested() DrawInteractableEventsNested() protected override void DrawInteractableEventsNested() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.XRButtonInteractableEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRButtonInteractableEditor.html",
+    "title": "Class XRButtonInteractableEditor | |",
+    "keywords": "Class XRButtonInteractableEditor Namespace ToolkitEditor.XR public class XRButtonInteractableEditor : XRBasePositionInteractableEditor Inheritance object XRBasePositionInteractableEditor XRButtonInteractableEditor Inherited Members XRBasePositionInteractableEditor.m_isInteractable XRBasePositionInteractableEditor.m_directionAxis XRBasePositionInteractableEditor.m_normalizedFlowDepths XRBasePositionInteractableEditor.m_maxDepth XRBasePositionInteractableEditor.m_tailflowSnap XRBasePositionInteractableEditor.m_tailflowSpeed XRBasePositionInteractableEditor.m_useTipflowHaptics XRBasePositionInteractableEditor.m_tipflowHaptics XRBasePositionInteractableEditor.m_useTailflowHaptics XRBasePositionInteractableEditor.m_tailflowHaptics XRBasePositionInteractableEditor.m_onDepthChanged XRBasePositionInteractableEditor.m_onTipflow XRBasePositionInteractableEditor.m_onTailflow XRBasePositionInteractableEditor.DrawProperties() XRBasePositionInteractableEditor.DrawPreview() XRBasePositionInteractableEditor.DrawDerivedProperties() XRBasePositionInteractableEditor.DrawInteractableEventsNested() XRBasePositionInteractableEditor.DrawEvents() XRBasePositionInteractableEditor.DrawHapticEvents() XRBasePositionInteractableEditor.DrawHapticEventsNested() Fields m_allowedAngle protected SerializedProperty m_allowedAngle Field Value SerializedProperty Methods DrawLinearAxisProperties() protected override void DrawLinearAxisProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.XRHandednessActionDrawer.html": {
+    "href": "api/ToolkitEditor.XR.XRHandednessActionDrawer.html",
+    "title": "Class XRHandednessActionDrawer | |",
+    "keywords": "Class XRHandednessActionDrawer Namespace ToolkitEditor.XR public class XRHandednessActionDrawer : PropertyDrawer Inheritance object XRHandednessActionDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.XR.XRHolsterInteractorEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRHolsterInteractorEditor.html",
+    "title": "Class XRHolsterInteractorEditor | |",
+    "keywords": "Class XRHolsterInteractorEditor Namespace ToolkitEditor.XR public class XRHolsterInteractorEditor : XRSocketInteractorEditor Inheritance object XRHolsterInteractorEditor Fields m_autoholsterDelay protected SerializedProperty m_autoholsterDelay Field Value SerializedProperty m_dropBehavior protected SerializedProperty m_dropBehavior Field Value SerializedProperty m_onChanged protected SerializedProperty m_onChanged Field Value SerializedProperty m_onHolstered protected SerializedProperty m_onHolstered Field Value SerializedProperty m_onUnholstered protected SerializedProperty m_onUnholstered Field Value SerializedProperty Methods DrawInteractorEventsNested() protected override void DrawInteractorEventsNested() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.XRInteractionEventsEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRInteractionEventsEditor.html",
+    "title": "Class XRInteractionEventsEditor | |",
+    "keywords": "Class XRInteractionEventsEditor Namespace ToolkitEditor.XR public class XRInteractionEventsEditor : BaseToolkitEditor Inheritance object XRInteractionEventsEditor Derived XRBaseInputEventsEditor Fields m_interactable protected SerializedProperty m_interactable Field Value SerializedProperty m_interactionType protected SerializedProperty m_interactionType Field Value SerializedProperty m_onInteracted protected SerializedProperty m_onInteracted Field Value SerializedProperty m_onUninteracted protected SerializedProperty m_onUninteracted Field Value SerializedProperty m_predicate protected SerializedProperty m_predicate Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.XRSlideInteractableEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRSlideInteractableEditor.html",
+    "title": "Class XRSlideInteractableEditor | |",
+    "keywords": "Class XRSlideInteractableEditor Namespace ToolkitEditor.XR public class XRSlideInteractableEditor : XRBasePositionInteractableEditor Inheritance object XRBasePositionInteractableEditor XRSlideInteractableEditor Inherited Members XRBasePositionInteractableEditor.m_isInteractable XRBasePositionInteractableEditor.m_directionAxis XRBasePositionInteractableEditor.m_normalizedFlowDepths XRBasePositionInteractableEditor.m_maxDepth XRBasePositionInteractableEditor.m_tailflowSnap XRBasePositionInteractableEditor.m_tailflowSpeed XRBasePositionInteractableEditor.m_useTipflowHaptics XRBasePositionInteractableEditor.m_tipflowHaptics XRBasePositionInteractableEditor.m_useTailflowHaptics XRBasePositionInteractableEditor.m_tailflowHaptics XRBasePositionInteractableEditor.m_onDepthChanged XRBasePositionInteractableEditor.m_onTipflow XRBasePositionInteractableEditor.m_onTailflow XRBasePositionInteractableEditor.DrawProperties() XRBasePositionInteractableEditor.DrawPreview() XRBasePositionInteractableEditor.DrawDerivedProperties() XRBasePositionInteractableEditor.DrawInteractableEventsNested() XRBasePositionInteractableEditor.DrawEvents() XRBasePositionInteractableEditor.DrawHapticEvents() XRBasePositionInteractableEditor.DrawHapticEventsNested() Fields m_cancelInteractionOnUnhover protected SerializedProperty m_cancelInteractionOnUnhover Field Value SerializedProperty Methods DrawLinearAxisProperties() protected override void DrawLinearAxisProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.XRVelocityInputEventsEditor.html": {
+    "href": "api/ToolkitEditor.XR.XRVelocityInputEventsEditor.html",
+    "title": "Class XRVelocityInputEventsEditor | |",
+    "keywords": "Class XRVelocityInputEventsEditor Namespace ToolkitEditor.XR public class XRVelocityInputEventsEditor : XRBaseInputEventsEditor Inheritance object XRInteractionEventsEditor XRBaseInputEventsEditor XRVelocityInputEventsEditor Inherited Members XRBaseInputEventsEditor.m_leftAction XRBaseInputEventsEditor.m_rightAction XRBaseInputEventsEditor.m_onPerformed XRBaseInputEventsEditor.m_onCanceled XRBaseInputEventsEditor.DrawEvents() XRInteractionEventsEditor.m_interactable XRInteractionEventsEditor.m_interactionType XRInteractionEventsEditor.m_predicate XRInteractionEventsEditor.m_onInteracted XRInteractionEventsEditor.m_onUninteracted Fields m_directionMask protected SerializedProperty m_directionMask Field Value SerializedProperty m_isOmnidirectional protected SerializedProperty m_isOmnidirectional Field Value SerializedProperty m_threshold protected SerializedProperty m_threshold Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.XR.html": {
+    "href": "api/ToolkitEditor.XR.html",
+    "title": "Namespace ToolkitEditor.XR | |",
+    "keywords": "Namespace ToolkitEditor.XR Classes HapticSettingsDrawer MenuItemEditor XRBaseInputEventsEditor XRBasePositionInteractableEditor XRBaseRotationInteractableEditor XRButtonInteractableEditor XRHandednessActionDrawer XRHolsterInteractorEditor XRInteractionEventsEditor XRSlideInteractableEditor XRVelocityInputEventsEditor"
+  },
+  "api/ToolkitEngine.XR.Axis.html": {
+    "href": "api/ToolkitEngine.XR.Axis.html",
+    "title": "Enum Axis | |",
+    "keywords": "Enum Axis Namespace ToolkitEngine.XR public enum Axis Fields Backward = 0 Down = 1 Forward = 2 Left = 3 Right = 4 Up = 5"
+  },
+  "api/ToolkitEngine.XR.HapticSettings.html": {
+    "href": "api/ToolkitEngine.XR.HapticSettings.html",
+    "title": "Class HapticSettings | |",
+    "keywords": "Class HapticSettings Namespace ToolkitEngine.XR [Serializable] public class HapticSettings Inheritance object HapticSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties continuous public bool continuous { get; } Property Value bool duration public float duration { get; set; } Property Value float intensity public float intensity { get; set; } Property Value float Methods CancelImpulse(XRBaseControllerInteractor) public void CancelImpulse(XRBaseControllerInteractor controllerInteractor) Parameters controllerInteractor XRBaseControllerInteractor SendImpulse(XRBaseControllerInteractor) public void SendImpulse(XRBaseControllerInteractor controllerInteractor) Parameters controllerInteractor XRBaseControllerInteractor"
+  },
+  "api/ToolkitEngine.XR.HolsterEventArgs.html": {
+    "href": "api/ToolkitEngine.XR.HolsterEventArgs.html",
+    "title": "Class HolsterEventArgs | |",
+    "keywords": "Class HolsterEventArgs Namespace ToolkitEngine.XR public class HolsterEventArgs : BaseInteractionEventArgs Inheritance object HolsterEventArgs Properties holsterInteractor public XRHolsterInteractor holsterInteractor { get; } Property Value XRHolsterInteractor"
+  },
+  "api/ToolkitEngine.XR.RotationInteractionEvent.html": {
+    "href": "api/ToolkitEngine.XR.RotationInteractionEvent.html",
+    "title": "Class RotationInteractionEvent | |",
+    "keywords": "Class RotationInteractionEvent Namespace ToolkitEngine.XR public class RotationInteractionEvent : InteractionEventArgs Inheritance object InteractionEventArgs RotationInteractionEvent Inherited Members InteractionEventArgs.manager Properties delta public float delta { get; set; } Property Value float index public int index { get; set; } Property Value int value public float value { get; set; } Property Value float"
+  },
+  "api/ToolkitEngine.XR.TranslationProvider.html": {
+    "href": "api/ToolkitEngine.XR.TranslationProvider.html",
+    "title": "Class TranslationProvider | |",
+    "keywords": "Class TranslationProvider Namespace ToolkitEngine.XR public class TranslationProvider : ContinuousMoveProviderBase Inheritance object TranslationProvider Properties onArrival public UnityEvent onArrival { get; } Property Value UnityEvent onCancelation public UnityEvent onCancelation { get; } Property Value UnityEvent onDeparture public UnityEvent onDeparture { get; } Property Value UnityEvent Methods Awake() protected override void Awake() Cancel() public void Cancel() ComputeDesiredMove(Vector2) protected override Vector3 ComputeDesiredMove(Vector2 input) Parameters input Vector2 Returns Vector3 Depart(Vector3) public void Depart(Vector3 destination) Parameters destination Vector3 Depart(Vector3, Vector3) public void Depart(Vector3 destination, Vector3 offset) Parameters destination Vector3 offset Vector3 OnDestroy() protected virtual void OnDestroy() ReadInput() protected override Vector2 ReadInput() Returns Vector2 TryGetDestination(out Vector3) public bool TryGetDestination(out Vector3 destination) Parameters destination Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.EventHooks.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.EventHooks.html",
+    "title": "Class EventHooks | |",
+    "keywords": "Class EventHooks Namespace ToolkitEngine.XR.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnXRInputInteractionCanceled public const string OnXRInputInteractionCanceled = \"OnXRInputInteractionCanceled\" Field Value string OnXRInputInteractionPerformed public const string OnXRInputInteractionPerformed = \"OnXRInputInteractionPerformed\" Field Value string OnXRInteractableActivated public const string OnXRInteractableActivated = \"OnXRInteractableActivated\" Field Value string OnXRInteractableDeactivated public const string OnXRInteractableDeactivated = \"OnXRInteractableDeactivated\" Field Value string OnXRInteractableDepthChanged public const string OnXRInteractableDepthChanged = \"OnXRInteractableDepthChanged\" Field Value string OnXRInteractableFirstHoverEntered public const string OnXRInteractableFirstHoverEntered = \"OnXRInteractableFirstHoverEntered\" Field Value string OnXRInteractableHoverEntered public const string OnXRInteractableHoverEntered = \"OnXRInteractableHoverEntered\" Field Value string OnXRInteractableHoverExited public const string OnXRInteractableHoverExited = \"OnXRInteractableHoverExited\" Field Value string OnXRInteractableLastHoverExited public const string OnXRInteractableLastHoverExited = \"OnXRInteractableLastHoverExited\" Field Value string OnXRInteractablePlugged public const string OnXRInteractablePlugged = \"OnXRInteractablePlugged\" Field Value string OnXRInteractableSelectEntered public const string OnXRInteractableSelectEntered = \"OnXRInteractableSelectEntered\" Field Value string OnXRInteractableSelectExited public const string OnXRInteractableSelectExited = \"OnXRInteractableSelectExited\" Field Value string OnXRInteractableTailflow public const string OnXRInteractableTailflow = \"OnXRInteractableTailflow\" Field Value string OnXRInteractableTipflow public const string OnXRInteractableTipflow = \"OnXRInteractableTipflow\" Field Value string OnXRInteractableUnplugged public const string OnXRInteractableUnplugged = \"OnXRInteractableUnplugged\" Field Value string OnXRInteractorHoverEntered public const string OnXRInteractorHoverEntered = \"OnXRInteractorHoverEntered\" Field Value string OnXRInteractorHoverExited public const string OnXRInteractorHoverExited = \"OnXRInteractorHoverExited\" Field Value string OnXRSocketPlugged public const string OnXRSocketPlugged = \"OnXRSocketPlugged\" Field Value string OnXRSocketUnplugged public const string OnXRSocketUnplugged = \"OnXRSocketUnplugged\" Field Value string"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponent.InteractionObject.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponent.InteractionObject.html",
+    "title": "Enum GetInteractionComponent.InteractionObject | |",
+    "keywords": "Enum GetInteractionComponent.InteractionObject Namespace ToolkitEngine.XR.VisualScripting public enum GetInteractionComponent.InteractionObject Fields Interactable = 0 Interactor = 1"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponent.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponent.html",
+    "title": "Class GetInteractionComponent | |",
+    "keywords": "Class GetInteractionComponent Namespace ToolkitEngine.XR.VisualScripting public class GetInteractionComponent : Unit Inheritance object GetInteractionComponent Derived GetInteractionComponentInChildren GetInteractionComponentInParent Fields component public ValueOutput component Field Value ValueOutput interactionEventArgs public ValueInput interactionEventArgs Field Value ValueInput interactionObject public GetInteractionComponent.InteractionObject interactionObject Field Value GetInteractionComponent.InteractionObject type public ValueInput type Field Value ValueInput Properties inputTrigger public ControlInput inputTrigger { get; } Property Value ControlInput invalidTrigger public ControlOutput invalidTrigger { get; } Property Value ControlOutput validTrigger public ControlOutput validTrigger { get; } Property Value ControlOutput Methods Definition() protected override void Definition() GetComponent(Flow, Transform, Type) protected virtual Component GetComponent(Flow flow, Transform transform, Type type) Parameters flow Flow transform Transform type Type Returns Component"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponentInChildren.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponentInChildren.html",
+    "title": "Class GetInteractionComponentInChildren | |",
+    "keywords": "Class GetInteractionComponentInChildren Namespace ToolkitEngine.XR.VisualScripting public class GetInteractionComponentInChildren : GetInteractionComponent Inheritance object GetInteractionComponent GetInteractionComponentInChildren Inherited Members GetInteractionComponent.inputTrigger GetInteractionComponent.interactionObject GetInteractionComponent.interactionEventArgs GetInteractionComponent.type GetInteractionComponent.validTrigger GetInteractionComponent.invalidTrigger GetInteractionComponent.component Fields includeInactive public ValueInput includeInactive Field Value ValueInput Methods Definition() protected override void Definition() GetComponent(Flow, Transform, Type) protected override Component GetComponent(Flow flow, Transform transform, Type type) Parameters flow Flow transform Transform type Type Returns Component"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponentInParent.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponentInParent.html",
+    "title": "Class GetInteractionComponentInParent | |",
+    "keywords": "Class GetInteractionComponentInParent Namespace ToolkitEngine.XR.VisualScripting public class GetInteractionComponentInParent : GetInteractionComponent Inheritance object GetInteractionComponent GetInteractionComponentInParent Inherited Members GetInteractionComponent.inputTrigger GetInteractionComponent.interactionObject GetInteractionComponent.interactionEventArgs GetInteractionComponent.type GetInteractionComponent.validTrigger GetInteractionComponent.invalidTrigger GetInteractionComponent.component GetInteractionComponent.Definition() Methods GetComponent(Flow, Transform, Type) protected override Component GetComponent(Flow flow, Transform transform, Type type) Parameters flow Flow transform Transform type Type Returns Component"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceled.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceled.html",
+    "title": "Class OnXRInputInteractionCanceled | |",
+    "keywords": "Class OnXRInputInteractionCanceled Namespace ToolkitEngine.XR.VisualScripting public class OnXRInputInteractionCanceled : XRBaseInputInteractionEventUnit Inheritance object XRBaseInputInteractionEventUnit OnXRInputInteractionCanceled Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceledMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceledMessageListener.html",
+    "title": "Class OnXRInputInteractionCanceledMessageListener | |",
+    "keywords": "Class OnXRInputInteractionCanceledMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInputInteractionCanceledMessageListener : MessageListener Inheritance object OnXRInputInteractionCanceledMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformed.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformed.html",
+    "title": "Class OnXRInputInteractionPerformed | |",
+    "keywords": "Class OnXRInputInteractionPerformed Namespace ToolkitEngine.XR.VisualScripting public class OnXRInputInteractionPerformed : XRBaseInputInteractionEventUnit Inheritance object XRBaseInputInteractionEventUnit OnXRInputInteractionPerformed Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformedMessageListener.html",
+    "title": "Class OnXRInputInteractionPerformedMessageListener | |",
+    "keywords": "Class OnXRInputInteractionPerformedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInputInteractionPerformedMessageListener : MessageListener Inheritance object OnXRInputInteractionPerformedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableActivated.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableActivated.html",
+    "title": "Class OnXRInteractableActivated | |",
+    "keywords": "Class OnXRInteractableActivated Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableActivated : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableActivated Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableActivatedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableActivatedMessageListener.html",
+    "title": "Class OnXRInteractableActivatedMessageListener | |",
+    "keywords": "Class OnXRInteractableActivatedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableActivatedMessageListener : MessageListener Inheritance object OnXRInteractableActivatedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivated.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivated.html",
+    "title": "Class OnXRInteractableDeactivated | |",
+    "keywords": "Class OnXRInteractableDeactivated Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableDeactivated : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableDeactivated Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivatedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivatedMessageListener.html",
+    "title": "Class OnXRInteractableDeactivatedMessageListener | |",
+    "keywords": "Class OnXRInteractableDeactivatedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableDeactivatedMessageListener : MessageListener Inheritance object OnXRInteractableDeactivatedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChanged.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChanged.html",
+    "title": "Class OnXRInteractableDepthChanged | |",
+    "keywords": "Class OnXRInteractableDepthChanged Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableDepthChanged : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableDepthChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChangedMessageListener.html",
+    "title": "Class OnXRInteractableDepthChangedMessageListener | |",
+    "keywords": "Class OnXRInteractableDepthChangedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableDepthChangedMessageListener : MessageListener Inheritance object OnXRInteractableDepthChangedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableFirstHoverEnteredMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableFirstHoverEnteredMessageListener.html",
+    "title": "Class OnXRInteractableFirstHoverEnteredMessageListener | |",
+    "keywords": "Class OnXRInteractableFirstHoverEnteredMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableFirstHoverEnteredMessageListener : MessageListener Inheritance object OnXRInteractableFirstHoverEnteredMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEntered.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEntered.html",
+    "title": "Class OnXRInteractableHoverEntered | |",
+    "keywords": "Class OnXRInteractableHoverEntered Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableHoverEntered : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableHoverEntered Fields firstHoverEntered public bool firstHoverEntered Field Value bool Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type hookName protected override string hookName { get; } Property Value string"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEnteredMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEnteredMessageListener.html",
+    "title": "Class OnXRInteractableHoverEnteredMessageListener | |",
+    "keywords": "Class OnXRInteractableHoverEnteredMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableHoverEnteredMessageListener : MessageListener Inheritance object OnXRInteractableHoverEnteredMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExited.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExited.html",
+    "title": "Class OnXRInteractableHoverExited | |",
+    "keywords": "Class OnXRInteractableHoverExited Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableHoverExited : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableHoverExited Fields lastHoverExited public bool lastHoverExited Field Value bool Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type hookName protected override string hookName { get; } Property Value string"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExitedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExitedMessageListener.html",
+    "title": "Class OnXRInteractableHoverExitedMessageListener | |",
+    "keywords": "Class OnXRInteractableHoverExitedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableHoverExitedMessageListener : MessageListener Inheritance object OnXRInteractableHoverExitedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableLastHoverExitedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableLastHoverExitedMessageListener.html",
+    "title": "Class OnXRInteractableLastHoverExitedMessageListener | |",
+    "keywords": "Class OnXRInteractableLastHoverExitedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableLastHoverExitedMessageListener : MessageListener Inheritance object OnXRInteractableLastHoverExitedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractablePlugged.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractablePlugged.html",
+    "title": "Class OnXRInteractablePlugged | |",
+    "keywords": "Class OnXRInteractablePlugged Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractablePlugged : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractablePlugged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractablePluggedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractablePluggedMessageListener.html",
+    "title": "Class OnXRInteractablePluggedMessageListener | |",
+    "keywords": "Class OnXRInteractablePluggedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractablePluggedMessageListener : MessageListener Inheritance object OnXRInteractablePluggedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntered.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntered.html",
+    "title": "Class OnXRInteractableSelectEntered | |",
+    "keywords": "Class OnXRInteractableSelectEntered Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableSelectEntered : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableSelectEntered Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntereddMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntereddMessageListener.html",
+    "title": "Class OnXRInteractableSelectEntereddMessageListener | |",
+    "keywords": "Class OnXRInteractableSelectEntereddMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableSelectEntereddMessageListener : MessageListener Inheritance object OnXRInteractableSelectEntereddMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExited.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExited.html",
+    "title": "Class OnXRInteractableSelectExited | |",
+    "keywords": "Class OnXRInteractableSelectExited Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableSelectExited : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableSelectExited Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExitedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExitedMessageListener.html",
+    "title": "Class OnXRInteractableSelectExitedMessageListener | |",
+    "keywords": "Class OnXRInteractableSelectExitedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableSelectExitedMessageListener : MessageListener Inheritance object OnXRInteractableSelectExitedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflow.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflow.html",
+    "title": "Class OnXRInteractableTailflow | |",
+    "keywords": "Class OnXRInteractableTailflow Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableTailflow : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableTailflow Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflowMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflowMessageListener.html",
+    "title": "Class OnXRInteractableTailflowMessageListener | |",
+    "keywords": "Class OnXRInteractableTailflowMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableTailflowMessageListener : MessageListener Inheritance object OnXRInteractableTailflowMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflow.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflow.html",
+    "title": "Class OnXRInteractableTipflow | |",
+    "keywords": "Class OnXRInteractableTipflow Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableTipflow : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableTipflow Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflowMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflowMessageListener.html",
+    "title": "Class OnXRInteractableTipflowMessageListener | |",
+    "keywords": "Class OnXRInteractableTipflowMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableTipflowMessageListener : MessageListener Inheritance object OnXRInteractableTipflowMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUnplugged.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUnplugged.html",
+    "title": "Class OnXRInteractableUnplugged | |",
+    "keywords": "Class OnXRInteractableUnplugged Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableUnplugged : XRBaseInteractableEventUnit Inheritance object XRBaseInteractableEventUnit OnXRInteractableUnplugged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUnpluggedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUnpluggedMessageListener.html",
+    "title": "Class OnXRInteractableUnpluggedMessageListener | |",
+    "keywords": "Class OnXRInteractableUnpluggedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractableUnpluggedMessageListener : MessageListener Inheritance object OnXRInteractableUnpluggedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHover.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHover.html",
+    "title": "Class OnXRInteractorHover | |",
+    "keywords": "Class OnXRInteractorHover Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractorHover : XRBaseInteractorEventUnit Inheritance object XRBaseInteractorEventUnit OnXRInteractorHover Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExited.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExited.html",
+    "title": "Class OnXRInteractorHoverExited | |",
+    "keywords": "Class OnXRInteractorHoverExited Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractorHoverExited : XRBaseInteractorEventUnit Inheritance object XRBaseInteractorEventUnit OnXRInteractorHoverExited Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExitedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExitedMessageListener.html",
+    "title": "Class OnXRInteractorHoverExitedMessageListener | |",
+    "keywords": "Class OnXRInteractorHoverExitedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractorHoverExitedMessageListener : MessageListener Inheritance object OnXRInteractorHoverExitedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverMessageListener.html",
+    "title": "Class OnXRInteractorHoverMessageListener | |",
+    "keywords": "Class OnXRInteractorHoverMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRInteractorHoverMessageListener : MessageListener Inheritance object OnXRInteractorHoverMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRSocketPlugged.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketPlugged.html",
+    "title": "Class OnXRSocketPlugged | |",
+    "keywords": "Class OnXRSocketPlugged Namespace ToolkitEngine.XR.VisualScripting public class OnXRSocketPlugged : XRBaseInteractorEventUnit Inheritance object XRBaseInteractorEventUnit OnXRSocketPlugged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRSocketPluggedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketPluggedMessageListener.html",
+    "title": "Class OnXRSocketPluggedMessageListener | |",
+    "keywords": "Class OnXRSocketPluggedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRSocketPluggedMessageListener : MessageListener Inheritance object OnXRSocketPluggedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRSocketUnplugged.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketUnplugged.html",
+    "title": "Class OnXRSocketUnplugged | |",
+    "keywords": "Class OnXRSocketUnplugged Namespace ToolkitEngine.XR.VisualScripting public class OnXRSocketUnplugged : XRBaseInteractorEventUnit Inheritance object XRBaseInteractorEventUnit OnXRSocketUnplugged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.OnXRSocketUnpluggedMessageListener.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketUnpluggedMessageListener.html",
+    "title": "Class OnXRSocketUnpluggedMessageListener | |",
+    "keywords": "Class OnXRSocketUnpluggedMessageListener Namespace ToolkitEngine.XR.VisualScripting public class OnXRSocketUnpluggedMessageListener : MessageListener Inheritance object OnXRSocketUnpluggedMessageListener"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.XRBaseInteractableEventUnit.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.XRBaseInteractableEventUnit.html",
+    "title": "Class XRBaseInteractableEventUnit | |",
+    "keywords": "Class XRBaseInteractableEventUnit Namespace ToolkitEngine.XR.VisualScripting public abstract class XRBaseInteractableEventUnit : BaseEventUnit<BaseInteractionEventArgs> Inheritance object XRBaseInteractableEventUnit Derived OnXRInteractableActivated OnXRInteractableDeactivated OnXRInteractableDepthChanged OnXRInteractableHoverEntered OnXRInteractableHoverExited OnXRInteractablePlugged OnXRInteractableSelectEntered OnXRInteractableSelectExited OnXRInteractableTailflow OnXRInteractableTipflow OnXRInteractableUnplugged"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.XRBaseInteractorEventUnit.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.XRBaseInteractorEventUnit.html",
+    "title": "Class XRBaseInteractorEventUnit | |",
+    "keywords": "Class XRBaseInteractorEventUnit Namespace ToolkitEngine.XR.VisualScripting public abstract class XRBaseInteractorEventUnit : BaseEventUnit<BaseInteractionEventArgs> Inheritance object XRBaseInteractorEventUnit Derived OnXRInteractorHover OnXRInteractorHoverExited OnXRSocketPlugged OnXRSocketUnplugged"
+  },
+  "api/ToolkitEngine.XR.VisualScripting.html": {
+    "href": "api/ToolkitEngine.XR.VisualScripting.html",
+    "title": "Namespace ToolkitEngine.XR.VisualScripting | |",
+    "keywords": "Namespace ToolkitEngine.XR.VisualScripting Classes EventHooks GetInteractionComponent GetInteractionComponentInChildren GetInteractionComponentInParent OnXRInputInteractionCanceled OnXRInputInteractionCanceledMessageListener OnXRInputInteractionPerformed OnXRInputInteractionPerformedMessageListener OnXRInteractableActivated OnXRInteractableActivatedMessageListener OnXRInteractableDeactivated OnXRInteractableDeactivatedMessageListener OnXRInteractableDepthChanged OnXRInteractableDepthChangedMessageListener OnXRInteractableFirstHoverEnteredMessageListener OnXRInteractableHoverEntered OnXRInteractableHoverEnteredMessageListener OnXRInteractableHoverExited OnXRInteractableHoverExitedMessageListener OnXRInteractableLastHoverExitedMessageListener OnXRInteractablePlugged OnXRInteractablePluggedMessageListener OnXRInteractableSelectEntered OnXRInteractableSelectEntereddMessageListener OnXRInteractableSelectExited OnXRInteractableSelectExitedMessageListener OnXRInteractableTailflow OnXRInteractableTailflowMessageListener OnXRInteractableTipflow OnXRInteractableTipflowMessageListener OnXRInteractableUnplugged OnXRInteractableUnpluggedMessageListener OnXRInteractorHover OnXRInteractorHoverExited OnXRInteractorHoverExitedMessageListener OnXRInteractorHoverMessageListener OnXRSocketPlugged OnXRSocketPluggedMessageListener OnXRSocketUnplugged OnXRSocketUnpluggedMessageListener XRBaseInteractableEventUnit XRBaseInteractorEventUnit Enums GetInteractionComponent.InteractionObject"
+  },
+  "api/ToolkitEngine.XR.XRBaseInputEvents.html": {
+    "href": "api/ToolkitEngine.XR.XRBaseInputEvents.html",
+    "title": "Class XRBaseInputEvents | |",
+    "keywords": "Class XRBaseInputEvents Namespace ToolkitEngine.XR public abstract class XRBaseInputEvents : XRInteractionEvents Inheritance object XRInteractionEvents XRBaseInputEvents Derived XRButtonInputEvents XRVelocityInputEvents Inherited Members XRInteractionEvents.m_interactionType XRInteractionEvents.m_predicate XRInteractionEvents.m_interacting XRInteractionEvents.m_onInteracted XRInteractionEvents.m_onUninteracted XRInteractionEvents.interactable XRInteractionEvents.interactionType XRInteractionEvents.interacting XRInteractionEvents.onInteracted XRInteractionEvents.onUninteracted XRInteractionEvents.Awake() XRInteractionEvents.NegativeInteraction(BaseInteractionEventArgs) XRInteractionEvents.SetInteracting(bool, BaseInteractionEventArgs) Fields m_leftHand protected bool m_leftHand Field Value bool m_map protected Dictionary<InputActionProperty, InputAction> m_map Field Value Dictionary<InputActionProperty, InputAction> m_performing protected bool m_performing Field Value bool Properties canPerform public bool canPerform { get; } Property Value bool inputActionManager protected static Inputs.InputActionManager inputActionManager { get; } Property Value InputActionManager onCanceled public UnityEvent<InputAction.CallbackContext> onCanceled { get; } Property Value UnityEvent<CallbackContext> onPerformed public UnityEvent<InputAction.CallbackContext> onPerformed { get; } Property Value UnityEvent<CallbackContext> performing public bool performing { get; } Property Value bool Methods Canceled(CallbackContext) protected virtual void Canceled(InputAction.CallbackContext obj) Parameters obj CallbackContext Interact(BaseInteractionEventArgs) protected override void Interact(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs IsLeftHand(CallbackContext) public bool IsLeftHand(InputAction.CallbackContext obj) Parameters obj CallbackContext Returns bool OnDisable() protected override void OnDisable() OnEnable() protected override void OnEnable() Performed(CallbackContext) protected virtual void Performed(InputAction.CallbackContext obj) Parameters obj CallbackContext PositiveInteraction(BaseInteractionEventArgs) protected override void PositiveInteraction(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs SetPerforming(bool, CallbackContext) protected void SetPerforming(bool value, InputAction.CallbackContext obj) Parameters value bool obj CallbackContext Uninteract(BaseInteractionEventArgs) protected override void Uninteract(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRBaseInputInteractionEventUnit.html": {
+    "href": "api/ToolkitEngine.XR.XRBaseInputInteractionEventUnit.html",
+    "title": "Class XRBaseInputInteractionEventUnit | |",
+    "keywords": "Class XRBaseInputInteractionEventUnit Namespace ToolkitEngine.XR public abstract class XRBaseInputInteractionEventUnit : BaseEventUnit<InputAction.CallbackContext> Inheritance object XRBaseInputInteractionEventUnit Derived OnXRInputInteractionCanceled OnXRInputInteractionPerformed"
+  },
+  "api/ToolkitEngine.XR.XRBasePositionInteractable.html": {
+    "href": "api/ToolkitEngine.XR.XRBasePositionInteractable.html",
+    "title": "Class XRBasePositionInteractable | |",
+    "keywords": "Class XRBasePositionInteractable Namespace ToolkitEngine.XR public abstract class XRBasePositionInteractable : XRBaseInteractable Inheritance object XRBasePositionInteractable Derived XRButtonInteractable XRSlideInteractable Fields m_directionAxis protected Axis m_directionAxis Field Value Axis m_isInteractable protected bool m_isInteractable Field Value bool m_maxDepth protected float m_maxDepth Field Value float m_normalizedFlowDepths protected Vector2 m_normalizedFlowDepths Field Value Vector2 Properties controllerInteractors protected abstract IEnumerable<XRBaseControllerInteractor> controllerInteractors { get; } Property Value IEnumerable<XRBaseControllerInteractor> depth public float depth { get; } Property Value float direction Direction of motion in world space protected Vector3 direction { get; } Property Value Vector3 isInteractable public bool isInteractable { get; set; } Property Value bool isTipflow public bool isTipflow { get; } Property Value bool normalizedDepth public float normalizedDepth { get; } Property Value float onDepthChanged public UnityEvent<InteractionEventArgs> onDepthChanged { get; } Property Value UnityEvent<InteractionEventArgs> onTailflow public UnityEvent<InteractionEventArgs> onTailflow { get; } Property Value UnityEvent<InteractionEventArgs> onTipflow public UnityEvent<InteractionEventArgs> onTipflow { get; } Property Value UnityEvent<InteractionEventArgs> Methods Awake() protected override void Awake() BeginInteraction(BaseInteractionEventArgs) protected virtual void BeginInteraction(BaseInteractionEventArgs args) Parameters args BaseInteractionEventArgs EndInteraction(BaseInteractionEventArgs) protected void EndInteraction(BaseInteractionEventArgs args) Parameters args BaseInteractionEventArgs InvokeDepthChanged() protected void InvokeDepthChanged() ProcessInteractable(UpdatePhase) public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase) Parameters updatePhase UpdatePhase"
+  },
+  "api/ToolkitEngine.XR.XRBaseRotationInteractable.RotationMode.html": {
+    "href": "api/ToolkitEngine.XR.XRBaseRotationInteractable.RotationMode.html",
+    "title": "Enum XRBaseRotationInteractable.RotationMode | |",
+    "keywords": "Enum XRBaseRotationInteractable.RotationMode Namespace ToolkitEngine.XR [Flags] public enum XRBaseRotationInteractable.RotationMode Fields Clockwise = 2 Counterclockwise = 4"
+  },
+  "api/ToolkitEngine.XR.XRBaseRotationInteractable.SnapMode.html": {
+    "href": "api/ToolkitEngine.XR.XRBaseRotationInteractable.SnapMode.html",
+    "title": "Enum XRBaseRotationInteractable.SnapMode | |",
+    "keywords": "Enum XRBaseRotationInteractable.SnapMode Namespace ToolkitEngine.XR public enum XRBaseRotationInteractable.SnapMode Fields Angle = 1 None = 0 Step = 2"
+  },
+  "api/ToolkitEngine.XR.XRBaseRotationInteractable.html": {
+    "href": "api/ToolkitEngine.XR.XRBaseRotationInteractable.html",
+    "title": "Class XRBaseRotationInteractable | |",
+    "keywords": "Class XRBaseRotationInteractable Namespace ToolkitEngine.XR public abstract class XRBaseRotationInteractable : XRBaseInteractable Inheritance object XRBaseRotationInteractable Derived XRKnobInteractable XRLeverInteractable Fields m_forward protected Axis m_forward Field Value Axis m_interactor Interactor currently manipulating interactable protected IXRInteractor m_interactor Field Value IXRInteractor m_isInteractable protected bool m_isInteractable Field Value bool m_range protected Vector2 m_range Field Value Vector2 m_rotationDirection protected XRBaseRotationInteractable.RotationMode m_rotationDirection Field Value XRBaseRotationInteractable.RotationMode m_startingAngle protected float m_startingAngle Field Value float m_stepCount protected int m_stepCount Field Value int m_updateIndexContinuously protected bool m_updateIndexContinuously Field Value bool m_upward protected Axis m_upward Field Value Axis m_useSteps protected bool m_useSteps Field Value bool Properties finalAngle public float finalAngle { get; } Property Value float forward protected Vector3 forward { get; } Property Value Vector3 index Index of selected step public int index { get; } Property Value int isInteractable public bool isInteractable { get; set; } Property Value bool maxAngle Maximum angle of interactable public float maxAngle { get; } Property Value float minAngle Minimum angle of interactable public float minAngle { get; } Property Value float normalizedValue public float normalizedValue { get; } Property Value float onIndexChanged public UnityEvent<RotationInteractionEvent> onIndexChanged { get; } Property Value UnityEvent<RotationInteractionEvent> onValueChanged public UnityEvent<RotationInteractionEvent> onValueChanged { get; } Property Value UnityEvent<RotationInteractionEvent> stepCount public int stepCount { get; set; } Property Value int upward protected Vector3 upward { get; } Property Value Vector3 value Angle of interactable public float value { get; } Property Value float wrapping Indicates whether object rotatation wraps at its limits. protected bool wrapping { get; } Property Value bool Methods Awake() protected override void Awake() BeginInteraction(BaseInteractionEventArgs) protected virtual void BeginInteraction(BaseInteractionEventArgs args) Parameters args BaseInteractionEventArgs EndInteraction(BaseInteractionEventArgs) protected void EndInteraction(BaseInteractionEventArgs args) Parameters args BaseInteractionEventArgs GetAxisDirection(Axis) protected Vector3 GetAxisDirection(Axis axis) Parameters axis Axis Returns Vector3 GetInteractionEventArgs() protected RotationInteractionEvent GetInteractionEventArgs() Returns RotationInteractionEvent GetInteractorRotation() protected abstract Vector3 GetInteractorRotation() Returns Vector3 ProcessInteractable(UpdatePhase) public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase) Parameters updatePhase UpdatePhase"
+  },
+  "api/ToolkitEngine.XR.XRButtonInputEvents.html": {
+    "href": "api/ToolkitEngine.XR.XRButtonInputEvents.html",
+    "title": "Class XRButtonInputEvents | |",
+    "keywords": "Class XRButtonInputEvents Namespace ToolkitEngine.XR public class XRButtonInputEvents : XRBaseInputEvents Inheritance object XRInteractionEvents XRBaseInputEvents XRButtonInputEvents Inherited Members XRBaseInputEvents.m_leftHand XRBaseInputEvents.m_performing XRBaseInputEvents.m_map XRBaseInputEvents.canPerform XRBaseInputEvents.performing XRBaseInputEvents.onPerformed XRBaseInputEvents.onCanceled XRBaseInputEvents.inputActionManager XRBaseInputEvents.OnEnable() XRBaseInputEvents.OnDisable() XRBaseInputEvents.PositiveInteraction(BaseInteractionEventArgs) XRBaseInputEvents.Interact(BaseInteractionEventArgs) XRBaseInputEvents.Uninteract(BaseInteractionEventArgs) XRBaseInputEvents.Performed(InputAction.CallbackContext) XRBaseInputEvents.Canceled(InputAction.CallbackContext) XRBaseInputEvents.SetPerforming(bool, InputAction.CallbackContext) XRBaseInputEvents.IsLeftHand(InputAction.CallbackContext) XRInteractionEvents.m_interactionType XRInteractionEvents.m_predicate XRInteractionEvents.m_interacting XRInteractionEvents.m_onInteracted XRInteractionEvents.m_onUninteracted XRInteractionEvents.interactable XRInteractionEvents.interactionType XRInteractionEvents.interacting XRInteractionEvents.onInteracted XRInteractionEvents.onUninteracted XRInteractionEvents.Awake() XRInteractionEvents.NegativeInteraction(BaseInteractionEventArgs) XRInteractionEvents.SetInteracting(bool, BaseInteractionEventArgs)"
+  },
+  "api/ToolkitEngine.XR.XRButtonInteractable.html": {
+    "href": "api/ToolkitEngine.XR.XRButtonInteractable.html",
+    "title": "Class XRButtonInteractable | |",
+    "keywords": "Class XRButtonInteractable Namespace ToolkitEngine.XR public class XRButtonInteractable : XRBasePositionInteractable Inheritance object XRBasePositionInteractable XRButtonInteractable Inherited Members XRBasePositionInteractable.m_isInteractable XRBasePositionInteractable.m_directionAxis XRBasePositionInteractable.m_maxDepth XRBasePositionInteractable.m_normalizedFlowDepths XRBasePositionInteractable.isInteractable XRBasePositionInteractable.direction XRBasePositionInteractable.isTipflow XRBasePositionInteractable.depth XRBasePositionInteractable.normalizedDepth XRBasePositionInteractable.onDepthChanged XRBasePositionInteractable.onTipflow XRBasePositionInteractable.onTailflow XRBasePositionInteractable.Awake() XRBasePositionInteractable.EndInteraction(BaseInteractionEventArgs) XRBasePositionInteractable.ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase) XRBasePositionInteractable.InvokeDepthChanged() Fields m_allowedAngle protected float m_allowedAngle Field Value float Properties controllerInteractors protected override IEnumerable<XRBaseControllerInteractor> controllerInteractors { get; } Property Value IEnumerable<XRBaseControllerInteractor> Methods BeginInteraction(BaseInteractionEventArgs) protected override void BeginInteraction(BaseInteractionEventArgs args) Parameters args BaseInteractionEventArgs OnHoverEntered(HoverEnterEventArgs) protected override void OnHoverEntered(HoverEnterEventArgs args) Parameters args HoverEnterEventArgs OnHoverExited(HoverExitEventArgs) protected override void OnHoverExited(HoverExitEventArgs args) Parameters args HoverExitEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRHandAnimatorControl.html": {
+    "href": "api/ToolkitEngine.XR.XRHandAnimatorControl.html",
+    "title": "Class XRHandAnimatorControl | |",
+    "keywords": "Class XRHandAnimatorControl Namespace ToolkitEngine.XR public class XRHandAnimatorControl : MonoBehaviour Inheritance object XRHandAnimatorControl Fields ANIM_LAYER_NAME_POINT public const string ANIM_LAYER_NAME_POINT = \"Point Layer\" Field Value string ANIM_LAYER_NAME_THUMB public const string ANIM_LAYER_NAME_THUMB = \"Thumb Layer\" Field Value string ANIM_PARAM_NAME_FLEX public const string ANIM_PARAM_NAME_FLEX = \"Flex\" Field Value string ANIM_PARAM_NAME_PINCH public const string ANIM_PARAM_NAME_PINCH = \"Pinch\" Field Value string"
+  },
+  "api/ToolkitEngine.XR.XRHandednessContext.html": {
+    "href": "api/ToolkitEngine.XR.XRHandednessContext.html",
+    "title": "Class XRHandednessContext | |",
+    "keywords": "Class XRHandednessContext Namespace ToolkitEngine.XR public class XRHandednessContext : Singleton<XRHandednessContext> Inheritance object XRHandednessContext Properties left public static XRBaseInteractor left { get; } Property Value XRBaseInteractor leftController public static XRBaseControllerInteractor leftController { get; } Property Value XRBaseControllerInteractor right public static XRBaseInteractor right { get; } Property Value XRBaseInteractor rightController public static XRBaseControllerInteractor rightController { get; } Property Value XRBaseControllerInteractor Methods GetOppositeInteractor(IXRInteractor) public static IXRInteractor GetOppositeInteractor(IXRInteractor interactor) Parameters interactor IXRInteractor Returns IXRInteractor GetOppositeInteractor<T>(IXRInteractor) public static T GetOppositeInteractor<T>(IXRInteractor interactor) where T : IXRInteractor Parameters interactor IXRInteractor Returns T Type Parameters T GetOppositeSelectedInteractable(IXRSelectInteractable) public static IXRSelectInteractable GetOppositeSelectedInteractable(IXRSelectInteractable interactable) Parameters interactable IXRSelectInteractable Returns IXRSelectInteractable GetOppositeSelectedInteractable<T>(IXRSelectInteractable) public static T GetOppositeSelectedInteractable<T>(IXRSelectInteractable interactable) where T : IXRSelectInteractable Parameters interactable IXRSelectInteractable Returns T Type Parameters T GetOppositeSelectedInteractables(IXRSelectInteractable) public static IXRSelectInteractable[] GetOppositeSelectedInteractables(IXRSelectInteractable interactable) Parameters interactable IXRSelectInteractable Returns IXRSelectInteractable[] GetOppositeSelectedInteractables<T>(IXRSelectInteractable) public static T[] GetOppositeSelectedInteractables<T>(IXRSelectInteractable interactable) where T : IXRSelectInteractable Parameters interactable IXRSelectInteractable Returns T[] Type Parameters T GetOppositeSelectingInteractor(IXRSelectInteractable) public static IXRSelectInteractor GetOppositeSelectingInteractor(IXRSelectInteractable interactable) Parameters interactable IXRSelectInteractable Returns IXRSelectInteractor GetOppositeSelectingInteractor<T>(IXRSelectInteractable) public static T GetOppositeSelectingInteractor<T>(IXRSelectInteractable interactable) where T : IXRSelectInteractor Parameters interactable IXRSelectInteractable Returns T Type Parameters T IsAnyHand(IXRInteractor) public static bool IsAnyHand(IXRInteractor interactor) Parameters interactor IXRInteractor Returns bool IsLeftHand(IXRInteractor) public static bool IsLeftHand(IXRInteractor interactor) Parameters interactor IXRInteractor Returns bool IsRightHand(IXRInteractor) public static bool IsRightHand(IXRInteractor interactor) Parameters interactor IXRInteractor Returns bool"
+  },
+  "api/ToolkitEngine.XR.XRHandednessEvents.HandednessAction.html": {
+    "href": "api/ToolkitEngine.XR.XRHandednessEvents.HandednessAction.html",
+    "title": "Class XRHandednessEvents.HandednessAction | |",
+    "keywords": "Class XRHandednessEvents.HandednessAction Namespace ToolkitEngine.XR [Serializable] public class XRHandednessEvents.HandednessAction Inheritance object XRHandednessEvents.HandednessAction Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties objects public ObjectActivation[] objects { get; } Property Value ObjectActivation[] onGrabbed public UnityEvent onGrabbed { get; } Property Value UnityEvent onUngrabbed public UnityEvent onUngrabbed { get; } Property Value UnityEvent Methods Grab() public void Grab() Ungrab() public void Ungrab()"
+  },
+  "api/ToolkitEngine.XR.XRHandednessEvents.html": {
+    "href": "api/ToolkitEngine.XR.XRHandednessEvents.html",
+    "title": "Class XRHandednessEvents | |",
+    "keywords": "Class XRHandednessEvents Namespace ToolkitEngine.XR public class XRHandednessEvents : MonoBehaviour Inheritance object XRHandednessEvents"
+  },
+  "api/ToolkitEngine.XR.XRHapticEvents.html": {
+    "href": "api/ToolkitEngine.XR.XRHapticEvents.html",
+    "title": "Class XRHapticEvents | |",
+    "keywords": "Class XRHapticEvents Namespace ToolkitEngine.XR public class XRHapticEvents : XRInteractionEvents Inheritance object XRInteractionEvents XRHapticEvents Inherited Members XRInteractionEvents.m_interactionType XRInteractionEvents.m_predicate XRInteractionEvents.m_interacting XRInteractionEvents.m_onInteracted XRInteractionEvents.m_onUninteracted XRInteractionEvents.interactable XRInteractionEvents.interactionType XRInteractionEvents.interacting XRInteractionEvents.onInteracted XRInteractionEvents.onUninteracted XRInteractionEvents.Awake() XRInteractionEvents.OnEnable() XRInteractionEvents.OnDisable() XRInteractionEvents.PositiveInteraction(BaseInteractionEventArgs) XRInteractionEvents.NegativeInteraction(BaseInteractionEventArgs) XRInteractionEvents.SetInteracting(bool, BaseInteractionEventArgs) Methods Interact(BaseInteractionEventArgs) protected override void Interact(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs Pulse() public void Pulse() Uninteract(BaseInteractionEventArgs) protected override void Uninteract(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRHapticInputEventsListener.html": {
+    "href": "api/ToolkitEngine.XR.XRHapticInputEventsListener.html",
+    "title": "Class XRHapticInputEventsListener | |",
+    "keywords": "Class XRHapticInputEventsListener Namespace ToolkitEngine.XR public class XRHapticInputEventsListener : MonoBehaviour Inheritance object XRHapticInputEventsListener"
+  },
+  "api/ToolkitEngine.XR.XRHips.html": {
+    "href": "api/ToolkitEngine.XR.XRHips.html",
+    "title": "Class XRHips | |",
+    "keywords": "Class XRHips Namespace ToolkitEngine.XR public class XRHips : MonoBehaviour Inheritance object XRHips Properties tracking public bool tracking { get; set; } Property Value bool"
+  },
+  "api/ToolkitEngine.XR.XRHolsterInteractor.DropBehavior.html": {
+    "href": "api/ToolkitEngine.XR.XRHolsterInteractor.DropBehavior.html",
+    "title": "Enum XRHolsterInteractor.DropBehavior | |",
+    "keywords": "Enum XRHolsterInteractor.DropBehavior Namespace ToolkitEngine.XR public enum XRHolsterInteractor.DropBehavior Fields Autoholster = 2 None = 0 Unassign = 1"
+  },
+  "api/ToolkitEngine.XR.XRHolsterInteractor.html": {
+    "href": "api/ToolkitEngine.XR.XRHolsterInteractor.html",
+    "title": "Class XRHolsterInteractor | |",
+    "keywords": "Class XRHolsterInteractor Namespace ToolkitEngine.XR public class XRHolsterInteractor : XRSocketInteractor Inheritance object XRHolsterInteractor Properties hasHolstered public bool hasHolstered { get; } Property Value bool holstered public IXRSelectInteractable holstered { get; set; } Property Value IXRSelectInteractable Methods Awake() protected override void Awake() OnDisable() protected override void OnDisable() OnEnable() protected override void OnEnable() OnSelectEntered(SelectEnterEventArgs) protected override void OnSelectEntered(SelectEnterEventArgs args) Parameters args SelectEnterEventArgs OnSelectExited(SelectExitEventArgs) protected override void OnSelectExited(SelectExitEventArgs args) Parameters args SelectExitEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRInteractablePriority.html": {
+    "href": "api/ToolkitEngine.XR.XRInteractablePriority.html",
+    "title": "Class XRInteractablePriority | |",
+    "keywords": "Class XRInteractablePriority Namespace ToolkitEngine.XR public class XRInteractablePriority : MonoBehaviour Inheritance object XRInteractablePriority Properties priority public int priority { get; } Property Value int"
+  },
+  "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.html": {
+    "href": "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.html",
+    "title": "Enum XRInteractionEvents.InteractionType | |",
+    "keywords": "Enum XRInteractionEvents.InteractionType Namespace ToolkitEngine.XR public enum XRInteractionEvents.InteractionType Fields FirstGrab = 7 FirstTouch = 3 Grab = 5 LastUngrab = 8 LastUntouch = 4 None = 0 Touch = 1 Ungrab = 6 Untouch = 2 Unuse = 10 Use = 9"
+  },
+  "api/ToolkitEngine.XR.XRInteractionEvents.html": {
+    "href": "api/ToolkitEngine.XR.XRInteractionEvents.html",
+    "title": "Class XRInteractionEvents | |",
+    "keywords": "Class XRInteractionEvents Namespace ToolkitEngine.XR public class XRInteractionEvents : MonoBehaviour Inheritance object XRInteractionEvents Derived XRBaseInputEvents XRHapticEvents Fields m_interacting protected bool m_interacting Field Value bool m_interactionType protected XRInteractionEvents.InteractionType m_interactionType Field Value XRInteractionEvents.InteractionType m_onInteracted protected UnityEvent<BaseInteractionEventArgs> m_onInteracted Field Value UnityEvent<BaseInteractionEventArgs> m_onUninteracted protected UnityEvent<BaseInteractionEventArgs> m_onUninteracted Field Value UnityEvent<BaseInteractionEventArgs> m_predicate protected UnityCondition m_predicate Field Value UnityCondition Properties interactable public XRBaseInteractable interactable { get; } Property Value XRBaseInteractable interacting public bool interacting { get; } Property Value bool interactionType public XRInteractionEvents.InteractionType interactionType { get; } Property Value XRInteractionEvents.InteractionType onInteracted public UnityEvent<BaseInteractionEventArgs> onInteracted { get; } Property Value UnityEvent<BaseInteractionEventArgs> onUninteracted public UnityEvent<BaseInteractionEventArgs> onUninteracted { get; } Property Value UnityEvent<BaseInteractionEventArgs> Methods Awake() protected virtual void Awake() Interact(BaseInteractionEventArgs) protected virtual void Interact(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs NegativeInteraction(BaseInteractionEventArgs) protected virtual void NegativeInteraction(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs OnDisable() protected virtual void OnDisable() OnEnable() protected virtual void OnEnable() PositiveInteraction(BaseInteractionEventArgs) protected virtual void PositiveInteraction(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs SetInteracting(bool, BaseInteractionEventArgs) protected void SetInteracting(bool value, BaseInteractionEventArgs e) Parameters value bool e BaseInteractionEventArgs Uninteract(BaseInteractionEventArgs) protected virtual void Uninteract(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRItemInteractionFilter.html": {
+    "href": "api/ToolkitEngine.XR.XRItemInteractionFilter.html",
+    "title": "Class XRItemInteractionFilter | |",
+    "keywords": "Class XRItemInteractionFilter Namespace ToolkitEngine.XR public class XRItemInteractionFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter Inheritance object XRItemInteractionFilter Implements IXRHoverFilter IXRSelectFilter Properties canProcess public bool canProcess { get; } Property Value bool Methods Process(IXRHoverInteractor, IXRHoverInteractable) public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable) Parameters interactor IXRHoverInteractor interactable IXRHoverInteractable Returns bool Process(IXRSelectInteractor, IXRSelectInteractable) public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable) Parameters interactor IXRSelectInteractor interactable IXRSelectInteractable Returns bool"
+  },
+  "api/ToolkitEngine.XR.XRKnobInteractable.html": {
+    "href": "api/ToolkitEngine.XR.XRKnobInteractable.html",
+    "title": "Class XRKnobInteractable | |",
+    "keywords": "Class XRKnobInteractable Namespace ToolkitEngine.XR public class XRKnobInteractable : XRBaseRotationInteractable Inheritance object XRBaseRotationInteractable XRKnobInteractable Inherited Members XRBaseRotationInteractable.m_isInteractable XRBaseRotationInteractable.m_forward XRBaseRotationInteractable.m_upward XRBaseRotationInteractable.m_range XRBaseRotationInteractable.m_rotationDirection XRBaseRotationInteractable.m_startingAngle XRBaseRotationInteractable.m_useSteps XRBaseRotationInteractable.m_stepCount XRBaseRotationInteractable.m_updateIndexContinuously XRBaseRotationInteractable.m_interactor XRBaseRotationInteractable.isInteractable XRBaseRotationInteractable.forward XRBaseRotationInteractable.upward XRBaseRotationInteractable.wrapping XRBaseRotationInteractable.minAngle XRBaseRotationInteractable.maxAngle XRBaseRotationInteractable.value XRBaseRotationInteractable.normalizedValue XRBaseRotationInteractable.finalAngle XRBaseRotationInteractable.stepCount XRBaseRotationInteractable.index XRBaseRotationInteractable.onValueChanged XRBaseRotationInteractable.onIndexChanged XRBaseRotationInteractable.Awake() XRBaseRotationInteractable.BeginInteraction(BaseInteractionEventArgs) XRBaseRotationInteractable.EndInteraction(BaseInteractionEventArgs) XRBaseRotationInteractable.ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase) XRBaseRotationInteractable.GetAxisDirection(Axis) XRBaseRotationInteractable.GetInteractionEventArgs() Methods GetInteractorRotation() protected override Vector3 GetInteractorRotation() Returns Vector3 OnHoverExited(HoverExitEventArgs) protected override void OnHoverExited(HoverExitEventArgs args) Parameters args HoverExitEventArgs OnSelectEntered(SelectEnterEventArgs) protected override void OnSelectEntered(SelectEnterEventArgs args) Parameters args SelectEnterEventArgs OnSelectExited(SelectExitEventArgs) protected override void OnSelectExited(SelectExitEventArgs args) Parameters args SelectExitEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRLeverInteractable.html": {
+    "href": "api/ToolkitEngine.XR.XRLeverInteractable.html",
+    "title": "Class XRLeverInteractable | |",
+    "keywords": "Class XRLeverInteractable Namespace ToolkitEngine.XR public class XRLeverInteractable : XRBaseRotationInteractable Inheritance object XRBaseRotationInteractable XRLeverInteractable Inherited Members XRBaseRotationInteractable.m_isInteractable XRBaseRotationInteractable.m_forward XRBaseRotationInteractable.m_upward XRBaseRotationInteractable.m_range XRBaseRotationInteractable.m_rotationDirection XRBaseRotationInteractable.m_startingAngle XRBaseRotationInteractable.m_useSteps XRBaseRotationInteractable.m_stepCount XRBaseRotationInteractable.m_updateIndexContinuously XRBaseRotationInteractable.m_interactor XRBaseRotationInteractable.isInteractable XRBaseRotationInteractable.forward XRBaseRotationInteractable.upward XRBaseRotationInteractable.wrapping XRBaseRotationInteractable.minAngle XRBaseRotationInteractable.maxAngle XRBaseRotationInteractable.value XRBaseRotationInteractable.normalizedValue XRBaseRotationInteractable.finalAngle XRBaseRotationInteractable.stepCount XRBaseRotationInteractable.index XRBaseRotationInteractable.onValueChanged XRBaseRotationInteractable.onIndexChanged XRBaseRotationInteractable.Awake() XRBaseRotationInteractable.BeginInteraction(BaseInteractionEventArgs) XRBaseRotationInteractable.EndInteraction(BaseInteractionEventArgs) XRBaseRotationInteractable.ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase) XRBaseRotationInteractable.GetAxisDirection(Axis) XRBaseRotationInteractable.GetInteractionEventArgs() Methods GetInteractorRotation() protected override Vector3 GetInteractorRotation() Returns Vector3 OnHoverExited(HoverExitEventArgs) protected override void OnHoverExited(HoverExitEventArgs args) Parameters args HoverExitEventArgs OnSelectEntered(SelectEnterEventArgs) protected override void OnSelectEntered(SelectEnterEventArgs args) Parameters args SelectEnterEventArgs OnSelectExited(SelectExitEventArgs) protected override void OnSelectExited(SelectExitEventArgs args) Parameters args SelectExitEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRPriorityEvaluator.html": {
+    "href": "api/ToolkitEngine.XR.XRPriorityEvaluator.html",
+    "title": "Class XRPriorityEvaluator | |",
+    "keywords": "Class XRPriorityEvaluator Namespace ToolkitEngine.XR [Serializable] public class XRPriorityEvaluator : XRTargetEvaluator Inheritance object XRPriorityEvaluator Methods CalculateNormalizedScore(IXRInteractor, IXRInteractable) protected override float CalculateNormalizedScore(IXRInteractor interactor, IXRInteractable target) Parameters interactor IXRInteractor target IXRInteractable Returns float"
+  },
+  "api/ToolkitEngine.XR.XRPriorityTargetFilter.html": {
+    "href": "api/ToolkitEngine.XR.XRPriorityTargetFilter.html",
+    "title": "Class XRPriorityTargetFilter | |",
+    "keywords": "Class XRPriorityTargetFilter Namespace ToolkitEngine.XR public class XRPriorityTargetFilter : XRBaseTargetFilter Inheritance object XRPriorityTargetFilter Methods Process(IXRInteractor, List<IXRInteractable>, List<IXRInteractable>) public override void Process(IXRInteractor interactor, List<IXRInteractable> targets, List<IXRInteractable> results) Parameters interactor IXRInteractor targets List<IXRInteractable> results List<IXRInteractable>"
+  },
+  "api/ToolkitEngine.XR.XRSlideInteractable.html": {
+    "href": "api/ToolkitEngine.XR.XRSlideInteractable.html",
+    "title": "Class XRSlideInteractable | |",
+    "keywords": "Class XRSlideInteractable Namespace ToolkitEngine.XR public class XRSlideInteractable : XRBasePositionInteractable Inheritance object XRBasePositionInteractable XRSlideInteractable Inherited Members XRBasePositionInteractable.m_isInteractable XRBasePositionInteractable.m_directionAxis XRBasePositionInteractable.m_maxDepth XRBasePositionInteractable.m_normalizedFlowDepths XRBasePositionInteractable.isInteractable XRBasePositionInteractable.direction XRBasePositionInteractable.isTipflow XRBasePositionInteractable.depth XRBasePositionInteractable.normalizedDepth XRBasePositionInteractable.onDepthChanged XRBasePositionInteractable.onTipflow XRBasePositionInteractable.onTailflow XRBasePositionInteractable.Awake() XRBasePositionInteractable.BeginInteraction(BaseInteractionEventArgs) XRBasePositionInteractable.EndInteraction(BaseInteractionEventArgs) XRBasePositionInteractable.ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase) XRBasePositionInteractable.InvokeDepthChanged() Properties controllerInteractors protected override IEnumerable<XRBaseControllerInteractor> controllerInteractors { get; } Property Value IEnumerable<XRBaseControllerInteractor> Methods OnHoverExited(HoverExitEventArgs) protected override void OnHoverExited(HoverExitEventArgs args) Parameters args HoverExitEventArgs OnSelectEntered(SelectEnterEventArgs) protected override void OnSelectEntered(SelectEnterEventArgs args) Parameters args SelectEnterEventArgs OnSelectExited(SelectExitEventArgs) protected override void OnSelectExited(SelectExitEventArgs args) Parameters args SelectExitEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRUnityConditionFilter.html": {
+    "href": "api/ToolkitEngine.XR.XRUnityConditionFilter.html",
+    "title": "Class XRUnityConditionFilter | |",
+    "keywords": "Class XRUnityConditionFilter Namespace ToolkitEngine.XR public class XRUnityConditionFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter Inheritance object XRUnityConditionFilter Implements IXRHoverFilter IXRSelectFilter Properties canProcess public bool canProcess { get; } Property Value bool Methods Process(IXRHoverInteractor, IXRHoverInteractable) public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable) Parameters interactor IXRHoverInteractor interactable IXRHoverInteractable Returns bool Process(IXRSelectInteractor, IXRSelectInteractable) public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable) Parameters interactor IXRSelectInteractor interactable IXRSelectInteractable Returns bool"
+  },
+  "api/ToolkitEngine.XR.XRUseInteractable.html": {
+    "href": "api/ToolkitEngine.XR.XRUseInteractable.html",
+    "title": "Class XRUseInteractable | |",
+    "keywords": "Class XRUseInteractable Namespace ToolkitEngine.XR public class XRUseInteractable : XRBaseInteractable Inheritance object XRUseInteractable Methods OnHoverEntered(HoverEnterEventArgs) protected override void OnHoverEntered(HoverEnterEventArgs args) Parameters args HoverEnterEventArgs OnHoverExiting(HoverExitEventArgs) protected override void OnHoverExiting(HoverExitEventArgs args) Parameters args HoverExitEventArgs OnSelectExited(SelectExitEventArgs) protected override void OnSelectExited(SelectExitEventArgs args) Parameters args SelectExitEventArgs"
+  },
+  "api/ToolkitEngine.XR.XRVelocityInputEvents.DirectionMask.html": {
+    "href": "api/ToolkitEngine.XR.XRVelocityInputEvents.DirectionMask.html",
+    "title": "Enum XRVelocityInputEvents.DirectionMask | |",
+    "keywords": "Enum XRVelocityInputEvents.DirectionMask Namespace ToolkitEngine.XR [Flags] public enum XRVelocityInputEvents.DirectionMask Fields ExtY = 256 ExtZ = 1024 IntY = 128 IntZ = 512 NegX = 4 NegY = 16 NegZ = 64 PosX = 2 PosY = 8 PosZ = 32"
+  },
+  "api/ToolkitEngine.XR.XRVelocityInputEvents.html": {
+    "href": "api/ToolkitEngine.XR.XRVelocityInputEvents.html",
+    "title": "Class XRVelocityInputEvents | |",
+    "keywords": "Class XRVelocityInputEvents Namespace ToolkitEngine.XR public class XRVelocityInputEvents : XRBaseInputEvents Inheritance object XRInteractionEvents XRBaseInputEvents XRVelocityInputEvents Inherited Members XRBaseInputEvents.m_leftHand XRBaseInputEvents.m_performing XRBaseInputEvents.m_map XRBaseInputEvents.canPerform XRBaseInputEvents.performing XRBaseInputEvents.onPerformed XRBaseInputEvents.onCanceled XRBaseInputEvents.inputActionManager XRBaseInputEvents.OnEnable() XRBaseInputEvents.OnDisable() XRBaseInputEvents.PositiveInteraction(BaseInteractionEventArgs) XRBaseInputEvents.Uninteract(BaseInteractionEventArgs) XRBaseInputEvents.Canceled(InputAction.CallbackContext) XRBaseInputEvents.SetPerforming(bool, InputAction.CallbackContext) XRBaseInputEvents.IsLeftHand(InputAction.CallbackContext) XRInteractionEvents.m_interactionType XRInteractionEvents.m_predicate XRInteractionEvents.m_interacting XRInteractionEvents.m_onInteracted XRInteractionEvents.m_onUninteracted XRInteractionEvents.interactable XRInteractionEvents.interactionType XRInteractionEvents.interacting XRInteractionEvents.onInteracted XRInteractionEvents.onUninteracted XRInteractionEvents.Awake() XRInteractionEvents.NegativeInteraction(BaseInteractionEventArgs) XRInteractionEvents.SetInteracting(bool, BaseInteractionEventArgs) Properties enterThreshold public float enterThreshold { get; } Property Value float exitThreshold public float exitThreshold { get; } Property Value float Methods Interact(BaseInteractionEventArgs) protected override void Interact(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs Performed(CallbackContext) protected override void Performed(InputAction.CallbackContext ctx) Parameters ctx CallbackContext Restart() public void Restart()"
+  },
+  "api/ToolkitEngine.XR.html": {
+    "href": "api/ToolkitEngine.XR.html",
+    "title": "Namespace ToolkitEngine.XR | |",
+    "keywords": "Namespace ToolkitEngine.XR Classes HapticSettings HolsterEventArgs RotationInteractionEvent TranslationProvider XRBaseInputEvents XRBaseInputInteractionEventUnit XRBasePositionInteractable XRBaseRotationInteractable XRButtonInputEvents XRButtonInteractable XRHandAnimatorControl XRHandednessContext XRHandednessEvents XRHandednessEvents.HandednessAction XRHapticEvents XRHapticInputEventsListener XRHips XRHolsterInteractor XRInteractablePriority XRInteractionEvents XRItemInteractionFilter XRKnobInteractable XRLeverInteractable XRPriorityEvaluator XRPriorityTargetFilter XRSlideInteractable XRUnityConditionFilter XRUseInteractable XRVelocityInputEvents Enums Axis XRBaseRotationInteractable.RotationMode XRBaseRotationInteractable.SnapMode XRHolsterInteractor.DropBehavior XRInteractionEvents.InteractionType XRVelocityInputEvents.DirectionMask"
+  },
+  "api/UnityEditor.XR.Interaction.Toolkit.XRPocketInteractorEditor.html": {
+    "href": "api/UnityEditor.XR.Interaction.Toolkit.XRPocketInteractorEditor.html",
+    "title": "Class XRPocketInteractorEditor | |",
+    "keywords": "Class XRPocketInteractorEditor Namespace UnityEditor.XR.Interaction.Toolkit public class XRPocketInteractorEditor : XRSocketInteractorEditor Inheritance object XRPocketInteractorEditor Fields m_autoCenter protected SerializedProperty m_autoCenter Field Value SerializedProperty m_pocketLayer protected SerializedProperty m_pocketLayer Field Value SerializedProperty m_size protected SerializedProperty m_size Field Value SerializedProperty m_usePocketLayer protected SerializedProperty m_usePocketLayer Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/UnityEditor.XR.Interaction.Toolkit.html": {
+    "href": "api/UnityEditor.XR.Interaction.Toolkit.html",
+    "title": "Namespace UnityEditor.XR.Interaction.Toolkit | |",
+    "keywords": "Namespace UnityEditor.XR.Interaction.Toolkit Classes XRPocketInteractorEditor"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html",
+    "title": "Class XRSocketInteractableFilter | |",
+    "keywords": "Class XRSocketInteractableFilter Namespace UnityEngine.XR.Interaction.Toolkit.Filtering public class XRSocketInteractableFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter Inheritance object XRSocketInteractableFilter Implements IXRHoverFilter IXRSelectFilter Properties canProcess public bool canProcess { get; } Property Value bool Methods Process(IXRHoverInteractor, IXRHoverInteractable) public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable) Parameters interactor IXRHoverInteractor interactable IXRHoverInteractable Returns bool Process(IXRSelectInteractor, IXRSelectInteractable) public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable) Parameters interactor IXRSelectInteractor interactable IXRSelectInteractable Returns bool"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorFilter.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorFilter.html",
+    "title": "Class XRSocketInteractorFilter | |",
+    "keywords": "Class XRSocketInteractorFilter Namespace UnityEngine.XR.Interaction.Toolkit.Filtering public class XRSocketInteractorFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter Inheritance object XRSocketInteractorFilter Implements IXRHoverFilter IXRSelectFilter Properties canProcess public bool canProcess { get; } Property Value bool locked public bool locked { get; set; } Property Value bool Methods Process(IXRHoverInteractor, IXRHoverInteractable) public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable) Parameters interactor IXRHoverInteractor interactable IXRHoverInteractable Returns bool Process(IXRSelectInteractor, IXRSelectInteractable) public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable) Parameters interactor IXRSelectInteractor interactable IXRSelectInteractable Returns bool"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.Filtering.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.html",
+    "title": "Namespace UnityEngine.XR.Interaction.Toolkit.Filtering | |",
+    "keywords": "Namespace UnityEngine.XR.Interaction.Toolkit.Filtering Classes XRSocketInteractableFilter XRSocketInteractorFilter"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html",
+    "title": "Class InteractionEventArgs | |",
+    "keywords": "Class InteractionEventArgs Namespace UnityEngine.XR.Interaction.Toolkit public class InteractionEventArgs : BaseInteractionEventArgs Inheritance object InteractionEventArgs Derived RotationInteractionEvent Properties manager public XRInteractionManager manager { get; } Property Value XRInteractionManager"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.Transformers.XRScaleTransformer.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.Transformers.XRScaleTransformer.html",
+    "title": "Class XRScaleTransformer | |",
+    "keywords": "Class XRScaleTransformer Namespace UnityEngine.XR.Interaction.Toolkit.Transformers public class XRScaleTransformer : XRBaseGrabTransformer Inheritance object XRScaleTransformer Methods Play(XRGrabInteractable, Vector3) public void Play(XRGrabInteractable grabInteractable, Vector3 targetScale) Parameters grabInteractable XRGrabInteractable targetScale Vector3 Process(XRGrabInteractable, UpdatePhase, ref Pose, ref Vector3) public override void Process(XRGrabInteractable grabInteractable, XRInteractionUpdateOrder.UpdatePhase updatePhase, ref Pose targetPose, ref Vector3 localScale) Parameters grabInteractable XRGrabInteractable updatePhase UpdatePhase targetPose Pose localScale Vector3 Stop(float) public void Stop(float value = 0) Parameters value float"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.Transformers.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.Transformers.html",
+    "title": "Namespace UnityEngine.XR.Interaction.Toolkit.Transformers | |",
+    "keywords": "Namespace UnityEngine.XR.Interaction.Toolkit.Transformers Classes XRScaleTransformer"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.XRPocketInteractor.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.XRPocketInteractor.html",
+    "title": "Class XRPocketInteractor | |",
+    "keywords": "Class XRPocketInteractor Namespace UnityEngine.XR.Interaction.Toolkit public class XRPocketInteractor : XRSocketInteractor Inheritance object XRPocketInteractor Properties hasPocketed public bool hasPocketed { get; } Property Value bool interactablePocketed public IXRSelectInteractable interactablePocketed { get; } Property Value IXRSelectInteractable isSelectActive public override bool isSelectActive { get; } Property Value bool selectedInteractableMovementTypeOverride public override XRBaseInteractable.MovementType? selectedInteractableMovementTypeOverride { get; } Property Value XRBaseInteractable.MovementType? Methods Awake() protected override void Awake() OnDisable() protected override void OnDisable() OnEnable() protected override void OnEnable() OnHoverEntering(HoverEnterEventArgs) protected override void OnHoverEntering(HoverEnterEventArgs e) Parameters e HoverEnterEventArgs OnHoverExiting(HoverExitEventArgs) protected override void OnHoverExiting(HoverExitEventArgs e) Parameters e HoverExitEventArgs OnSelectEntered(SelectEnterEventArgs) protected override void OnSelectEntered(SelectEnterEventArgs e) Parameters e SelectEnterEventArgs OnSelectExited(SelectExitEventArgs) protected override void OnSelectExited(SelectExitEventArgs e) Parameters e SelectExitEventArgs ShouldDrawHoverMesh(MeshFilter, Renderer, Camera) protected override bool ShouldDrawHoverMesh(MeshFilter meshFilter, Renderer meshRenderer, Camera mainCamera) Parameters meshFilter MeshFilter meshRenderer Renderer mainCamera Camera Returns bool"
+  },
+  "api/UnityEngine.XR.Interaction.Toolkit.html": {
+    "href": "api/UnityEngine.XR.Interaction.Toolkit.html",
+    "title": "Namespace UnityEngine.XR.Interaction.Toolkit | |",
+    "keywords": "Namespace UnityEngine.XR.Interaction.Toolkit Classes InteractionEventArgs XRPocketInteractor"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| |",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| |",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| |",
+    "keywords": "MIT License Copyright (c) 2023 nrvllrgrs Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "toolkit.xri | |",
+    "keywords": "toolkit.xri"
+  }
+}

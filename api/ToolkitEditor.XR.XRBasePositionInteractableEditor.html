@@ -1,0 +1,789 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class XRBasePositionInteractableEditor
+ |  |  </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class XRBasePositionInteractableEditor
+ |  |  ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.xri/new/master/apiSpec/new?filename=ToolkitEditor_XR_XRBasePositionInteractableEditor.md&amp;value=---%0Auid%3A%20ToolkitEditor.XR.XRBasePositionInteractableEditor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor">
+
+
+
+  <h1 id="ToolkitEditor_XR_XRBasePositionInteractableEditor" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor" class="text-break">
+    Class XRBasePositionInteractableEditor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEditor.html">ToolkitEditor</a>.<a class="xref" href="ToolkitEditor.XR.html">XR</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class XRBasePositionInteractableEditor : XRBaseInteractableEditor</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">XRBasePositionInteractableEditor</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEditor.XR.XRButtonInteractableEditor.html">XRButtonInteractableEditor</a></div>
+      <div><a class="xref" href="ToolkitEditor.XR.XRSlideInteractableEditor.html">XRSlideInteractableEditor</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_directionAxis" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_directionAxis">
+  m_directionAxis
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_directionAxis</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_isInteractable" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_isInteractable">
+  m_isInteractable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_isInteractable</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_maxDepth" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_maxDepth">
+  m_maxDepth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_maxDepth</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_normalizedFlowDepths" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_normalizedFlowDepths">
+  m_normalizedFlowDepths
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_normalizedFlowDepths</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_onDepthChanged" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_onDepthChanged">
+  m_onDepthChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_onDepthChanged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_onTailflow" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_onTailflow">
+  m_onTailflow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_onTailflow</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_onTipflow" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_onTipflow">
+  m_onTipflow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_onTipflow</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_tailflowHaptics" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_tailflowHaptics">
+  m_tailflowHaptics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_tailflowHaptics</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_tailflowSnap" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_tailflowSnap">
+  m_tailflowSnap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_tailflowSnap</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_tailflowSpeed" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_tailflowSpeed">
+  m_tailflowSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_tailflowSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_tipflowHaptics" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_tipflowHaptics">
+  m_tipflowHaptics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_tipflowHaptics</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_useTailflowHaptics" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_useTailflowHaptics">
+  m_useTailflowHaptics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_useTailflowHaptics</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_m_useTipflowHaptics" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.m_useTipflowHaptics">
+  m_useTipflowHaptics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_useTipflowHaptics</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawDerivedProperties_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawDerivedProperties*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawDerivedProperties" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawDerivedProperties">
+  DrawDerivedProperties()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DrawDerivedProperties()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawEvents_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawEvents*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawEvents" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawEvents">
+  DrawEvents()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DrawEvents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawHapticEvents_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawHapticEvents*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawHapticEvents" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawHapticEvents">
+  DrawHapticEvents()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawHapticEvents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawHapticEventsNested_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawHapticEventsNested*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawHapticEventsNested" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawHapticEventsNested">
+  DrawHapticEventsNested()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawHapticEventsNested()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawInteractableEventsNested_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawInteractableEventsNested*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawInteractableEventsNested" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawInteractableEventsNested">
+  DrawInteractableEventsNested()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DrawInteractableEventsNested()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawLinearAxisProperties_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawLinearAxisProperties*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawLinearAxisProperties" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawLinearAxisProperties">
+  DrawLinearAxisProperties()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawLinearAxisProperties()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawPreview_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawPreview*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawPreview" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawPreview">
+  DrawPreview()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DrawPreview()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawProperties_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawProperties*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_DrawProperties" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.DrawProperties">
+  DrawProperties()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DrawProperties()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_XR_XRBasePositionInteractableEditor_OnEnable_" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.OnEnable*"></a>
+
+  <h3 id="ToolkitEditor_XR_XRBasePositionInteractableEditor_OnEnable" data-uid="ToolkitEditor.XR.XRBasePositionInteractableEditor.OnEnable">
+  OnEnable()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/Interactables/XRBasePositionInteractableEditor.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/nrvllrgrs" target="_blank">nrvllrgrs</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
