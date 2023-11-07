@@ -1,0 +1,23 @@
+{
+	"name": "com.toolkit.xri",
+	"displayName": "XRI+ Toolkit",
+	"version": "1.0.0",
+	"unity": "2019.4",
+	"description": "Common components for XR Interaction Toolkit functionality.",
+	"keywords": [
+		"toolkit"
+	],
+	"category": "Toolkit",
+	"dependencies": {},
+	"repository": {
+		"url": "https://github.com/nrvllrgrs/toolkit.xri.git",
+		"type": "git"
+	},
+	"samples": [
+		{
+			"displayName": "Visual Scripting",
+			"description": "Visual Scripting components",
+			"path": "Samples~/Visual Scripting"
+		}
+	]
+}
