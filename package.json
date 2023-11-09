@@ -13,7 +13,7 @@
 		"type": "git"
 	},
 	"dependencies": {
-		"com.unity.xr.interaction.toolkit": "2.4.3",
+		"com.unity.xr.interaction.toolkit": "2.4.3"
 	},
 	"samples": [
 		{
