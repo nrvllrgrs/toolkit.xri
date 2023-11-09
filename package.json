@@ -16,7 +16,7 @@
 	"dependencies": {
 		"com.unity.xr.interaction.toolkit": "2.4.3",
 		"com.toolkit.core": "https://github.com/nrvllrgrs/toolkit.core.git"
-	}
+	},
 	"samples": [
 		{
 			"displayName": "Visual Scripting",
