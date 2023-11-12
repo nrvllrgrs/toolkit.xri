@@ -19,7 +19,7 @@ namespace ToolkitEngine.XR.VisualScripting
 
 		private void Trigger(BaseInteractionEventArgs args)
 		{
-			EventBus.Trigger(EventHooks.OnXRInteractableUngazed, gameObject, value);
+			EventBus.Trigger(EventHooks.OnXRInteractableUngazed, gameObject, args);
 		}
 	}
 }
