@@ -13,6 +13,8 @@ namespace ToolkitEngine.XR.VisualScripting
 		public const string OnXRInteractableDeactivated = nameof(OnXRInteractableDeactivated);
         public const string OnXRInteractablePlugged = nameof(OnXRInteractablePlugged);
         public const string OnXRInteractableUnplugged = nameof(OnXRInteractableUnplugged);
+		public const string OnXRInteractableGazed = nameof(OnXRInteractableGazed);
+		public const string OnXRInteractableUngazed = nameof(OnXRInteractableUngazed);
 
         // XR Interactors
         public const string OnXRInteractorHoverEntered = nameof(OnXRInteractorHoverEntered);
