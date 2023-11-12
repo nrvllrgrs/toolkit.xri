@@ -365,6 +365,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEntered.yml",
       "output": {
         ".html": {
@@ -509,6 +529,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflowMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener.html"
         }
       },
       "version": ""

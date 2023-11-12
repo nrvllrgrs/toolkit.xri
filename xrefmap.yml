@@ -1245,6 +1245,12 @@ references:
   commentId: F:ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableFirstHoverEntered
   fullName: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableFirstHoverEntered
   nameWithType: EventHooks.OnXRInteractableFirstHoverEntered
+- uid: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableGazed
+  name: OnXRInteractableGazed
+  href: api/ToolkitEngine.XR.VisualScripting.EventHooks.html#ToolkitEngine_XR_VisualScripting_EventHooks_OnXRInteractableGazed
+  commentId: F:ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableGazed
+  fullName: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableGazed
+  nameWithType: EventHooks.OnXRInteractableGazed
 - uid: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableHoverEntered
   name: OnXRInteractableHoverEntered
   href: api/ToolkitEngine.XR.VisualScripting.EventHooks.html#ToolkitEngine_XR_VisualScripting_EventHooks_OnXRInteractableHoverEntered
@@ -1293,6 +1299,12 @@ references:
   commentId: F:ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableTipflow
   fullName: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableTipflow
   nameWithType: EventHooks.OnXRInteractableTipflow
+- uid: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableUngazed
+  name: OnXRInteractableUngazed
+  href: api/ToolkitEngine.XR.VisualScripting.EventHooks.html#ToolkitEngine_XR_VisualScripting_EventHooks_OnXRInteractableUngazed
+  commentId: F:ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableUngazed
+  fullName: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableUngazed
+  nameWithType: EventHooks.OnXRInteractableUngazed
 - uid: ToolkitEngine.XR.VisualScripting.EventHooks.OnXRInteractableUnplugged
   name: OnXRInteractableUnplugged
   href: api/ToolkitEngine.XR.VisualScripting.EventHooks.html#ToolkitEngine_XR_VisualScripting_EventHooks_OnXRInteractableUnplugged
@@ -1624,6 +1636,44 @@ references:
   commentId: T:ToolkitEngine.XR.VisualScripting.OnXRInteractableFirstHoverEnteredMessageListener
   fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableFirstHoverEnteredMessageListener
   nameWithType: OnXRInteractableFirstHoverEnteredMessageListener
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed
+  name: OnXRInteractableGazed
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.html
+  commentId: T:ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed
+  nameWithType: OnXRInteractableGazed
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableGazed_MessageListenerType
+  commentId: P:ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.MessageListenerType
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.MessageListenerType
+  nameWithType: OnXRInteractableGazed.MessageListenerType
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableGazed_MessageListenerType_
+  commentId: Overload:ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.MessageListenerType
+  nameWithType: OnXRInteractableGazed.MessageListenerType
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.ShouldTrigger(Flow,BaseInteractionEventArgs)
+  name: ShouldTrigger(Flow, BaseInteractionEventArgs)
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableGazed_ShouldTrigger_Flow_BaseInteractionEventArgs_
+  commentId: M:ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.ShouldTrigger(Flow,BaseInteractionEventArgs)
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.ShouldTrigger(Flow, BaseInteractionEventArgs)
+  nameWithType: OnXRInteractableGazed.ShouldTrigger(Flow, BaseInteractionEventArgs)
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.ShouldTrigger*
+  name: ShouldTrigger
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableGazed_ShouldTrigger_
+  commentId: Overload:ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.ShouldTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.ShouldTrigger
+  nameWithType: OnXRInteractableGazed.ShouldTrigger
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener
+  name: OnXRInteractableGazedMessageListener
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener.html
+  commentId: T:ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener
+  nameWithType: OnXRInteractableGazedMessageListener
 - uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEntered
   name: OnXRInteractableHoverEntered
   href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEntered.html
@@ -1843,6 +1893,44 @@ references:
   commentId: T:ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflowMessageListener
   fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflowMessageListener
   nameWithType: OnXRInteractableTipflowMessageListener
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed
+  name: OnXRInteractableUngazed
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.html
+  commentId: T:ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed
+  nameWithType: OnXRInteractableUngazed
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableUngazed_MessageListenerType
+  commentId: P:ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.MessageListenerType
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.MessageListenerType
+  nameWithType: OnXRInteractableUngazed.MessageListenerType
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableUngazed_MessageListenerType_
+  commentId: Overload:ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.MessageListenerType
+  nameWithType: OnXRInteractableUngazed.MessageListenerType
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.ShouldTrigger(Flow,BaseInteractionEventArgs)
+  name: ShouldTrigger(Flow, BaseInteractionEventArgs)
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableUngazed_ShouldTrigger_Flow_BaseInteractionEventArgs_
+  commentId: M:ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.ShouldTrigger(Flow,BaseInteractionEventArgs)
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.ShouldTrigger(Flow, BaseInteractionEventArgs)
+  nameWithType: OnXRInteractableUngazed.ShouldTrigger(Flow, BaseInteractionEventArgs)
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.ShouldTrigger*
+  name: ShouldTrigger
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.html#ToolkitEngine_XR_VisualScripting_OnXRInteractableUngazed_ShouldTrigger_
+  commentId: Overload:ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.ShouldTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.ShouldTrigger
+  nameWithType: OnXRInteractableUngazed.ShouldTrigger
+- uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener
+  name: OnXRInteractableUngazedMessageListener
+  href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener.html
+  commentId: T:ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener
+  fullName: ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener
+  nameWithType: OnXRInteractableUngazedMessageListener
 - uid: ToolkitEngine.XR.VisualScripting.OnXRInteractableUnplugged
   name: OnXRInteractableUnplugged
   href: api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUnplugged.html
