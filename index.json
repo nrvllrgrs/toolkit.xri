@@ -424,6 +424,11 @@
     "title": "Class XRInteractablePriority | XRI+ Toolkit | 1.0.0",
     "keywords": "Class XRInteractablePriority Namespace ToolkitEngine.XR public class XRInteractablePriority : MonoBehaviour Inheritance object XRInteractablePriority Properties priority public int priority { get; } Property Value int"
   },
+  "api/ToolkitEngine.XR.XRInteractableReseat.html": {
+    "href": "api/ToolkitEngine.XR.XRInteractableReseat.html",
+    "title": "Class XRInteractableReseat | XRI+ Toolkit | 1.0.0",
+    "keywords": "Class XRInteractableReseat Namespace ToolkitEngine.XR public class XRInteractableReseat : MonoBehaviour Inheritance object XRInteractableReseat"
+  },
   "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.html": {
     "href": "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.html",
     "title": "Enum XRInteractionEvents.InteractionType | XRI+ Toolkit | 1.0.0",
@@ -487,7 +492,7 @@
   "api/ToolkitEngine.XR.html": {
     "href": "api/ToolkitEngine.XR.html",
     "title": "Namespace ToolkitEngine.XR | XRI+ Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.XR Classes HapticSettings HolsterEventArgs RotationInteractionEvent TranslationProvider XRBaseInputEvents XRBaseInputInteractionEventUnit XRBasePositionInteractable XRBaseRotationInteractable XRButtonInputEvents XRButtonInteractable XRHandAnimatorControl XRHandednessContext XRHandednessEvents XRHandednessEvents.HandednessAction XRHapticEvents XRHapticInputEventsListener XRHips XRHolsterInteractor XRInteractablePriority XRInteractionEvents XRItemInteractionFilter XRKnobInteractable XRLeverInteractable XRPriorityEvaluator XRPriorityTargetFilter XRSlideInteractable XRUnityConditionFilter XRUseInteractable XRVelocityInputEvents Enums Axis XRBaseRotationInteractable.RotationMode XRBaseRotationInteractable.SnapMode XRHolsterInteractor.DropBehavior XRInteractionEvents.InteractionType XRVelocityInputEvents.DirectionMask"
+    "keywords": "Namespace ToolkitEngine.XR Classes HapticSettings HolsterEventArgs RotationInteractionEvent TranslationProvider XRBaseInputEvents XRBaseInputInteractionEventUnit XRBasePositionInteractable XRBaseRotationInteractable XRButtonInputEvents XRButtonInteractable XRHandAnimatorControl XRHandednessContext XRHandednessEvents XRHandednessEvents.HandednessAction XRHapticEvents XRHapticInputEventsListener XRHips XRHolsterInteractor XRInteractablePriority XRInteractableReseat XRInteractionEvents XRItemInteractionFilter XRKnobInteractable XRLeverInteractable XRPriorityEvaluator XRPriorityTargetFilter XRSlideInteractable XRUnityConditionFilter XRUseInteractable XRVelocityInputEvents Enums Axis XRBaseRotationInteractable.RotationMode XRBaseRotationInteractable.SnapMode XRHolsterInteractor.DropBehavior XRInteractionEvents.InteractionType XRVelocityInputEvents.DirectionMask"
   },
   "api/UnityEditor.XR.Interaction.Toolkit.XRPocketInteractorEditor.html": {
     "href": "api/UnityEditor.XR.Interaction.Toolkit.XRPocketInteractorEditor.html",

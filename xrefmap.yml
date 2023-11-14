@@ -3435,6 +3435,12 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.XR.XRInteractablePriority.priority
   nameWithType: XRInteractablePriority.priority
+- uid: ToolkitEngine.XR.XRInteractableReseat
+  name: XRInteractableReseat
+  href: api/ToolkitEngine.XR.XRInteractableReseat.html
+  commentId: T:ToolkitEngine.XR.XRInteractableReseat
+  fullName: ToolkitEngine.XR.XRInteractableReseat
+  nameWithType: XRInteractableReseat
 - uid: ToolkitEngine.XR.XRInteractionEvents
   name: XRInteractionEvents
   href: api/ToolkitEngine.XR.XRInteractionEvents.html
