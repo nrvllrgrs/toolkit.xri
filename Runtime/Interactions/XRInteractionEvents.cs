@@ -64,7 +64,7 @@ namespace ToolkitEngine.XR
 
 		protected virtual void Awake()
 		{
-			m_interactable = m_interactable ?? GetComponent<XRBaseInteractable>();
+			m_interactable = m_interactable ?? GetComponentInParent<XRBaseInteractable>();
 		}
 
 		protected virtual void OnEnable()
