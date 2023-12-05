@@ -19,7 +19,6 @@ namespace ToolkitEngine.XR
 		Up
 	}
 
-	[RequireComponent(typeof(Collider))]
     public abstract class XRBasePositionInteractable : XRBaseInteractable
     {
         #region Fields
