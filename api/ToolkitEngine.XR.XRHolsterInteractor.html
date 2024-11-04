@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class XRHolsterInteractor
- | XRI+ Toolkit | 1.0.0 </title>
+      <title>Class XRHolsterInteractor | XRI+ Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class XRHolsterInteractor
- | XRI+ Toolkit | 1.0.0 ">
+      <meta name="title" content="Class XRHolsterInteractor | XRI+ Toolkit | 1.0.0 ">
+      
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="ToolkitEngine_XR_XRHolsterInteractor" data-uid="ToolkitEngine.XR.XRHolsterInteractor" class="text-break">
-    Class XRHolsterInteractor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class XRHolsterInteractor  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,7 +101,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class XRHolsterInteractor : XRSocketInteractor</code></pre>
+    <pre><code class="lang-csharp hljs">public class XRHolsterInteractor : XRConditionalSocketInteractor</code></pre>
   </div>
 
 
@@ -113,12 +111,47 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html">XRConditionalSocketInteractor</a></div>
       <div><span class="xref">XRHolsterInteractor</span></div>
     </dd>
   </dl>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_m_selectOnHover">XRConditionalSocketInteractor.m_selectOnHover</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_m_transferInteractable">XRConditionalSocketInteractor.m_transferInteractable</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_m_useConditionals">XRConditionalSocketInteractor.m_useConditionals</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_m_interactorFilter">XRConditionalSocketInteractor.m_interactorFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_m_interactableFilter">XRConditionalSocketInteractor.m_interactableFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_m_canSelect">XRConditionalSocketInteractor.m_canSelect</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_OnHoverEntering_HoverEnterEventArgs_">XRConditionalSocketInteractor.OnHoverEntering(HoverEnterEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_OnHoverEntered_HoverEnterEventArgs_">XRConditionalSocketInteractor.OnHoverEntered(HoverEnterEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_OnHoverExiting_HoverExitEventArgs_">XRConditionalSocketInteractor.OnHoverExiting(HoverExitEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.XR.XRConditionalSocketInteractor.html#ToolkitEngine_XR_XRConditionalSocketInteractor_ForceSelectEnter_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_">XRConditionalSocketInteractor.ForceSelectEnter(Interactables.IXRSelectInteractable)</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -133,7 +166,7 @@
 
   <h3 id="ToolkitEngine_XR_XRHolsterInteractor_hasHolstered" data-uid="ToolkitEngine.XR.XRHolsterInteractor.hasHolstered">
   hasHolstered
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -171,7 +204,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IXRSelectInteractable holstered { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Interactables.IXRSelectInteractable holstered { get; set; }</code></pre>
   </div>
 
 
@@ -191,6 +224,37 @@
 
 
 
+  <a id="ToolkitEngine_XR_XRHolsterInteractor_isSelectActive_" data-uid="ToolkitEngine.XR.XRHolsterInteractor.isSelectActive*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRHolsterInteractor_isSelectActive" data-uid="ToolkitEngine.XR.XRHolsterInteractor.isSelectActive">
+  isSelectActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool isSelectActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -199,7 +263,7 @@
 
   <h3 id="ToolkitEngine_XR_XRHolsterInteractor_Awake" data-uid="ToolkitEngine.XR.XRHolsterInteractor.Awake">
   Awake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -221,37 +285,11 @@
 
 
 
-  <a id="ToolkitEngine_XR_XRHolsterInteractor_OnDisable_" data-uid="ToolkitEngine.XR.XRHolsterInteractor.OnDisable*"></a>
-
-  <h3 id="ToolkitEngine_XR_XRHolsterInteractor_OnDisable" data-uid="ToolkitEngine.XR.XRHolsterInteractor.OnDisable">
-  OnDisable()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L99"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnDisable()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ToolkitEngine_XR_XRHolsterInteractor_OnEnable_" data-uid="ToolkitEngine.XR.XRHolsterInteractor.OnEnable*"></a>
 
   <h3 id="ToolkitEngine_XR_XRHolsterInteractor_OnEnable" data-uid="ToolkitEngine.XR.XRHolsterInteractor.OnEnable">
   OnEnable()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -277,7 +315,7 @@
 
   <h3 id="ToolkitEngine_XR_XRHolsterInteractor_OnSelectEntered_SelectEnterEventArgs_" data-uid="ToolkitEngine.XR.XRHolsterInteractor.OnSelectEntered(SelectEnterEventArgs)">
   OnSelectEntered(SelectEnterEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -308,7 +346,7 @@
 
   <h3 id="ToolkitEngine_XR_XRHolsterInteractor_OnSelectExited_SelectExitEventArgs_" data-uid="ToolkitEngine.XR.XRHolsterInteractor.OnSelectExited(SelectExitEventArgs)">
   OnSelectExited(SelectExitEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRHolsterInteractor.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

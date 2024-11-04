@@ -1,0 +1,1350 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class XRInteractorCollectionEvents | XRI+ Toolkit | 1.0.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class XRInteractorCollectionEvents | XRI+ Toolkit | 1.0.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.xri/new/master/apiSpec/new?filename=ToolkitEngine_XR_XRInteractorCollectionEvents.md&amp;value=---%0Auid%3A%20ToolkitEngine.XR.XRInteractorCollectionEvents%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents">
+
+
+
+  <h1 id="ToolkitEngine_XR_XRInteractorCollectionEvents" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents" class="text-break">
+Class XRInteractorCollectionEvents  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.XR.html">XR</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class XRInteractorCollectionEvents : MonoBehaviour, IXRHoverInteractor, IXRSelectInteractor</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">XRInteractorCollectionEvents</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IXRHoverInteractor</span></div>
+      <div><span class="xref">IXRSelectInteractor</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_m_interactors" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.m_interactors">
+  m_interactors
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Interactors.XRBaseInteractor[] m_interactors</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">XRBaseInteractor</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_firstInteractableSelected_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.firstInteractableSelected*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_firstInteractableSelected" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.firstInteractableSelected">
+  firstInteractableSelected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Interactables.IXRSelectInteractable firstInteractableSelected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IXRSelectInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_handedness_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.handedness*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_handedness" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.handedness">
+  handedness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractorHandedness handedness { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InteractorHandedness</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_hasHover_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hasHover*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_hasHover" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hasHover">
+  hasHover
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasHover { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_hasSelection_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hasSelection*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_hasSelection" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hasSelection">
+  hasSelection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSelection { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_hoverEntered_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hoverEntered*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_hoverEntered" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hoverEntered">
+  hoverEntered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HoverEnterEvent hoverEntered { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">HoverEnterEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_hoverExited_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hoverExited*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_hoverExited" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.hoverExited">
+  hoverExited
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HoverExitEvent hoverExited { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">HoverExitEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_interactablesHovered_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.interactablesHovered*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_interactablesHovered" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.interactablesHovered">
+  interactablesHovered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Interactables.IXRHoverInteractable&gt; interactablesHovered { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Interactables</span>.<span class="xref">IXRHoverInteractable</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_interactablesSelected_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.interactablesSelected*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_interactablesSelected" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.interactablesSelected">
+  interactablesSelected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Interactables.IXRSelectInteractable&gt; interactablesSelected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Interactables</span>.<span class="xref">IXRSelectInteractable</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_interactionLayers_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.interactionLayers*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_interactionLayers" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.interactionLayers">
+  interactionLayers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractionLayerMask interactionLayers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InteractionLayerMask</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_isHoverActive_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.isHoverActive*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_isHoverActive" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.isHoverActive">
+  isHoverActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isHoverActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_isSelectActive_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.isSelectActive*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_isSelectActive" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.isSelectActive">
+  isSelectActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSelectActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_keepSelectedTargetValid_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.keepSelectedTargetValid*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_keepSelectedTargetValid" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.keepSelectedTargetValid">
+  keepSelectedTargetValid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool keepSelectedTargetValid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_selectEntered_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.selectEntered*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_selectEntered" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.selectEntered">
+  selectEntered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SelectEnterEvent selectEntered { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SelectEnterEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_selectExited_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.selectExited*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_selectExited" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.selectExited">
+  selectExited
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SelectExitEvent selectExited { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SelectExitEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_CanHover_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.CanHover*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_CanHover_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRHoverInteractable_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.CanHover(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)">
+  CanHover(IXRHoverInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanHover(Interactables.IXRHoverInteractable interactable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interactable</code> <span class="xref">IXRHoverInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_CanSelect_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.CanSelect*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_CanSelect_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.CanSelect(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)">
+  CanSelect(IXRSelectInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanSelect(Interactables.IXRSelectInteractable interactable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interactable</code> <span class="xref">IXRSelectInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetAttachPoseOnSelect_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetAttachPoseOnSelect*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetAttachPoseOnSelect_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetAttachPoseOnSelect(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)">
+  GetAttachPoseOnSelect(IXRSelectInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Pose GetAttachPoseOnSelect(Interactables.IXRSelectInteractable interactable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interactable</code> <span class="xref">IXRSelectInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Pose</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetAttachTransform_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetAttachTransform*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetAttachTransform_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRInteractable_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetAttachTransform(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable)">
+  GetAttachTransform(IXRInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform GetAttachTransform(Interactables.IXRInteractable interactable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interactable</code> <span class="xref">IXRInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetLocalAttachPoseOnSelect_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetLocalAttachPoseOnSelect*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetLocalAttachPoseOnSelect_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetLocalAttachPoseOnSelect(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)">
+  GetLocalAttachPoseOnSelect(IXRSelectInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Pose GetLocalAttachPoseOnSelect(Interactables.IXRSelectInteractable interactable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interactable</code> <span class="xref">IXRSelectInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Pose</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetValidTargets_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetValidTargets*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_GetValidTargets_System_Collections_Generic_List_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRInteractable__" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.GetValidTargets(System.Collections.Generic.List{UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable})">
+  GetValidTargets(List&lt;IXRInteractable&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetValidTargets(List&lt;Interactables.IXRInteractable&gt; targets)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Interactables</span>.<span class="xref">IXRInteractable</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_IsHovering_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.IsHovering*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_IsHovering_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRHoverInteractable_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.IsHovering(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)">
+  IsHovering(IXRHoverInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHovering(Interactables.IXRHoverInteractable interactable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interactable</code> <span class="xref">IXRHoverInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_IsSelecting_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.IsSelecting*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_IsSelecting_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.IsSelecting(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)">
+  IsSelecting(IXRSelectInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSelecting(Interactables.IXRSelectInteractable interactable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>interactable</code> <span class="xref">IXRSelectInteractable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverEntered_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverEntered*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverEntered_HoverEnterEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverEntered(HoverEnterEventArgs)">
+  OnHoverEntered(HoverEnterEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnHoverEntered(HoverEnterEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">HoverEnterEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverEntering_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverEntering*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverEntering_HoverEnterEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverEntering(HoverEnterEventArgs)">
+  OnHoverEntering(HoverEnterEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnHoverEntering(HoverEnterEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">HoverEnterEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverExited_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverExited*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverExited_HoverExitEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverExited(HoverExitEventArgs)">
+  OnHoverExited(HoverExitEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnHoverExited(HoverExitEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">HoverExitEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverExiting_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverExiting*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnHoverExiting_HoverExitEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnHoverExiting(HoverExitEventArgs)">
+  OnHoverExiting(HoverExitEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnHoverExiting(HoverExitEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">HoverExitEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnRegistered_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnRegistered*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnRegistered_InteractorRegisteredEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnRegistered(InteractorRegisteredEventArgs)">
+  OnRegistered(InteractorRegisteredEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRegistered(InteractorRegisteredEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">InteractorRegisteredEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectEntered_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectEntered*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectEntered_SelectEnterEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectEntered(SelectEnterEventArgs)">
+  OnSelectEntered(SelectEnterEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelectEntered(SelectEnterEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">SelectEnterEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectEntering_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectEntering*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectEntering_SelectEnterEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectEntering(SelectEnterEventArgs)">
+  OnSelectEntering(SelectEnterEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelectEntering(SelectEnterEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">SelectEnterEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectExited_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectExited*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectExited_SelectExitEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectExited(SelectExitEventArgs)">
+  OnSelectExited(SelectExitEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelectExited(SelectExitEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">SelectExitEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectExiting_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectExiting*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnSelectExiting_SelectExitEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnSelectExiting(SelectExitEventArgs)">
+  OnSelectExiting(SelectExitEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelectExiting(SelectExitEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">SelectExitEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnUnregistered_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnUnregistered*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_OnUnregistered_InteractorUnregisteredEventArgs_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.OnUnregistered(InteractorUnregisteredEventArgs)">
+  OnUnregistered(InteractorUnregisteredEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnUnregistered(InteractorUnregisteredEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <span class="xref">InteractorUnregisteredEventArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_PreprocessInteractor_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.PreprocessInteractor*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_PreprocessInteractor_XRInteractionUpdateOrder_UpdatePhase_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.PreprocessInteractor(XRInteractionUpdateOrder.UpdatePhase)">
+  PreprocessInteractor(UpdatePhase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PreprocessInteractor(XRInteractionUpdateOrder.UpdatePhase updatePhase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updatePhase</code> <span class="xref">UpdatePhase</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRInteractorCollectionEvents_ProcessInteractor_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.ProcessInteractor*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_ProcessInteractor_XRInteractionUpdateOrder_UpdatePhase_" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.ProcessInteractor(XRInteractionUpdateOrder.UpdatePhase)">
+  ProcessInteractor(UpdatePhase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProcessInteractor(XRInteractionUpdateOrder.UpdatePhase updatePhase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updatePhase</code> <span class="xref">UpdatePhase</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_registered" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.registered">
+  registered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;InteractorRegisteredEventArgs&gt; registered</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">InteractorRegisteredEventArgs</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEngine_XR_XRInteractorCollectionEvents_unregistered" data-uid="ToolkitEngine.XR.XRInteractorCollectionEvents.unregistered">
+  unregistered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Runtime/Interactions/Interactors/XRInteractorCollectionEvents.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;InteractorUnregisteredEventArgs&gt; unregistered</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">InteractorUnregisteredEventArgs</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/nrvllrgrs" target="_blank">nrvllrgrs</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

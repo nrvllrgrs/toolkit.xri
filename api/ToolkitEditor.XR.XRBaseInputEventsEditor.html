@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class XRBaseInputEventsEditor
- | XRI+ Toolkit | 1.0.0 </title>
+      <title>Class XRBaseInputEventsEditor | XRI+ Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class XRBaseInputEventsEditor
- | XRI+ Toolkit | 1.0.0 ">
+      <meta name="title" content="Class XRBaseInputEventsEditor | XRI+ Toolkit | 1.0.0 ">
+      
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="ToolkitEditor_XR_XRBaseInputEventsEditor" data-uid="ToolkitEditor.XR.XRBaseInputEventsEditor" class="text-break">
-    Class XRBaseInputEventsEditor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/XRBaseInputEventsEditor.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class XRBaseInputEventsEditor  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Editor/Interactions/XRBaseInputEventsEditor.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,7 +101,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class XRBaseInputEventsEditor : XRInteractionEventsEditor</code></pre>
+    <pre><code class="lang-csharp hljs">public class XRBaseInputEventsEditor : XRInteractableEventsEditor</code></pre>
   </div>
 
 
@@ -113,7 +111,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="ToolkitEditor.XR.XRInteractionEventsEditor.html">XRInteractionEventsEditor</a></div>
+      <div><a class="xref" href="ToolkitEditor.XR.XRInteractableEventsEditor.html">XRInteractableEventsEditor</a></div>
       <div><span class="xref">XRBaseInputEventsEditor</span></div>
     </dd>
   </dl>
@@ -126,23 +124,23 @@
     </dd>
   </dl>
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="ToolkitEditor.XR.XRInteractionEventsEditor.html#ToolkitEditor_XR_XRInteractionEventsEditor_m_interactable">XRInteractionEventsEditor.m_interactable</a>
+      <a class="xref" href="ToolkitEditor.XR.XRInteractableEventsEditor.html#ToolkitEditor_XR_XRInteractableEventsEditor_m_interactable">XRInteractableEventsEditor.m_interactable</a>
     </div>
     <div>
-      <a class="xref" href="ToolkitEditor.XR.XRInteractionEventsEditor.html#ToolkitEditor_XR_XRInteractionEventsEditor_m_interactionType">XRInteractionEventsEditor.m_interactionType</a>
+      <a class="xref" href="ToolkitEditor.XR.XRInteractableEventsEditor.html#ToolkitEditor_XR_XRInteractableEventsEditor_m_interactionType">XRInteractableEventsEditor.m_interactionType</a>
     </div>
     <div>
-      <a class="xref" href="ToolkitEditor.XR.XRInteractionEventsEditor.html#ToolkitEditor_XR_XRInteractionEventsEditor_m_predicate">XRInteractionEventsEditor.m_predicate</a>
+      <a class="xref" href="ToolkitEditor.XR.XRInteractableEventsEditor.html#ToolkitEditor_XR_XRInteractableEventsEditor_m_predicate">XRInteractableEventsEditor.m_predicate</a>
     </div>
     <div>
-      <a class="xref" href="ToolkitEditor.XR.XRInteractionEventsEditor.html#ToolkitEditor_XR_XRInteractionEventsEditor_m_onInteracted">XRInteractionEventsEditor.m_onInteracted</a>
+      <a class="xref" href="ToolkitEditor.XR.XRInteractableEventsEditor.html#ToolkitEditor_XR_XRInteractableEventsEditor_m_onInteracted">XRInteractableEventsEditor.m_onInteracted</a>
     </div>
     <div>
-      <a class="xref" href="ToolkitEditor.XR.XRInteractionEventsEditor.html#ToolkitEditor_XR_XRInteractionEventsEditor_m_onUninteracted">XRInteractionEventsEditor.m_onUninteracted</a>
+      <a class="xref" href="ToolkitEditor.XR.XRInteractableEventsEditor.html#ToolkitEditor_XR_XRInteractableEventsEditor_m_onUninteracted">XRInteractableEventsEditor.m_onUninteracted</a>
     </div>
   </dd></dl>
 

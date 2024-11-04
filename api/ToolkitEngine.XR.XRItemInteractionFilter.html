@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class XRItemInteractionFilter
- | XRI+ Toolkit | 1.0.0 </title>
+      <title>Class XRItemInteractionFilter | XRI+ Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class XRItemInteractionFilter
- | XRI+ Toolkit | 1.0.0 ">
+      <meta name="title" content="Class XRItemInteractionFilter | XRI+ Toolkit | 1.0.0 ">
+      
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="ToolkitEngine_XR_XRItemInteractionFilter" data-uid="ToolkitEngine.XR.XRItemInteractionFilter" class="text-break">
-    Class XRItemInteractionFilter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Scripts/XRItemInteractionFilter.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class XRItemInteractionFilter  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Runtime/Interaction/Filtering/XRItemInteractionFilter.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -140,7 +138,7 @@
 
   <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_canProcess" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.canProcess">
   canProcess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Scripts/XRItemInteractionFilter.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Runtime/Interaction/Filtering/XRItemInteractionFilter.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -167,22 +165,84 @@
 
 
 
-  <h2 class="section" id="methods">Methods
-</h2>
+  <a id="ToolkitEngine_XR_XRItemInteractionFilter_firstIncludedItem_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.firstIncludedItem*"></a>
 
-
-  <a id="ToolkitEngine_XR_XRItemInteractionFilter_Process_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Process*"></a>
-
-  <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_Process_IXRHoverInteractor_IXRHoverInteractable_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Process(IXRHoverInteractor,IXRHoverInteractable)">
-  Process(IXRHoverInteractor, IXRHoverInteractable)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Scripts/XRItemInteractionFilter.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_firstIncludedItem" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.firstIncludedItem">
+  firstIncludedItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Runtime/Interaction/Filtering/XRItemInteractionFilter.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable)</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemType firstIncludedItem { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ItemType</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRItemInteractionFilter_includedItems_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.includedItems*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_includedItems" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.includedItems">
+  includedItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Runtime/Interaction/Filtering/XRItemInteractionFilter.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemType[] includedItems { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ItemType</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_XR_XRItemInteractionFilter_Process_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Process*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRHoverInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRHoverInteractable_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)">
+  Process(IXRHoverInteractor, IXRHoverInteractable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Runtime/Interaction/Filtering/XRItemInteractionFilter.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Process(Interactors.IXRHoverInteractor interactor, Interactables.IXRHoverInteractable interactable)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -211,16 +271,16 @@
 
   <a id="ToolkitEngine_XR_XRItemInteractionFilter_Process_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Process*"></a>
 
-  <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_Process_IXRSelectInteractor_IXRSelectInteractable_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Process(IXRSelectInteractor,IXRSelectInteractable)">
+  <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRSelectInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)">
   Process(IXRSelectInteractor, IXRSelectInteractable)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Scripts/XRItemInteractionFilter.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Runtime/Interaction/Filtering/XRItemInteractionFilter.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Process(Interactors.IXRSelectInteractor interactor, Interactables.IXRSelectInteractable interactable)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -236,6 +296,32 @@
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_XR_XRItemInteractionFilter_Spawn_" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Spawn*"></a>
+
+  <h3 id="ToolkitEngine_XR_XRItemInteractionFilter_Spawn" data-uid="ToolkitEngine.XR.XRItemInteractionFilter.Spawn">
+  Spawn()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.xri/blob/master/Samples~/Inventory Integration/Runtime/Interaction/Filtering/XRItemInteractionFilter.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Spawn()</code></pre>
+  </div>
+
+
 
 
 
