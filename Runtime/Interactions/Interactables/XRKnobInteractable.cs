@@ -16,7 +16,7 @@ namespace ToolkitEngine.XR
 
         protected override Vector3 GetInteractorRotation()
         {
-            return m_interactor.transform.rotation * GetAxisDirection(m_upward);
+            return m_interactor.transform.rotation * AxisUtil.GetDirection(m_upward);
         }
 
         protected override void OnHoverExited(HoverExitEventArgs args)

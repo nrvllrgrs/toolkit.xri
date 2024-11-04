@@ -3,7 +3,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 namespace ToolkitEngine.XR
 {
-	public class XRUseInteractable : XRBaseInteractable
+	public class XRUseInteractable : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
     {
 		#region Fields
 
@@ -46,8 +46,8 @@ namespace ToolkitEngine.XR
 
 		private void Grab(BaseInteractionEventArgs args)
 		{
-			if (args.interactorObject is IXRSelectInteractor selectInteractor
-				&& args.interactableObject is IXRSelectInteractable selectInteractable
+			if (args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor selectInteractor
+				&& args.interactableObject is UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable selectInteractable
 				&& !selectInteractor.IsSelecting(selectInteractable))
 			{
 				interactionManager.SelectEnter(selectInteractor, selectInteractable);
@@ -56,15 +56,15 @@ namespace ToolkitEngine.XR
 
 		private bool CanDrop(BaseInteractionEventArgs args)
 		{
-			return args.interactorObject is IXRHoverInteractor hoverInteractor
-				&& args.interactableObject is IXRHoverInteractable hoverInteractable
+			return args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor hoverInteractor
+				&& args.interactableObject is UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable hoverInteractable
 				&& !hoverInteractor.IsHovering(hoverInteractable);
 		}
 
 		private void Drop(BaseInteractionEventArgs args)
 		{
-			if (args.interactorObject is IXRSelectInteractor selectInteractor
-				&& args.interactableObject is IXRSelectInteractable selectInteractable
+			if (args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor selectInteractor
+				&& args.interactableObject is UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable selectInteractable
 				&& selectInteractor.IsSelecting(selectInteractable))
 			{
 				interactionManager.SelectExit(selectInteractor, selectInteractable);
@@ -73,8 +73,8 @@ namespace ToolkitEngine.XR
 
 		private void Unuse(BaseInteractionEventArgs args)
 		{
-			if (args.interactorObject is IXRActivateInteractor activateInteractor
-				&& args.interactableObject is IXRActivateInteractable activateInteractable)
+			if (args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.IXRActivateInteractor activateInteractor
+				&& args.interactableObject is UnityEngine.XR.Interaction.Toolkit.Interactables.IXRActivateInteractable activateInteractable)
 			{
 				activateInteractable.OnDeactivated(new DeactivateEventArgs()
 				{

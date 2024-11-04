@@ -1,15 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using UnityEditor;
 using UnityEditor.XR.Interaction.Toolkit;
 using ToolkitEngine.XR;
 
 namespace ToolkitEditor.XR
 {
-    [CustomEditor(typeof(XRHolsterInteractor))]
-    public class XRHolsterInteractorEditor : XRSocketInteractorEditor
-    {
+	[CustomEditor(typeof(XRHolsterInteractor))]
+    public class XRHolsterInteractorEditor : XRConditionalSocketInteractorEditor
+	{
 		#region Fields
 
 		protected SerializedProperty m_dropBehavior;

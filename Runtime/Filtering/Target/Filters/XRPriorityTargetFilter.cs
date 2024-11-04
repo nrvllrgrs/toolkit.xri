@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 using UnityEngine.XR.Interaction.Toolkit.Filtering;
 
 namespace ToolkitEngine.XR
@@ -17,11 +17,11 @@ namespace ToolkitEngine.XR
 
 		#region Methods
 
-		public override void Process(IXRInteractor interactor, List<IXRInteractable> targets, List<IXRInteractable> results)
+		public override void Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRInteractor interactor, List<UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable> targets, List<UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable> results)
 		{
 			if (targets == null || targets.Count == 0)
 			{
-				results = new List<IXRInteractable>();
+				results = new List<UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable>();
 				return;
 			}
 
@@ -31,7 +31,7 @@ namespace ToolkitEngine.XR
 					orderby g.Key descending
 					select g;
 
-			var list = new List<IXRInteractable>(r.First());
+			var list = new List<UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable>(r.First());
 			if (m_targetFilter == null)
 			{
 				results = list;

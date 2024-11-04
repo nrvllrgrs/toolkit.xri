@@ -47,6 +47,7 @@ namespace ToolkitEngine.XR
 		private Vector2 m_threshold = new Vector2(2.5f, 0.5f);
 
 		private bool m_inThreshold;
+		private InputAction.CallbackContext m_lastPerformedContext;
 
 		#endregion
 
@@ -69,6 +70,8 @@ namespace ToolkitEngine.XR
 		{
 			if (!canPerform)
 				return;
+
+			m_lastPerformedContext = ctx;
 
 			// Velocity is in local-space
 			var velocity = ctx.ReadValue<Vector3>();
@@ -134,16 +137,22 @@ namespace ToolkitEngine.XR
 			else if (speed < exitThreshold)
 			{
 				SetPerforming(true, ctx);
-				Restart();
+				Restart(ctx);
 				return true;
 			}
 
 			return false;
 		}
 
-		public void Restart()
+		private void Restart(InputAction.CallbackContext ctx)
 		{
 			m_inThreshold = false;
+			Canceled(ctx);
+		}
+
+		public void Restart()
+		{
+			Canceled(m_lastPerformedContext);
 		}
 
 		#endregion

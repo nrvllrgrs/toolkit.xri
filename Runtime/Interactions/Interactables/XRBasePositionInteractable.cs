@@ -9,22 +9,25 @@ using UnityEditor;
 
 namespace ToolkitEngine.XR
 {
-	public enum Axis
-	{
-		Backward,
-		Down,
-		Forward,
-		Left,
-		Right,
-		Up
-	}
-
-    public abstract class XRBasePositionInteractable : XRBaseInteractable
+    public abstract class XRBasePositionInteractable : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
     {
-        #region Fields
+		#region Enumerators
+
+        public enum SnapMode
+        {
+            None,
+            Tail,
+        }
+
+		#endregion
+
+		#region Fields
+
+		[SerializeField]
+        protected bool m_isInteractable = true;
 
         [SerializeField]
-        protected bool m_isInteractable = true;
+        protected Transform m_translateTransform = null;
 
         [SerializeField]
         protected Axis m_directionAxis;
@@ -35,11 +38,11 @@ namespace ToolkitEngine.XR
         [SerializeField, Tooltip("Normalized depths for Tipflow and Tailflow events to trigger (0 = tail; 1 = tip).")]
         protected Vector2 m_normalizedFlowDepths = Vector2.one * 0.5f;
 
-        [SerializeField, Tooltip("Indicates whether object snaps to tail position when interaction stops.")]
-        private bool m_tailflowSnap = true;
+        [SerializeField]
+        private SnapMode m_snapMode = SnapMode.None;
 
         [SerializeField, Min(0f), Tooltip("Maximum distance object can move per second towards tail position while not interacting.")]
-        private float m_tailflowSpeed;
+        private float m_snapSpeed;
 
         [SerializeField]
         private bool m_useTipflowHaptics;
@@ -66,11 +69,11 @@ namespace ToolkitEngine.XR
         /// <summary>
         /// Direction of motion in local space
         /// </summary>
-        private Vector3 m_direction;
+        private Vector3 m_localDirection;
 
         private float m_tailflowDepth, m_tipflowDepth;
 
-        private IXRInteractor m_interactor = null;
+        private UnityEngine.XR.Interaction.Toolkit.Interactors.IXRInteractor m_interactor = null;
         private float m_startMagnitude = 0f;
 
         /// <summary>
@@ -79,7 +82,6 @@ namespace ToolkitEngine.XR
         private float m_startDepth;
 
         private bool m_isTipflow;
-
         private float m_depth = 0f;
 
         #endregion
@@ -119,7 +121,7 @@ namespace ToolkitEngine.XR
         /// <summary>
         /// Direction of motion in world space
         /// </summary>
-        protected Vector3 direction => transform.rotation * m_direction;
+        protected Vector3 direction => m_translateTransform.rotation * m_localDirection;
 
         public bool isTipflow
         {
@@ -171,7 +173,7 @@ namespace ToolkitEngine.XR
         public UnityEvent<InteractionEventArgs> onTipflow => m_onTipflow;
         public UnityEvent<InteractionEventArgs> onTailflow => m_onTailflow;
 
-        protected abstract IEnumerable<XRBaseControllerInteractor> controllerInteractors { get; }
+        protected abstract IEnumerable<UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor> controllerInteractors { get; }
 
         #endregion
 
@@ -181,11 +183,17 @@ namespace ToolkitEngine.XR
         {
             base.Awake();
 
-            // Store initial position so it can be restored when released
-            m_tailLocalPosition = transform.localPosition;
+            if (m_translateTransform == null)
+            {
+                m_translateTransform = transform;
+            }
+
+			m_localDirection = AxisUtil.GetDirection(m_directionAxis);
+
+			// Store initial position so it can be restored when released
+			m_tailLocalPosition = m_translateTransform.localPosition;
             m_tailflowDepth = m_maxDepth * m_normalizedFlowDepths.x;
             m_tipflowDepth = m_maxDepth * m_normalizedFlowDepths.y;
-            SetDirection();
         }
 
         protected virtual void BeginInteraction(BaseInteractionEventArgs args)
@@ -195,7 +203,7 @@ namespace ToolkitEngine.XR
 
             // Use start position instead of tail position
             // Interactable may be starting along the axis (and NOT necessarily at its tail)
-            m_startLocalPosition = transform.localPosition;
+            m_startLocalPosition = m_translateTransform.localPosition;
             m_startDepth = m_depth;
 
             // Handle pushing button
@@ -214,10 +222,10 @@ namespace ToolkitEngine.XR
             // Handle releasing button
             m_interactor = null;
 
-            if (m_tailflowSnap)
+            if (m_snapMode == SnapMode.Tail)
             {
                 // Reset button position
-                transform.localPosition = m_tailLocalPosition;
+                m_translateTransform.localPosition = m_tailLocalPosition;
 
                 // Reset button state
                 isTipflow = false;
@@ -228,7 +236,7 @@ namespace ToolkitEngine.XR
 
         public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase)
         {
-            if (m_interactor == null && (m_tailflowSpeed == 0f || m_depth == 0f))
+            if (m_interactor == null && (m_snapSpeed == 0f || m_depth == 0f))
                 return;
 
             // Interacting with object
@@ -245,16 +253,16 @@ namespace ToolkitEngine.XR
                 m_depth = Mathf.Clamp(m_startDepth + magnitude, 0f, m_maxDepth);
             }
             // Not interacting with object, but moving towards tail position
-            else if (m_tailflowSpeed > 0f)
+            else if (m_snapSpeed > 0f)
             {
                 switch (updatePhase)
                 {
                     case XRInteractionUpdateOrder.UpdatePhase.Fixed:
-                        m_depth -= m_tailflowSpeed * Time.fixedDeltaTime;
+                        m_depth -= m_snapSpeed * Time.fixedDeltaTime;
                         break;
 
                     default:
-                        m_depth -= m_tailflowSpeed * Time.deltaTime;
+                        m_depth -= m_snapSpeed * Time.deltaTime;
                         break;
                 }
 
@@ -266,15 +274,15 @@ namespace ToolkitEngine.XR
 
             // Set position from depth
             Vector3 position;
-            if (transform.parent == null)
+            if (m_translateTransform.parent == null)
             {
                 position = m_tailLocalPosition + direction * m_depth;
             }
             else
             {
-                position = transform.parent.position + (transform.parent.rotation * m_tailLocalPosition) + direction * m_depth;
+                position = m_translateTransform.parent.position + (m_translateTransform.parent.rotation * m_tailLocalPosition) + direction * m_depth;
             }
-            transform.position = position;
+            m_translateTransform.position = position;
 
             // Have move to tip...
             if (m_isTipflow)
@@ -289,7 +297,7 @@ namespace ToolkitEngine.XR
             else if (m_depth.Between(m_tipflowDepth, m_maxDepth))
             {
                 isTipflow = true;
-            }       
+            }
         }
 
         protected void InvokeDepthChanged()
@@ -301,42 +309,12 @@ namespace ToolkitEngine.XR
             });
         }
 
-        private void SetDirection()
-        {
-            switch (m_directionAxis)
-            {
-                case Axis.Backward:
-                    m_direction = Vector3.back;
-                    break;
-
-                case Axis.Down:
-                    m_direction = Vector3.down;
-                    break;
-
-                case Axis.Forward:
-                    m_direction = Vector3.forward;
-                    break;
-
-                case Axis.Left:
-                    m_direction = Vector3.left;
-                    break;
-
-                case Axis.Right:
-                    m_direction = Vector3.right;
-                    break;
-
-                case Axis.Up:
-                    m_direction = Vector3.up;
-                    break;
-            }
-        }
-
         private bool TryGetMagnitudeAlongPath(Vector3 position, out float magnitude, float startPointOffset = 0f)
         {
             // Convert into world space
-            var startPoint = transform.parent == null
+            var startPoint = m_translateTransform.parent == null
                 ? m_startLocalPosition
-                : transform.parent.TransformPoint(m_startLocalPosition);
+                : m_translateTransform.parent.TransformPoint(m_startLocalPosition);
 
             if (!Mathf.Approximately(startPointOffset, 0f))
             {
@@ -363,23 +341,32 @@ namespace ToolkitEngine.XR
 
         private void OnDrawGizmosSelected()
         {
-            Vector3 startPoint;
+            var translateTransform = m_translateTransform;
+            if (translateTransform == null)
+            {
+				translateTransform = transform;
+            }
+
+			Vector3 startPoint;
             if (!Application.isPlaying)
             {
-                startPoint = transform.position;
-                SetDirection();
-            }
-            else if (transform.parent == null)
+                startPoint = translateTransform.position;
+				m_localDirection = AxisUtil.GetDirection(m_directionAxis);
+			}
+            else if (translateTransform.parent == null)
             {
                 startPoint = m_tailLocalPosition;
             }
             else
             {
-                startPoint = transform.parent.TransformPoint(m_tailLocalPosition);
+                startPoint = translateTransform.parent.TransformPoint(m_tailLocalPosition);
             }
 
-            var scale = HandleUtility.GetHandleSize(startPoint);
-            var endPoint = startPoint + direction * m_maxDepth;
+			var direction = translateTransform.rotation * m_localDirection;
+			direction.Scale(translateTransform.lossyScale);
+
+			var scale = HandleUtility.GetHandleSize(startPoint);
+			var endPoint = startPoint + direction * m_maxDepth;
             var forward = Quaternion.LookRotation(direction);
 
             Gizmos.DrawLine(startPoint, endPoint);
@@ -394,9 +381,9 @@ namespace ToolkitEngine.XR
             if (m_interactor != null)
             {
                 // Convert into world space
-                startPoint = transform.parent == null
+                startPoint = m_translateTransform.parent == null
                     ? m_startLocalPosition
-                    : transform.parent.TransformPoint(m_startLocalPosition);
+                    : m_translateTransform.parent.TransformPoint(m_startLocalPosition);
 
                 Gizmos.color = Color.magenta;
                 Gizmos.DrawWireSphere(startPoint, 0.02f);

@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 using UnityEngine.XR.Interaction.Toolkit.Filtering;
 
 namespace ToolkitEngine.XR
@@ -21,12 +21,12 @@ namespace ToolkitEngine.XR
 
 		#region Methods
 
-		public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable)
+		public bool Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor interactor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable interactable)
 		{
 			return m_predicate.isTrueAndEnabled;
 		}
 
-		public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable)
+		public bool Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor interactor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable interactable)
 		{
 			return m_predicate.isTrueAndEnabled;
 		}

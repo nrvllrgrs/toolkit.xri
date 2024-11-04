@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 using InputActionManager = UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager;
 
 namespace ToolkitEngine.XR
 {
-	public abstract class XRBaseInputEvents : XRInteractionEvents
+	public abstract class XRBaseInputEvents : XRInteractableEvents
     {
 		#region Fields
 
@@ -91,7 +92,7 @@ namespace ToolkitEngine.XR
 
 		private void Register(InputActionProperty inputAction)
 		{
-			if (inputAction == null)
+			if (inputAction == null || inputAction.action?.actionMap?.asset == null)
 				return;
 
 			if (!m_map.TryGetValue(inputAction, out InputAction action))
@@ -142,15 +143,17 @@ namespace ToolkitEngine.XR
 		protected override void Interact(BaseInteractionEventArgs e)
 		{
 			m_selectedAction = null;
-			if (XRHandednessContext.IsLeftHand(e.interactorObject))
+			switch (e.interactorObject.handedness)
 			{
-				m_selectedAction = m_leftAction;
-				m_leftHand = true;
-			}
-			else if (XRHandednessContext.IsRightHand(e.interactorObject))
-			{
-				m_selectedAction = m_rightAction;
-				m_leftHand = false;
+				case InteractorHandedness.Left:
+					m_selectedAction = m_leftAction;
+					m_leftHand = true;
+					break;
+
+				case InteractorHandedness.Right:
+					m_selectedAction = m_rightAction;
+					m_leftHand = false;
+					break;
 			}
 
 			if (m_selectedAction.HasValue)
@@ -165,11 +168,6 @@ namespace ToolkitEngine.XR
 				return;
 
 			Unregister(m_selectedAction.Value);
-		}
-
-		private bool CompareTag(IXRInteractor interactor, string tag)
-		{
-			return interactor.transform.gameObject.CompareTag(tag);
 		}
 
 		protected virtual void Performed(InputAction.CallbackContext obj)

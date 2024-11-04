@@ -4,7 +4,7 @@ using ToolkitEngine.XR;
 namespace ToolkitEditor.XR
 {
 	[CustomEditor(typeof(XRBaseInputEvents), true)]
-	public class XRBaseInputEventsEditor : XRInteractionEventsEditor
+	public class XRBaseInputEventsEditor : XRInteractableEventsEditor
 	{
 		#region Fields
 
@@ -35,7 +35,7 @@ namespace ToolkitEditor.XR
 
 		protected override void DrawEvents()
 		{
-			if (((XRBaseInputEvents)target).interactionType != XRInteractionEvents.InteractionType.None)
+			if (((XRBaseInputEvents)target).interactionType != XRInteractableEvents.InteractionType.None)
 			{
 				base.DrawEvents();
 			}

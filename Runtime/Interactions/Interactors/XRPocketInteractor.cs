@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 using Unity.XR.CoreUtils;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Transformers;
 
-namespace UnityEngine.XR.Interaction.Toolkit
+namespace ToolkitEngine.XR
 {
 	[RequireComponent(typeof(XRScaleTransformer))]
-    public class XRPocketInteractor : XRSocketInteractor
+    public class XRPocketInteractor : XRConditionalSocketInteractor
     {
 		#region Fields
 
@@ -31,22 +34,29 @@ namespace UnityEngine.XR.Interaction.Toolkit
 		/// </summary>
 		private XRScaleTransformer m_scaleTransformer;
 
-		/// <summary>
-		/// Indicates whether interactable can be grabbed by socket
-		/// </summary>
-		private bool m_canSelect;
+		private UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable m_interactablePocketed;
 
-		private IXRSelectInteractable m_interactablePocketed;
+		#endregion
+
+		#region Events
+
+		[SerializeField]
+		private UnityEvent<SelectEnterEventArgs> m_onPocketed;
+
+		[SerializeField]
+		private UnityEvent<SelectExitEventArgs> m_onUnpocketed;
 
 		#endregion
 
 		#region Properties
 
-		public override XRBaseInteractable.MovementType? selectedInteractableMovementTypeOverride => XRBaseInteractable.MovementType.Instantaneous;
+		public override UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable.MovementType? selectedInteractableMovementTypeOverride => UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable.MovementType.Instantaneous;
 		public override bool isSelectActive => m_canSelect && base.isSelectActive;
 
 		public bool hasPocketed => m_interactablePocketed != null;
-		public IXRSelectInteractable interactablePocketed => m_interactablePocketed;
+		public UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable interactablePocketed => m_interactablePocketed;
+		public UnityEvent<SelectEnterEventArgs> onPocketed => m_onPocketed;
+		public UnityEvent<SelectExitEventArgs> onUnpocketed => m_onUnpocketed;
 
 		#endregion
 
@@ -92,56 +102,21 @@ namespace UnityEngine.XR.Interaction.Toolkit
 		{
 			base.OnHoverEntering(e);
 
+			if (!m_canSelect)
+				return;
+
 			// Something already in socket, skip
 			if (hasSelection)
 				return;
 
-			var selectInteractable = e.interactableObject as IXRSelectInteractable;
-
-			// Can only be socketed if selected by another interactor
-			if (selectInteractable == null || !selectInteractable.isSelected)
-			{
-				m_canSelect = false;
-				return;
-			}
-
-			m_canSelect = true;
-
-			// Get bounds of interactable
-			var bounds = e.interactableObject.transform.gameObject.GetLocalRendererBounds();
-
-			// Calculate size so hover scale is correct
-			var size = m_size * transform.lossyScale;
-			size.Scale(bounds.size);
-
-			// Largest component is scale
-			interactableHoverScale = size.MaxComponent();
-
-			if (m_autoCenter)
-			{
-				attachTransform.localPosition = -bounds.center * interactableHoverScale;
-			}
-		}
-
-		protected override void OnHoverExiting(HoverExitEventArgs e)
-		{
-			base.OnHoverExiting(e);
-
-			var selectInteractable = e.interactableObject as IXRSelectInteractable;
-			if (selectInteractable == null)
-				return;
-
-			if (!hasSelection)
-			{
-				m_canSelect = false;
-			}
+			UpdateInteractableHoverScale(e.interactableObject);
 		}
 
 		protected override void OnSelectEntered(SelectEnterEventArgs e)
 		{
 			base.OnSelectEntered(e);
 
-			if (!e.interactableObject.transform.TryGetComponent(out XRGrabInteractable grabInteractable))
+			if (!e.interactableObject.transform.TryGetComponent(out UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable))
 				return;
 
 			// Setup transformer before adding to ensure correct local scale
@@ -162,7 +137,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
 			}
 
 			// Stop all other hover interactors
-			if (e.interactableObject is IXRHoverInteractable hoverInteractable)
+			if (e.interactableObject is UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable hoverInteractable)
 			{
 				var interactorsHovering = hoverInteractable.interactorsHovering.ToArray();
 				foreach (var hoverInteractor in interactorsHovering)
@@ -185,11 +160,12 @@ namespace UnityEngine.XR.Interaction.Toolkit
 			}
 
 			m_interactablePocketed = e.interactableObject;
+			m_onPocketed?.Invoke(e);
 		}
 
 		protected override void OnSelectExited(SelectExitEventArgs e)
 		{
-			if (e.interactableObject.transform.TryGetComponent(out XRGrabInteractable grabInteractable))
+			if (e.interactableObject.transform.TryGetComponent(out UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable))
 			{
 				grabInteractable.RemoveSingleGrabTransformer(m_scaleTransformer);
 				m_scaleTransformer.Stop();
@@ -197,6 +173,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
 				if (isActiveAndEnabled)
 				{
 					m_interactablePocketed = null;
+					m_onUnpocketed?.Invoke(e);
 				}
 			}
 
@@ -209,6 +186,45 @@ namespace UnityEngine.XR.Interaction.Toolkit
 				return false;
 
 			return base.ShouldDrawHoverMesh(meshFilter, meshRenderer, mainCamera);
+		}
+
+		public void ForceSelectEnter(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable selectInteractable, bool animateScale = false)
+		{
+			if (selectInteractable is not UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable)
+				return;
+
+			if (!IsHovering(grabInteractable))
+			{
+				// Force hover enter to recalculate hover scale
+				UpdateInteractableHoverScale(grabInteractable);
+			}
+
+			m_canSelect = true;
+			interactionManager.SelectEnter(this, selectInteractable);
+
+			if (!animateScale)
+			{
+				m_scaleTransformer.Complete(grabInteractable, grabInteractable.transform.localScale * interactableHoverScale);
+			}
+		}
+
+		private void UpdateInteractableHoverScale(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable interactableObject)
+		{
+			// Get bounds of interactable
+			if (!interactableObject.transform.gameObject.TryGetRendererBounds(out Bounds bounds))
+				return;
+
+			// Calculate size so hover scale is correct
+			var size = m_size * transform.lossyScale;
+			size = size.InverseScale(bounds.size);
+
+			// Largest component is scale
+			interactableHoverScale = size.MinComponent();
+
+			if (m_autoCenter)
+			{
+				attachTransform.localPosition = -bounds.center * interactableHoverScale;
+			}
 		}
 
 		#endregion

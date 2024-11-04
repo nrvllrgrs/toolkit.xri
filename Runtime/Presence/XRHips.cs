@@ -1,5 +1,5 @@
 using UnityEngine;
-using Sirenix.OdinInspector;
+using NaughtyAttributes;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -14,7 +14,7 @@ namespace ToolkitEngine.XR
 		[SerializeField]
 		private bool m_tracking = true;
 
-		[SerializeField, MinMaxSlider(-90f, 90f, true)]
+		[SerializeField, MinMaxSlider(-90f, 90f)]
 		private Vector2 m_trackingLimit = new Vector2(-90f, 90f);
 
 		[SerializeField]

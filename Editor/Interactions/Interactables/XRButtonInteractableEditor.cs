@@ -23,15 +23,16 @@ namespace ToolkitEditor.XR
 
         protected override void DrawLinearAxisProperties()
         {
+            EditorGUILayout.PropertyField(m_translateTransform);
             EditorGUILayout.PropertyField(m_directionAxis, new GUIContent("Direction"));
             EditorGUILayout.PropertyField(m_allowedAngle);
             EditorGUILayout.PropertyField(m_maxDepth);
             EditorGUILayoutUtility.MinMaxSlider(m_normalizedFlowDepths, 0f, 1f);
 
-            EditorGUILayout.PropertyField(m_tailflowSnap);
-            if (!m_tailflowSnap.boolValue)
+            EditorGUILayout.PropertyField(m_snapMode);
+            if (!m_snapMode.boolValue)
             {
-                EditorGUILayout.PropertyField(m_tailflowSpeed);
+                EditorGUILayout.PropertyField(m_snapSpeed);
             }
         }
 

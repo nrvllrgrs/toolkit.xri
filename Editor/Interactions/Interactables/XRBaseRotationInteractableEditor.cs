@@ -1,11 +1,11 @@
 using UnityEditor;
-using UnityEditor.XR.Interaction.Toolkit;
+
 using ToolkitEngine.XR;
 
 namespace ToolkitEditor.XR
 {
     [CustomEditor(typeof(XRBaseRotationInteractable), true)]
-    public class XRBaseRotationInteractableEditor : XRBaseInteractableEditor
+    public class XRBaseRotationInteractableEditor : UnityEditor.XR.Interaction.Toolkit.Interactables.XRBaseInteractableEditor
     {
         #region Fields
 

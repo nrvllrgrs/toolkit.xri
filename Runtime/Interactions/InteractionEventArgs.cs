@@ -17,7 +17,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
                 if (m_manager == null)
                 {
                     m_manager = interactableObject?.transform
-                        .GetComponent<XRBaseInteractable>()
+                        .GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable>()
                         ?.interactionManager;
                 }
                 return m_manager;

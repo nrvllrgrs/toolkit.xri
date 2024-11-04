@@ -15,12 +15,12 @@ namespace ToolkitEngine.XR
 
         #region Properties
 
-        protected override IEnumerable<XRBaseControllerInteractor> controllerInteractors
+        protected override IEnumerable<UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor> controllerInteractors
         {
             get
             {
-                var list = new List<XRBaseControllerInteractor>();
-                var controllerInteractor = firstInteractorSelecting as XRBaseControllerInteractor;
+                var list = new List<UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor>();
+                var controllerInteractor = firstInteractorSelecting as UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor;
                 if (controllerInteractor != null)
                 {
                     list.Add(controllerInteractor);

@@ -16,7 +16,7 @@ namespace ToolkitEngine.XR
         public float delta { get; set; }
     }
 
-    public abstract class XRBaseRotationInteractable : XRBaseInteractable
+    public abstract class XRBaseRotationInteractable : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
     {
         #region Enumerators
 
@@ -97,7 +97,7 @@ namespace ToolkitEngine.XR
         /// <summary>
         /// Interactor currently manipulating interactable
         /// </summary>
-        protected IXRInteractor m_interactor = null;
+        protected UnityEngine.XR.Interaction.Toolkit.Interactors.IXRInteractor m_interactor = null;
 
         /// <summary>
         /// Rotation of interactor relative to Upward when interaction starts
@@ -181,7 +181,7 @@ namespace ToolkitEngine.XR
 
                 if (m_useValueChangedHaptics)
                 {
-                    m_valueChangedHaptics.SendImpulse(firstInteractorSelecting as XRBaseControllerInteractor);
+                    m_valueChangedHaptics.SendImpulse(firstInteractorSelecting as UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor);
                 }
 
                 if (m_useSteps)
@@ -264,7 +264,7 @@ namespace ToolkitEngine.XR
 
                 if (m_useIndexChangedHaptics)
                 {
-                    m_indexChangedHaptics.SendImpulse(firstInteractorSelecting as XRBaseControllerInteractor);
+                    m_indexChangedHaptics.SendImpulse(firstInteractorSelecting as UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor);
                 }
             }
         }
@@ -419,42 +419,17 @@ namespace ToolkitEngine.XR
         {
             transform.rotation = (transform.parent == null
                 ? m_defaultLocalRotation
-                : transform.parent.rotation * m_defaultLocalRotation) * Quaternion.AngleAxis(angle, GetAxisDirection(m_forward));
+                : transform.parent.rotation * m_defaultLocalRotation) * Quaternion.AngleAxis(angle, AxisUtil.GetDirection(m_forward));
         }
 
         private Vector3 GetDirection(Axis axis)
         {
             if (!Application.isPlaying)
-                return transform.rotation * GetAxisDirection(axis);
+                return transform.rotation * AxisUtil.GetDirection(axis);
 
             return (transform.parent == null
                 ? m_defaultLocalRotation
-                : transform.parent.rotation * m_defaultLocalRotation) * GetAxisDirection(axis);
-        }
-
-        protected Vector3 GetAxisDirection(Axis axis)
-        {
-            switch (axis)
-            {
-                case Axis.Backward:
-                    return Vector3.back;
-
-                case Axis.Down:
-                    return Vector3.down;
-
-                case Axis.Forward:
-                    return Vector3.forward;
-
-                case Axis.Left:
-                    return Vector3.left;
-
-                case Axis.Right:
-                    return Vector3.right;
-
-                case Axis.Up:
-                    return Vector3.up;
-            }
-            return Vector3.zero;
+                : transform.parent.rotation * m_defaultLocalRotation) * AxisUtil.GetDirection(axis);
         }
 
         protected RotationInteractionEvent GetInteractionEventArgs()

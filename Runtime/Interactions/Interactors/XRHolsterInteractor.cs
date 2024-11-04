@@ -13,8 +13,8 @@ namespace ToolkitEngine.XR
 		public XRHolsterInteractor holsterInteractor => interactableObject.transform.GetComponent(ref m_holsterInteractor);
 	}
 
-	[RequireComponent(typeof(XRSimpleInteractable))]
-	public class XRHolsterInteractor : XRSocketInteractor
+	[RequireComponent(typeof(XRRedirectorInteractable))]
+	public class XRHolsterInteractor : XRConditionalSocketInteractor
     {
 		#region Enumerators
 
@@ -38,9 +38,9 @@ namespace ToolkitEngine.XR
 		/// <summary>
 		/// Reference to required XRSimpleInteractable
 		/// </summary>
-		private XRSimpleInteractable m_redirector;
+		private XRRedirectorInteractable m_redirector;
 
-		private IXRSelectInteractable m_holstered;		
+		private UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable m_holstered;
 		private CancellationTokenSource m_reholsterCancellationTokenSource;
 
 		#endregion
@@ -60,7 +60,7 @@ namespace ToolkitEngine.XR
 
 		#region Properties
 
-		public IXRSelectInteractable holstered
+		public UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable holstered
 		{
 			get => m_holstered;
 			set
@@ -73,11 +73,14 @@ namespace ToolkitEngine.XR
 				m_holstered = value;
 				RegisterHolstered();
 
+				m_redirector.targetInteractable = value;
 				UpdateRedirector();
 			}
 		}
 
 		public bool hasHolstered => m_holstered != null;
+
+		public override bool isSelectActive => m_canSelect && base.isSelectActive;
 
 		#endregion
 
@@ -86,30 +89,13 @@ namespace ToolkitEngine.XR
 		protected override void Awake()
 		{
 			base.Awake();
-			m_redirector = GetComponent<XRSimpleInteractable>();
+			m_redirector = GetComponent<XRRedirectorInteractable>();
 		}
 
 		protected override void OnEnable()
 		{
 			base.OnEnable();
-			m_redirector.selectEntered.AddListener(Redirector_SelectEntered);
 			UpdateRedirector();
-		}
-
-		protected override void OnDisable()
-		{
-			base.OnDisable();
-			m_redirector.selectEntered.RemoveListener(Redirector_SelectEntered);
-		}
-
-		private void Redirector_SelectEntered(SelectEnterEventArgs e)
-		{
-			// Drop holster interactable
-			interactionManager.SelectExit(e.interactorObject, e.interactableObject);
-
-			// Grab holster interactable
-			interactionManager.HoverEnter(e.interactorObject as IXRHoverInteractor, m_holstered as IXRHoverInteractable);
-			interactionManager.SelectEnter(e.interactorObject, m_holstered);
 		}
 
 		protected override void OnSelectEntered(SelectEnterEventArgs args)
@@ -181,7 +167,7 @@ namespace ToolkitEngine.XR
 				return;
 
 			// Dropping over holster, skip
-			if (args.interactableObject is IXRHoverInteractable hoverInteractable && IsHovering(hoverInteractable))
+			if (args.interactableObject is UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable hoverInteractable && IsHovering(hoverInteractable))
 				return;
 
 			switch (m_dropBehavior)
@@ -215,7 +201,8 @@ namespace ToolkitEngine.XR
 				return;
 
 			// Grab holstered interactable
-			interactionManager.HoverEnter(this, m_holstered as IXRHoverInteractable);
+			m_canSelect = true;
+			m_holstered.transform.SetPositionAndRotation(attachTransform.position, attachTransform.rotation);
 			interactionManager.SelectEnter(this, m_holstered);
 		}
 

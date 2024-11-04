@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 namespace ToolkitEngine.XR
 {
-	[RequireComponent(typeof(XRBaseInteractable))]
+	[RequireComponent(typeof(UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable))]
     public class XRInteractablePriority : MonoBehaviour
     {
 		#region Fields

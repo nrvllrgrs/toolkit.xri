@@ -1,21 +1,22 @@
 using UnityEditor;
-using UnityEditor.XR.Interaction.Toolkit;
+
 using UnityEngine;
 using ToolkitEngine.XR;
 
 namespace ToolkitEditor.XR
 {
     [CustomEditor(typeof(XRBasePositionInteractable), true)]
-    public class XRBasePositionInteractableEditor : XRBaseInteractableEditor
+    public class XRBasePositionInteractableEditor : UnityEditor.XR.Interaction.Toolkit.Interactables.XRBaseInteractableEditor
     {
         #region Fields
 
         protected SerializedProperty m_isInteractable;
+        protected SerializedProperty m_translateTransform;
         protected SerializedProperty m_directionAxis;
         protected SerializedProperty m_normalizedFlowDepths;
         protected SerializedProperty m_maxDepth;
-        protected SerializedProperty m_tailflowSnap;
-        protected SerializedProperty m_tailflowSpeed;
+        protected SerializedProperty m_snapMode;
+        protected SerializedProperty m_snapSpeed;
 
         protected SerializedProperty m_useTipflowHaptics;
         protected SerializedProperty m_tipflowHaptics;
@@ -36,11 +37,12 @@ namespace ToolkitEditor.XR
         {
             base.OnEnable();
             m_isInteractable = serializedObject.FindProperty(nameof(m_isInteractable));
+			m_translateTransform = serializedObject.FindProperty(nameof(m_translateTransform));
             m_directionAxis = serializedObject.FindProperty(nameof(m_directionAxis));
             m_maxDepth = serializedObject.FindProperty(nameof(m_maxDepth));
             m_normalizedFlowDepths = serializedObject.FindProperty(nameof(m_normalizedFlowDepths));
-            m_tailflowSnap = serializedObject.FindProperty(nameof(m_tailflowSnap));
-            m_tailflowSpeed = serializedObject.FindProperty(nameof(m_tailflowSpeed));
+            m_snapMode = serializedObject.FindProperty(nameof(m_snapMode));
+            m_snapSpeed = serializedObject.FindProperty(nameof(m_snapSpeed));
 
             m_useTipflowHaptics = serializedObject.FindProperty(nameof(m_useTipflowHaptics));
             m_tipflowHaptics = serializedObject.FindProperty(nameof(m_tipflowHaptics));
@@ -71,15 +73,18 @@ namespace ToolkitEditor.XR
 
         protected virtual void DrawLinearAxisProperties()
         {
+            EditorGUILayout.PropertyField(m_translateTransform);
             EditorGUILayout.PropertyField(m_directionAxis, new GUIContent("Direction"));
             EditorGUILayout.PropertyField(m_maxDepth);
             EditorGUILayoutUtility.MinMaxSlider(m_normalizedFlowDepths, 0f, 1f);
 
-            EditorGUILayout.PropertyField(m_tailflowSnap);
-            if (!m_tailflowSnap.boolValue)
+            EditorGUILayout.PropertyField(m_snapMode);
+            if (m_snapMode.intValue != (int)XRBasePositionInteractable.SnapMode.None)
             {
-                EditorGUILayout.PropertyField(m_tailflowSpeed);
-            }
+                ++EditorGUI.indentLevel;
+                EditorGUILayout.PropertyField(m_snapSpeed);
+				--EditorGUI.indentLevel;
+			}
         }
 
         protected void DrawPreview()

@@ -1,11 +1,12 @@
+using ToolkitEngine.XR.Inputs.Haptics;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.InputSystem;
-using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace ToolkitEngine.XR
 {
-    public class XRHapticInputEventsListener : MonoBehaviour
+	public class XRHapticInputEventsListener : MonoBehaviour
     {
         #region Fields
 
@@ -37,19 +38,19 @@ namespace ToolkitEngine.XR
 			m_inputEvents.onCanceled.RemoveListener(InputEvent_Canceled);
 
             // Be sure to turn off haptics; could be continuous duration
-            m_haptics.CancelImpulse(XRHandednessContext.leftController);
-			m_haptics.CancelImpulse(XRHandednessContext.rightController);
+            HapticManager.CastInstance.CancelImpulse(InteractorHandedness.Left, m_haptics);
+			HapticManager.CastInstance.CancelImpulse(InteractorHandedness.Right, m_haptics);
 		}
 
         private void InputEvents_Performed(InputAction.CallbackContext obj)
         {
             if (m_inputEvents.IsLeftHand(obj))
             {
-				m_haptics.SendImpulse(XRHandednessContext.leftController);
+				HapticManager.CastInstance.SendImpulse(InteractorHandedness.Left, m_haptics);
 			}
             else
             {
-                m_haptics.SendImpulse(XRHandednessContext.rightController);
+				HapticManager.CastInstance.SendImpulse(InteractorHandedness.Right, m_haptics);
             }
         }
 
@@ -57,11 +58,11 @@ namespace ToolkitEngine.XR
         {
 			if (m_inputEvents.IsLeftHand(obj))
 			{
-				m_haptics.CancelImpulse(XRHandednessContext.leftController);
+				HapticManager.CastInstance.CancelImpulse(InteractorHandedness.Left, m_haptics);
 			}
 			else
 			{
-				m_haptics.CancelImpulse(XRHandednessContext.rightController);
+				HapticManager.CastInstance.CancelImpulse(InteractorHandedness.Right, m_haptics);
 			}
 		}
 

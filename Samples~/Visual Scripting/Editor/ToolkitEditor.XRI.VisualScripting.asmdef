@@ -1,0 +1,24 @@
+{
+    "name": "ToolkitEditor.XRI.VisualScripting",
+    "rootNamespace": "",
+    "references": [
+        "GUID:54cb1906aeb4e4264bc1d2aa3818a43f",
+        "GUID:23f3c6063e13e4fd9addce3606ff4e42",
+        "GUID:dc960734dc080426fa6612f1c5fe95f3",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:057460dc3182704448660f7d5291c0a1",
+        "GUID:ce2b57511fc44404482a8e57f73d464b",
+        "GUID:3f1f571dedb44f84b9692faef46a67d8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

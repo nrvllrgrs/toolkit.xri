@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 using UnityEditor;
 using System.Linq;
 
@@ -26,7 +26,7 @@ namespace ToolkitEditor.XR
             var colliders = s_clipboard.Where(x => x is Collider)
                 .Cast<Collider>();
 
-            foreach (var interactable in Selection.activeGameObject.GetComponents<XRBaseInteractable>())
+            foreach (var interactable in Selection.activeGameObject.GetComponents<UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable>())
             {
                 interactable.colliders.Clear();
                 interactable.colliders.AddRange(colliders);

@@ -13,13 +13,28 @@
 		"type": "git"
 	},
 	"dependencies": {
-		"com.unity.xr.interaction.toolkit": "2.4.3"
+		"com.unity.xr.interaction.toolkit": "3.0.5"
 	},
 	"samples": [
 		{
 			"displayName": "Visual Scripting",
 			"description": "Visual Scripting components",
 			"path": "Samples~/Visual Scripting"
+		},
+		{
+			"displayName": "Hands",
+			"description": "Avatar hands example",
+			"path": "Samples~/Hands"
+		},
+		{
+			"displayName": "Inventory Integration",
+			"description": "Integration with Inventory Toolkit",
+			"path": "Samples~/Inventory Integration"
+		},
+		{
+			"displayName": "Developer Interactables",
+			"description": "Interables used for quick prototyping.",
+			"path": "Samples~/Developer Interactables"
 		}
 	]
 }

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace ToolkitEngine.XR
 {
@@ -10,7 +11,7 @@ namespace ToolkitEngine.XR
         #region Fields
 
         [SerializeField]
-        private XRBaseInteractable m_interactable;
+        private UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable m_interactable;
 
         [SerializeField]
         private UnityCondition m_predicate = new UnityCondition(UnityCondition.ConditionType.All);
@@ -30,7 +31,7 @@ namespace ToolkitEngine.XR
 
         private void Awake()
         {
-            m_interactable = m_interactable ?? GetComponent<XRBaseInteractable>();
+            m_interactable = m_interactable ?? GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable>();
             Assert.IsNotNull(m_interactable, "Interactable is undefined!");
 
             if (m_interactable.isSelected)
@@ -67,30 +68,36 @@ namespace ToolkitEngine.XR
 
         private void Interactable_Grabbed(SelectEnterEventArgs e)
         {
-            if (XRHandednessContext.IsLeftHand(e.interactorObject) && m_predicate.isTrueAndEnabled)
+            switch (e.interactorObject.handedness)
             {
-                m_leftHand.Grab();
-                m_anyHand.Grab();
-            }
-            else if (XRHandednessContext.IsRightHand(e.interactorObject) && m_predicate.isTrueAndEnabled)
-            {
-                m_rightHand.Grab();
-                m_anyHand.Grab();
-            }
+                case InteractorHandedness.Left:
+					m_leftHand.Grab();
+					m_anyHand.Grab();
+                    break;
+
+                case InteractorHandedness.Right:
+					m_rightHand.Grab();
+					m_anyHand.Grab();
+                    break;
+
+			}
         }
 
         private void Interactable_Ungrabbed(SelectExitEventArgs e)
         {
-            if (XRHandednessContext.IsLeftHand(e.interactorObject))
-            {
-                m_leftHand.Ungrab();
-                m_anyHand.Ungrab();
-            }
-            else if (XRHandednessContext.IsRightHand(e.interactorObject))
-            {
-                m_rightHand.Ungrab();
-                m_anyHand.Ungrab();
-            }
+			switch (e.interactorObject.handedness)
+			{
+				case InteractorHandedness.Left:
+					m_leftHand.Ungrab();
+					m_anyHand.Ungrab();
+					break;
+
+				case InteractorHandedness.Right:
+					m_rightHand.Ungrab();
+					m_anyHand.Ungrab();
+					break;
+
+			}
         }
 
         #endregion

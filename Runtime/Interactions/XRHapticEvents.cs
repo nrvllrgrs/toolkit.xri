@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace ToolkitEngine.XR
 {
-	public class XRHapticEvents : XRInteractionEvents
+	public class XRHapticEvents : XRInteractableEvents
     {
 		#region Fields
 
@@ -13,7 +14,7 @@ namespace ToolkitEngine.XR
 		[SerializeField, Tooltip("Indicates whether pulse is automatically pulsed on interaction; otherwise, it waits for request after interaction.")]
 		private bool m_pulseOnInteract = true;
 
-		private XRBaseControllerInteractor m_controllerInteractor = null;
+		private UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor m_controllerInteractor = null;
 
 		#endregion
 
@@ -21,7 +22,7 @@ namespace ToolkitEngine.XR
 
 		protected override void Interact(BaseInteractionEventArgs e)
 		{
-			m_controllerInteractor = e.interactorObject.transform.GetComponent<XRBaseControllerInteractor>();
+			m_controllerInteractor = e.interactorObject.transform.GetComponent<XRBaseInputInteractor>();
 			if (m_pulseOnInteract)
 			{
 				m_haptics.SendImpulse(m_controllerInteractor);
@@ -41,6 +42,15 @@ namespace ToolkitEngine.XR
 				return;
 
 			m_haptics.SendImpulse(m_controllerInteractor);
+		}
+
+		[ContextMenu("Cancel Pulse")]
+		public void CancelPulse()
+		{
+			if (m_controllerInteractor == null || m_pulseOnInteract)
+				return;
+
+			m_haptics.CancelImpulse(m_controllerInteractor);
 		}
 
 		#endregion
