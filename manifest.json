@@ -45,16 +45,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.XRPlayerSpawnPoint.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.XRPlayerSpawnPoint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Global.yml",
       "output": {
         ".html": {
@@ -179,16 +169,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEditor.XR.XRInteractableEventsEditor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEditor.XR.XRInteractionEventsEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEditor.XR.XRInteractionEventsEditor.html"
         }
       },
       "version": ""
@@ -1025,16 +1005,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.XR.XRHandednessContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.XR.XRHandednessContext.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.XR.XRHandednessEvents.HandednessAction.yml",
       "output": {
         ".html": {
@@ -1135,40 +1105,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.XR.XRInteractableReseat.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.XR.XRInteractableReseat.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.XR.XRInteractableSelectionFilter.yml",
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.XR.XRInteractableSelectionFilter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.XR.XRInteractionEvents.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.XR.XRInteractionEvents.html"
         }
       },
       "version": ""
@@ -1349,16 +1289,6 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorFilter.html"
         }
       },
       "version": ""

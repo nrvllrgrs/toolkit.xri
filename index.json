@@ -14,15 +14,10 @@
     "title": "Class XRDeveloperKnob | XRI+ Toolkit | 1.0.0",
     "keywords": "Class XRDeveloperKnob Namespace Global public class XRDeveloperKnob : MonoBehaviour Inheritance object XRDeveloperKnob Properties index public int index { get; } Property Value int knob public XRKnobInteractable knob { get; } Property Value XRKnobInteractable selected public string selected { get; } Property Value string"
   },
-  "api/Global.XRPlayerSpawnPoint.html": {
-    "href": "api/Global.XRPlayerSpawnPoint.html",
-    "title": "Class XRPlayerSpawnPoint | XRI+ Toolkit | 1.0.0",
-    "keywords": "Class XRPlayerSpawnPoint Namespace Global public class XRPlayerSpawnPoint : MonoBehaviour Inheritance object XRPlayerSpawnPoint"
-  },
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace | XRI+ Toolkit | 1.0.0",
-    "keywords": "Namespace Classes XRDeveloperButton XRDeveloperKnob XRPlayerSpawnPoint Structs XRDeveloperButton.StateInfo"
+    "keywords": "Namespace Classes XRDeveloperButton XRDeveloperKnob Structs XRDeveloperButton.StateInfo"
   },
   "api/ToolkitEditor.XR.HapticSettingsDrawer.html": {
     "href": "api/ToolkitEditor.XR.HapticSettingsDrawer.html",
@@ -84,11 +79,6 @@
     "title": "Class XRInteractableEventsEditor | XRI+ Toolkit | 1.0.0",
     "keywords": "Class XRInteractableEventsEditor Namespace ToolkitEditor.XR public class XRInteractableEventsEditor : BaseToolkitEditor Inheritance object XRInteractableEventsEditor Derived XRBaseInputEventsEditor Fields m_interactable protected SerializedProperty m_interactable Field Value SerializedProperty m_interactionType protected SerializedProperty m_interactionType Field Value SerializedProperty m_onInteracted protected SerializedProperty m_onInteracted Field Value SerializedProperty m_onUninteracted protected SerializedProperty m_onUninteracted Field Value SerializedProperty m_predicate protected SerializedProperty m_predicate Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected virtual void OnEnable()"
   },
-  "api/ToolkitEditor.XR.XRInteractionEventsEditor.html": {
-    "href": "api/ToolkitEditor.XR.XRInteractionEventsEditor.html",
-    "title": "Class XRInteractionEventsEditor | XRI+ Toolkit | 1.0.0",
-    "keywords": "Class XRInteractionEventsEditor Namespace ToolkitEditor.XR public class XRInteractionEventsEditor : BaseToolkitEditor Inheritance object XRInteractionEventsEditor Fields m_interactable protected SerializedProperty m_interactable Field Value SerializedProperty m_interactionType protected SerializedProperty m_interactionType Field Value SerializedProperty m_onInteracted protected SerializedProperty m_onInteracted Field Value SerializedProperty m_onUninteracted protected SerializedProperty m_onUninteracted Field Value SerializedProperty m_predicate protected SerializedProperty m_predicate Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected virtual void OnEnable()"
-  },
   "api/ToolkitEditor.XR.XRInteractorCollectionEventsEditor.html": {
     "href": "api/ToolkitEditor.XR.XRInteractorCollectionEventsEditor.html",
     "title": "Class XRInteractorCollectionEventsEditor | XRI+ Toolkit | 1.0.0",
@@ -112,7 +102,7 @@
   "api/ToolkitEditor.XR.html": {
     "href": "api/ToolkitEditor.XR.html",
     "title": "Namespace ToolkitEditor.XR | XRI+ Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEditor.XR Classes HapticSettingsDrawer MenuItemEditor XRBaseInputEventsEditor XRBasePositionInteractableEditor XRBaseRotationInteractableEditor XRButtonInteractableEditor XRConditionalSocketInteractorEditor XRHandednessActionDrawer XRHolsterInteractorEditor XRInteractableEventsEditor XRInteractionEventsEditor XRInteractorCollectionEventsEditor XRPocketInteractorEditor XRSlideInteractableEditor XRVelocityInputEventsEditor"
+    "keywords": "Namespace ToolkitEditor.XR Classes HapticSettingsDrawer MenuItemEditor XRBaseInputEventsEditor XRBasePositionInteractableEditor XRBaseRotationInteractableEditor XRButtonInteractableEditor XRConditionalSocketInteractorEditor XRHandednessActionDrawer XRHolsterInteractorEditor XRInteractableEventsEditor XRInteractorCollectionEventsEditor XRPocketInteractorEditor XRSlideInteractableEditor XRVelocityInputEventsEditor"
   },
   "api/ToolkitEngine.VisualScripting.DeveloperEventHooks.html": {
     "href": "api/ToolkitEngine.VisualScripting.DeveloperEventHooks.html",
@@ -147,7 +137,7 @@
   "api/ToolkitEngine.XR.HapticSettings.html": {
     "href": "api/ToolkitEngine.XR.HapticSettings.html",
     "title": "Class HapticSettings | XRI+ Toolkit | 1.0.0",
-    "keywords": "Class HapticSettings Namespace ToolkitEngine.XR [Serializable] [Serializable] public class HapticSettings Inheritance object HapticSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties continuous public bool continuous { get; } Property Value bool continuous public bool continuous { get; } Property Value bool delay public float delay { get; set; } Property Value float duration public float duration { get; set; } Property Value float duration public float duration { get; set; } Property Value float intensity public float intensity { get; set; } Property Value float intensity public float intensity { get; set; } Property Value float Methods CancelImpulse(HapticImpulsePlayer) public void CancelImpulse(HapticImpulsePlayer hapticImpulsePlayer) Parameters hapticImpulsePlayer HapticImpulsePlayer CancelImpulse(XRBaseControllerInteractor) public void CancelImpulse(XRBaseControllerInteractor controllerInteractor) Parameters controllerInteractor XRBaseControllerInteractor CancelImpulse(XRBaseInputInteractor) public void CancelImpulse(XRBaseInputInteractor controllerInteractor) Parameters controllerInteractor XRBaseInputInteractor SendImpulse(HapticImpulsePlayer) public void SendImpulse(HapticImpulsePlayer hapticImpulsePlayer) Parameters hapticImpulsePlayer HapticImpulsePlayer SendImpulse(XRBaseControllerInteractor) public void SendImpulse(XRBaseControllerInteractor controllerInteractor) Parameters controllerInteractor XRBaseControllerInteractor SendImpulse(XRBaseInputInteractor) public void SendImpulse(XRBaseInputInteractor controllerInteractor) Parameters controllerInteractor XRBaseInputInteractor"
+    "keywords": "Class HapticSettings Namespace ToolkitEngine.XR [Serializable] public class HapticSettings Inheritance object HapticSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties continuous public bool continuous { get; } Property Value bool delay public float delay { get; set; } Property Value float duration public float duration { get; set; } Property Value float intensity public float intensity { get; set; } Property Value float Methods CancelImpulse(HapticImpulsePlayer) public void CancelImpulse(HapticImpulsePlayer hapticImpulsePlayer) Parameters hapticImpulsePlayer HapticImpulsePlayer CancelImpulse(XRBaseInputInteractor) public void CancelImpulse(XRBaseInputInteractor controllerInteractor) Parameters controllerInteractor XRBaseInputInteractor SendImpulse(HapticImpulsePlayer) public void SendImpulse(HapticImpulsePlayer hapticImpulsePlayer) Parameters hapticImpulsePlayer HapticImpulsePlayer SendImpulse(XRBaseInputInteractor) public void SendImpulse(XRBaseInputInteractor controllerInteractor) Parameters controllerInteractor XRBaseInputInteractor"
   },
   "api/ToolkitEngine.XR.HolsterEventArgs.html": {
     "href": "api/ToolkitEngine.XR.HolsterEventArgs.html",
@@ -504,11 +494,6 @@
     "title": "Class XRHandAnimatorControl | XRI+ Toolkit | 1.0.0",
     "keywords": "Class XRHandAnimatorControl Namespace ToolkitEngine.XR public class XRHandAnimatorControl : MonoBehaviour Inheritance object XRHandAnimatorControl Fields ANIM_LAYER_NAME_POINT public const string ANIM_LAYER_NAME_POINT = \"Point Layer\" Field Value string ANIM_LAYER_NAME_THUMB public const string ANIM_LAYER_NAME_THUMB = \"Thumb Layer\" Field Value string ANIM_PARAM_NAME_FLEX public const string ANIM_PARAM_NAME_FLEX = \"Flex\" Field Value string ANIM_PARAM_NAME_PINCH public const string ANIM_PARAM_NAME_PINCH = \"Pinch\" Field Value string"
   },
-  "api/ToolkitEngine.XR.XRHandednessContext.html": {
-    "href": "api/ToolkitEngine.XR.XRHandednessContext.html",
-    "title": "Class XRHandednessContext | XRI+ Toolkit | 1.0.0",
-    "keywords": "Class XRHandednessContext Namespace ToolkitEngine.XR public class XRHandednessContext : Singleton<XRHandednessContext> Inheritance object XRHandednessContext Properties left public static XRBaseInteractor left { get; } Property Value XRBaseInteractor leftController public static XRBaseControllerInteractor leftController { get; } Property Value XRBaseControllerInteractor right public static XRBaseInteractor right { get; } Property Value XRBaseInteractor rightController public static XRBaseControllerInteractor rightController { get; } Property Value XRBaseControllerInteractor Methods GetOppositeInteractor(IXRInteractor) public static IXRInteractor GetOppositeInteractor(IXRInteractor interactor) Parameters interactor IXRInteractor Returns IXRInteractor GetOppositeInteractor<T>(IXRInteractor) public static T GetOppositeInteractor<T>(IXRInteractor interactor) where T : IXRInteractor Parameters interactor IXRInteractor Returns T Type Parameters T GetOppositeSelectedInteractable(IXRSelectInteractable) public static IXRSelectInteractable GetOppositeSelectedInteractable(IXRSelectInteractable interactable) Parameters interactable IXRSelectInteractable Returns IXRSelectInteractable GetOppositeSelectedInteractable<T>(IXRSelectInteractable) public static T GetOppositeSelectedInteractable<T>(IXRSelectInteractable interactable) where T : IXRSelectInteractable Parameters interactable IXRSelectInteractable Returns T Type Parameters T GetOppositeSelectedInteractables(IXRSelectInteractable) public static IXRSelectInteractable[] GetOppositeSelectedInteractables(IXRSelectInteractable interactable) Parameters interactable IXRSelectInteractable Returns IXRSelectInteractable[] GetOppositeSelectedInteractables<T>(IXRSelectInteractable) public static T[] GetOppositeSelectedInteractables<T>(IXRSelectInteractable interactable) where T : IXRSelectInteractable Parameters interactable IXRSelectInteractable Returns T[] Type Parameters T GetOppositeSelectingInteractor(IXRSelectInteractable) public static IXRSelectInteractor GetOppositeSelectingInteractor(IXRSelectInteractable interactable) Parameters interactable IXRSelectInteractable Returns IXRSelectInteractor GetOppositeSelectingInteractor<T>(IXRSelectInteractable) public static T GetOppositeSelectingInteractor<T>(IXRSelectInteractable interactable) where T : IXRSelectInteractor Parameters interactable IXRSelectInteractable Returns T Type Parameters T IsAnyHand(IXRInteractor) public static bool IsAnyHand(IXRInteractor interactor) Parameters interactor IXRInteractor Returns bool IsLeftHand(IXRInteractor) public static bool IsLeftHand(IXRInteractor interactor) Parameters interactor IXRInteractor Returns bool IsRightHand(IXRInteractor) public static bool IsRightHand(IXRInteractor interactor) Parameters interactor IXRInteractor Returns bool"
-  },
   "api/ToolkitEngine.XR.XRHandednessEvents.HandednessAction.html": {
     "href": "api/ToolkitEngine.XR.XRHandednessEvents.HandednessAction.html",
     "title": "Class XRHandednessEvents.HandednessAction | XRI+ Toolkit | 1.0.0",
@@ -559,25 +544,10 @@
     "title": "Class XRInteractablePriority | XRI+ Toolkit | 1.0.0",
     "keywords": "Class XRInteractablePriority Namespace ToolkitEngine.XR public class XRInteractablePriority : MonoBehaviour Inheritance object XRInteractablePriority Properties priority public int priority { get; } Property Value int"
   },
-  "api/ToolkitEngine.XR.XRInteractableReseat.html": {
-    "href": "api/ToolkitEngine.XR.XRInteractableReseat.html",
-    "title": "Class XRInteractableReseat | XRI+ Toolkit | 1.0.0",
-    "keywords": "Class XRInteractableReseat Namespace ToolkitEngine.XR public class XRInteractableReseat : MonoBehaviour Inheritance object XRInteractableReseat"
-  },
   "api/ToolkitEngine.XR.XRInteractableSelectionFilter.html": {
     "href": "api/ToolkitEngine.XR.XRInteractableSelectionFilter.html",
     "title": "Class XRInteractableSelectionFilter | XRI+ Toolkit | 1.0.0",
     "keywords": "Class XRInteractableSelectionFilter Namespace ToolkitEngine.XR public class XRInteractableSelectionFilter : BaseFilter Inheritance object XRInteractableSelectionFilter Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
-  },
-  "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.html": {
-    "href": "api/ToolkitEngine.XR.XRInteractionEvents.InteractionType.html",
-    "title": "Enum XRInteractionEvents.InteractionType | XRI+ Toolkit | 1.0.0",
-    "keywords": "Enum XRInteractionEvents.InteractionType Namespace ToolkitEngine.XR public enum XRInteractionEvents.InteractionType Fields FirstGrab = 7 FirstTouch = 3 Grab = 5 LastUngrab = 8 LastUntouch = 4 None = 0 Touch = 1 Ungrab = 6 Untouch = 2 Unuse = 10 Use = 9"
-  },
-  "api/ToolkitEngine.XR.XRInteractionEvents.html": {
-    "href": "api/ToolkitEngine.XR.XRInteractionEvents.html",
-    "title": "Class XRInteractionEvents | XRI+ Toolkit | 1.0.0",
-    "keywords": "Class XRInteractionEvents Namespace ToolkitEngine.XR public class XRInteractionEvents : MonoBehaviour Inheritance object XRInteractionEvents Fields m_interacting protected bool m_interacting Field Value bool m_interactionType protected XRInteractionEvents.InteractionType m_interactionType Field Value XRInteractionEvents.InteractionType m_onInteracted protected UnityEvent<BaseInteractionEventArgs> m_onInteracted Field Value UnityEvent<BaseInteractionEventArgs> m_onUninteracted protected UnityEvent<BaseInteractionEventArgs> m_onUninteracted Field Value UnityEvent<BaseInteractionEventArgs> m_predicate protected UnityCondition m_predicate Field Value UnityCondition Properties interactable public XRBaseInteractable interactable { get; } Property Value XRBaseInteractable interacting public bool interacting { get; } Property Value bool interactionType public XRInteractionEvents.InteractionType interactionType { get; } Property Value XRInteractionEvents.InteractionType onInteracted public UnityEvent<BaseInteractionEventArgs> onInteracted { get; } Property Value UnityEvent<BaseInteractionEventArgs> onUninteracted public UnityEvent<BaseInteractionEventArgs> onUninteracted { get; } Property Value UnityEvent<BaseInteractionEventArgs> Methods Awake() protected virtual void Awake() Interact(BaseInteractionEventArgs) protected virtual void Interact(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs NegativeInteraction(BaseInteractionEventArgs) protected virtual void NegativeInteraction(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs OnDisable() protected virtual void OnDisable() OnEnable() protected virtual void OnEnable() PositiveInteraction(BaseInteractionEventArgs) protected virtual void PositiveInteraction(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs SetInteracting(bool, BaseInteractionEventArgs) protected void SetInteracting(bool value, BaseInteractionEventArgs e) Parameters value bool e BaseInteractionEventArgs Uninteract(BaseInteractionEventArgs) protected virtual void Uninteract(BaseInteractionEventArgs e) Parameters e BaseInteractionEventArgs"
   },
   "api/ToolkitEngine.XR.XRInteractorCollectionEvents.html": {
     "href": "api/ToolkitEngine.XR.XRInteractorCollectionEvents.html",
@@ -662,17 +632,12 @@
   "api/ToolkitEngine.XR.html": {
     "href": "api/ToolkitEngine.XR.html",
     "title": "Namespace ToolkitEngine.XR | XRI+ Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.XR Classes HapticSettings HolsterEventArgs RotationInteractionEvent TranslationProvider XRBaseInputEvents XRBaseInputInteractionEventUnit XRBaseInteractableExt XRBaseInteractorExt XRBasePositionInteractable XRBaseRotationInteractable XRButtonInputEvents XRButtonInteractable XRConditionalSocketInteractor XRHandAnimatorControl XRHandednessContext XRHandednessEvents XRHandednessEvents.HandednessAction XRHapticEvents XRHapticInputEventsListener XRHips XRHolsterInteractor XRInteractableEvents XRInteractablePriority XRInteractableReseat XRInteractableSelectionFilter XRInteractionEvents XRInteractorCollectionEvents XRInventoryPocketInteractor XRItemInteractionFilter XRKnobInteractable XRLeverInteractable XRPocketInteractor XRPriorityEvaluator XRPriorityTargetFilter XRRedirectorInteractable XRSelectedProxy XRSlideInteractable XRSpawnerInteractable XRUnityConditionFilter XRUseInteractable XRVelocityInputEvents Enums XRBasePositionInteractable.SnapMode XRBaseRotationInteractable.RotationMode XRBaseRotationInteractable.SnapMode XRHolsterInteractor.DropBehavior XRInteractableEvents.InteractionType XRInteractionEvents.InteractionType XRVelocityInputEvents.DirectionMask"
+    "keywords": "Namespace ToolkitEngine.XR Classes HapticSettings HolsterEventArgs RotationInteractionEvent TranslationProvider XRBaseInputEvents XRBaseInputInteractionEventUnit XRBaseInteractableExt XRBaseInteractorExt XRBasePositionInteractable XRBaseRotationInteractable XRButtonInputEvents XRButtonInteractable XRConditionalSocketInteractor XRHandAnimatorControl XRHandednessEvents XRHandednessEvents.HandednessAction XRHapticEvents XRHapticInputEventsListener XRHips XRHolsterInteractor XRInteractableEvents XRInteractablePriority XRInteractableSelectionFilter XRInteractorCollectionEvents XRInventoryPocketInteractor XRItemInteractionFilter XRKnobInteractable XRLeverInteractable XRPocketInteractor XRPriorityEvaluator XRPriorityTargetFilter XRRedirectorInteractable XRSelectedProxy XRSlideInteractable XRSpawnerInteractable XRUnityConditionFilter XRUseInteractable XRVelocityInputEvents Enums XRBasePositionInteractable.SnapMode XRBaseRotationInteractable.RotationMode XRBaseRotationInteractable.SnapMode XRHolsterInteractor.DropBehavior XRInteractableEvents.InteractionType XRVelocityInputEvents.DirectionMask"
   },
   "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html": {
     "href": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html",
     "title": "Class XRSocketInteractableFilter | XRI+ Toolkit | 1.0.0",
     "keywords": "Class XRSocketInteractableFilter Namespace UnityEngine.XR.Interaction.Toolkit.Filtering public class XRSocketInteractableFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter Inheritance object XRSocketInteractableFilter Implements IXRHoverFilter IXRSelectFilter Properties canProcess public bool canProcess { get; } Property Value bool Methods Process(IXRHoverInteractor, IXRHoverInteractable) public bool Process(Interactors.IXRHoverInteractor interactor, Interactables.IXRHoverInteractable interactable) Parameters interactor IXRHoverInteractor interactable IXRHoverInteractable Returns bool Process(IXRSelectInteractor, IXRSelectInteractable) public bool Process(Interactors.IXRSelectInteractor interactor, Interactables.IXRSelectInteractable interactable) Parameters interactor IXRSelectInteractor interactable IXRSelectInteractable Returns bool"
-  },
-  "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorFilter.html": {
-    "href": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorFilter.html",
-    "title": "Class XRSocketInteractorFilter | XRI+ Toolkit | 1.0.0",
-    "keywords": "Class XRSocketInteractorFilter Namespace UnityEngine.XR.Interaction.Toolkit.Filtering public class XRSocketInteractorFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter Inheritance object XRSocketInteractorFilter Implements IXRHoverFilter IXRSelectFilter Properties canProcess public bool canProcess { get; } Property Value bool locked public bool locked { get; set; } Property Value bool Methods Process(IXRHoverInteractor, IXRHoverInteractable) public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable) Parameters interactor IXRHoverInteractor interactable IXRHoverInteractable Returns bool Process(IXRSelectInteractor, IXRSelectInteractable) public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable) Parameters interactor IXRSelectInteractor interactable IXRSelectInteractable Returns bool"
   },
   "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html": {
     "href": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html",
@@ -682,7 +647,7 @@
   "api/UnityEngine.XR.Interaction.Toolkit.Filtering.html": {
     "href": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.html",
     "title": "Namespace UnityEngine.XR.Interaction.Toolkit.Filtering | XRI+ Toolkit | 1.0.0",
-    "keywords": "Namespace UnityEngine.XR.Interaction.Toolkit.Filtering Classes XRSocketInteractableFilter XRSocketInteractorFilter XRSocketInteractorLockFilter"
+    "keywords": "Namespace UnityEngine.XR.Interaction.Toolkit.Filtering Classes XRSocketInteractableFilter XRSocketInteractorLockFilter"
   },
   "api/UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html": {
     "href": "api/UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html",
