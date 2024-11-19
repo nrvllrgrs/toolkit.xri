@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace ToolkitEngine.XR
 {
@@ -110,21 +111,34 @@ namespace ToolkitEngine.XR
 				}
 				if (!changed && (m_directionMask & DirectionMask.IntY) != 0)
 				{
-					changed = CheckThreshold(ctx, m_leftHand ? velocity.y : -velocity.y);
+					changed = CheckHandednessThreshold(ctx, velocity.y, -velocity.y);
 				}
 				if (!changed && (m_directionMask & DirectionMask.ExtY) != 0)
 				{
-					changed = CheckThreshold(ctx, m_leftHand ? -velocity.y : velocity.y);
+					changed = CheckHandednessThreshold(ctx, -velocity.y, velocity.y);
 				}
 				if (!changed && (m_directionMask & DirectionMask.IntZ) != 0)
 				{
-					changed = CheckThreshold(ctx, m_leftHand ? -velocity.z : velocity.z);
+					changed = CheckHandednessThreshold(ctx, -velocity.z, velocity.z);
 				}
 				if (!changed && (m_directionMask & DirectionMask.ExtZ) != 0)
 				{
-					CheckThreshold(ctx, m_leftHand ? velocity.z : -velocity.z);
+					changed = CheckHandednessThreshold(ctx, velocity.z, -velocity.z);
 				}
 			}
+		}
+
+		private bool CheckHandednessThreshold(InputAction.CallbackContext ctx, float leftSpeed, float rightSpeed)
+		{
+			switch (m_handedness)
+			{
+				case InteractorHandedness.Left:
+					return CheckThreshold(ctx, leftSpeed);
+
+				case InteractorHandedness.Right:
+					return CheckThreshold(ctx, rightSpeed);
+			}
+			return false;
 		}
 
 		private bool CheckThreshold(InputAction.CallbackContext ctx, float speed)

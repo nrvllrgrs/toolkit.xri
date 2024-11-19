@@ -48,7 +48,7 @@ namespace ToolkitEngine.XR
             {
 				HapticManager.CastInstance.SendImpulse(InteractorHandedness.Left, m_haptics);
 			}
-            else
+            else if (m_inputEvents.IsRightHand(obj))
             {
 				HapticManager.CastInstance.SendImpulse(InteractorHandedness.Right, m_haptics);
             }
@@ -60,7 +60,7 @@ namespace ToolkitEngine.XR
 			{
 				HapticManager.CastInstance.CancelImpulse(InteractorHandedness.Left, m_haptics);
 			}
-			else
+			else if (m_inputEvents.IsRightHand(obj))
 			{
 				HapticManager.CastInstance.CancelImpulse(InteractorHandedness.Right, m_haptics);
 			}

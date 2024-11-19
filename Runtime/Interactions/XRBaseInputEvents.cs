@@ -20,7 +20,10 @@ namespace ToolkitEngine.XR
 		[SerializeField]
 		private InputActionProperty m_rightAction;
 
-		protected bool m_leftHand;
+		[SerializeField]
+		private InputActionProperty m_anyAction;
+
+		protected InteractorHandedness m_handedness;
 		private InputActionProperty? m_selectedAction;
 
 		protected bool m_performing;
@@ -55,7 +58,7 @@ namespace ToolkitEngine.XR
 			{
 				if (s_inputActionManager == null)
 				{
-					s_inputActionManager = FindObjectOfType<InputActionManager>();
+					s_inputActionManager = FindFirstObjectByType<InputActionManager>();
 				}
 				return s_inputActionManager;
 			}
@@ -75,6 +78,7 @@ namespace ToolkitEngine.XR
 
 			Register(m_leftAction);
 			Register(m_rightAction);
+			Register(m_anyAction);
 		}
 
 		protected override void OnDisable()
@@ -88,6 +92,7 @@ namespace ToolkitEngine.XR
 
 			Unregister(m_leftAction);
 			Unregister(m_rightAction);
+			Unregister(m_anyAction);
 		}
 
 		private void Register(InputActionProperty inputAction)
@@ -143,16 +148,23 @@ namespace ToolkitEngine.XR
 		protected override void Interact(BaseInteractionEventArgs e)
 		{
 			m_selectedAction = null;
+			m_handedness = e.interactorObject.handedness;
+
 			switch (e.interactorObject.handedness)
 			{
-				case InteractorHandedness.Left:
+				case InteractorHandedness.Left
+				when m_leftAction.action?.actionMap?.asset != null:
 					m_selectedAction = m_leftAction;
-					m_leftHand = true;
 					break;
 
-				case InteractorHandedness.Right:
+				case InteractorHandedness.Right
+				when m_rightAction.action?.actionMap?.asset != null:
 					m_selectedAction = m_rightAction;
-					m_leftHand = false;
+					break;
+
+				default:
+					m_handedness = InteractorHandedness.None;
+					m_selectedAction = m_anyAction;
 					break;
 			}
 
@@ -204,6 +216,11 @@ namespace ToolkitEngine.XR
 		public bool IsLeftHand(InputAction.CallbackContext obj)
 		{
 			return obj.control == m_leftAction.action.activeControl;
+		}
+
+		public bool IsRightHand(InputAction.CallbackContext obj)
+		{
+			return obj.control == m_rightAction.action.activeControl;
 		}
 
 		#endregion
