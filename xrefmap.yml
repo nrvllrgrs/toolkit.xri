@@ -2700,6 +2700,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.XR.XRBaseInputEvents.IsLeftHand
   nameWithType: XRBaseInputEvents.IsLeftHand
+- uid: ToolkitEngine.XR.XRBaseInputEvents.IsRightHand(InputAction.CallbackContext)
+  name: IsRightHand(CallbackContext)
+  href: api/ToolkitEngine.XR.XRBaseInputEvents.html#ToolkitEngine_XR_XRBaseInputEvents_IsRightHand_InputAction_CallbackContext_
+  commentId: M:ToolkitEngine.XR.XRBaseInputEvents.IsRightHand(InputAction.CallbackContext)
+  fullName: ToolkitEngine.XR.XRBaseInputEvents.IsRightHand(InputAction.CallbackContext)
+  nameWithType: XRBaseInputEvents.IsRightHand(InputAction.CallbackContext)
+- uid: ToolkitEngine.XR.XRBaseInputEvents.IsRightHand*
+  name: IsRightHand
+  href: api/ToolkitEngine.XR.XRBaseInputEvents.html#ToolkitEngine_XR_XRBaseInputEvents_IsRightHand_
+  commentId: Overload:ToolkitEngine.XR.XRBaseInputEvents.IsRightHand
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRBaseInputEvents.IsRightHand
+  nameWithType: XRBaseInputEvents.IsRightHand
 - uid: ToolkitEngine.XR.XRBaseInputEvents.OnDisable
   name: OnDisable()
   href: api/ToolkitEngine.XR.XRBaseInputEvents.html#ToolkitEngine_XR_XRBaseInputEvents_OnDisable
@@ -2807,12 +2820,12 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.XR.XRBaseInputEvents.inputActionManager
   nameWithType: XRBaseInputEvents.inputActionManager
-- uid: ToolkitEngine.XR.XRBaseInputEvents.m_leftHand
-  name: m_leftHand
-  href: api/ToolkitEngine.XR.XRBaseInputEvents.html#ToolkitEngine_XR_XRBaseInputEvents_m_leftHand
-  commentId: F:ToolkitEngine.XR.XRBaseInputEvents.m_leftHand
-  fullName: ToolkitEngine.XR.XRBaseInputEvents.m_leftHand
-  nameWithType: XRBaseInputEvents.m_leftHand
+- uid: ToolkitEngine.XR.XRBaseInputEvents.m_handedness
+  name: m_handedness
+  href: api/ToolkitEngine.XR.XRBaseInputEvents.html#ToolkitEngine_XR_XRBaseInputEvents_m_handedness
+  commentId: F:ToolkitEngine.XR.XRBaseInputEvents.m_handedness
+  fullName: ToolkitEngine.XR.XRBaseInputEvents.m_handedness
+  nameWithType: XRBaseInputEvents.m_handedness
 - uid: ToolkitEngine.XR.XRBaseInputEvents.m_map
   name: m_map
   href: api/ToolkitEngine.XR.XRBaseInputEvents.html#ToolkitEngine_XR_XRBaseInputEvents_m_map
