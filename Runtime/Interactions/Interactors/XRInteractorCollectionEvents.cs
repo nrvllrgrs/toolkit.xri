@@ -60,7 +60,7 @@ namespace ToolkitEngine.XR
 
 		public bool keepSelectedTargetValid => throw new NotImplementedException();
 
-		public InteractorHandedness handedness => throw new NotImplementedException();
+		public InteractorHandedness handedness => InteractorHandedness.None;
 
 		#endregion
 
