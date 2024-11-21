@@ -812,6 +812,50 @@ references:
   isSpec: "True"
   fullName: ToolkitEditor.XR.XRHandednessActionDrawer.OnGUI
   nameWithType: XRHandednessActionDrawer.OnGUI
+- uid: ToolkitEditor.XR.XRHandednessContextEditor
+  name: XRHandednessContextEditor
+  href: api/ToolkitEditor.XR.XRHandednessContextEditor.html
+  commentId: T:ToolkitEditor.XR.XRHandednessContextEditor
+  fullName: ToolkitEditor.XR.XRHandednessContextEditor
+  nameWithType: XRHandednessContextEditor
+- uid: ToolkitEditor.XR.XRHandednessContextEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.XR.XRHandednessContextEditor.html#ToolkitEditor_XR_XRHandednessContextEditor_DrawProperties
+  commentId: M:ToolkitEditor.XR.XRHandednessContextEditor.DrawProperties
+  fullName: ToolkitEditor.XR.XRHandednessContextEditor.DrawProperties()
+  nameWithType: XRHandednessContextEditor.DrawProperties()
+- uid: ToolkitEditor.XR.XRHandednessContextEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.XR.XRHandednessContextEditor.html#ToolkitEditor_XR_XRHandednessContextEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.XR.XRHandednessContextEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.XR.XRHandednessContextEditor.DrawProperties
+  nameWithType: XRHandednessContextEditor.DrawProperties
+- uid: ToolkitEditor.XR.XRHandednessContextEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.XR.XRHandednessContextEditor.html#ToolkitEditor_XR_XRHandednessContextEditor_OnEnable
+  commentId: M:ToolkitEditor.XR.XRHandednessContextEditor.OnEnable
+  fullName: ToolkitEditor.XR.XRHandednessContextEditor.OnEnable()
+  nameWithType: XRHandednessContextEditor.OnEnable()
+- uid: ToolkitEditor.XR.XRHandednessContextEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.XR.XRHandednessContextEditor.html#ToolkitEditor_XR_XRHandednessContextEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.XR.XRHandednessContextEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.XR.XRHandednessContextEditor.OnEnable
+  nameWithType: XRHandednessContextEditor.OnEnable
+- uid: ToolkitEditor.XR.XRHandednessContextEditor.m_context
+  name: m_context
+  href: api/ToolkitEditor.XR.XRHandednessContextEditor.html#ToolkitEditor_XR_XRHandednessContextEditor_m_context
+  commentId: F:ToolkitEditor.XR.XRHandednessContextEditor.m_context
+  fullName: ToolkitEditor.XR.XRHandednessContextEditor.m_context
+  nameWithType: XRHandednessContextEditor.m_context
+- uid: ToolkitEditor.XR.XRHandednessContextEditor.m_pairs
+  name: m_pairs
+  href: api/ToolkitEditor.XR.XRHandednessContextEditor.html#ToolkitEditor_XR_XRHandednessContextEditor_m_pairs
+  commentId: F:ToolkitEditor.XR.XRHandednessContextEditor.m_pairs
+  fullName: ToolkitEditor.XR.XRHandednessContextEditor.m_pairs
+  nameWithType: XRHandednessContextEditor.m_pairs
 - uid: ToolkitEditor.XR.XRHolsterInteractorEditor
   name: XRHolsterInteractorEditor
   href: api/ToolkitEditor.XR.XRHolsterInteractorEditor.html
@@ -3732,6 +3776,170 @@ references:
   commentId: F:ToolkitEngine.XR.XRHandAnimatorControl.ANIM_PARAM_NAME_PINCH
   fullName: ToolkitEngine.XR.XRHandAnimatorControl.ANIM_PARAM_NAME_PINCH
   nameWithType: XRHandAnimatorControl.ANIM_PARAM_NAME_PINCH
+- uid: ToolkitEngine.XR.XRHandednessContext
+  name: XRHandednessContext
+  href: api/ToolkitEngine.XR.XRHandednessContext.html
+  commentId: T:ToolkitEngine.XR.XRHandednessContext
+  fullName: ToolkitEngine.XR.XRHandednessContext
+  nameWithType: XRHandednessContext
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor(IXRInteractor)
+  name: GetOppositeInteractor(IXRInteractor)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeInteractor_IXRInteractor_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor(IXRInteractor)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor(IXRInteractor)
+  nameWithType: XRHandednessContext.GetOppositeInteractor(IXRInteractor)
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor*
+  name: GetOppositeInteractor
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeInteractor_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor
+  nameWithType: XRHandednessContext.GetOppositeInteractor
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor``1(IXRInteractor)
+  name: GetOppositeInteractor<T>(IXRInteractor)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeInteractor__1_IXRInteractor_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor``1(IXRInteractor)
+  name.vb: GetOppositeInteractor(Of T)(IXRInteractor)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor<T>(IXRInteractor)
+  fullName.vb: ToolkitEngine.XR.XRHandednessContext.GetOppositeInteractor(Of T)(IXRInteractor)
+  nameWithType: XRHandednessContext.GetOppositeInteractor<T>(IXRInteractor)
+  nameWithType.vb: XRHandednessContext.GetOppositeInteractor(Of T)(IXRInteractor)
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable(IXRSelectInteractable)
+  name: GetOppositeSelectedInteractable(IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectedInteractable_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable(IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable(IXRSelectInteractable)
+  nameWithType: XRHandednessContext.GetOppositeSelectedInteractable(IXRSelectInteractable)
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable*
+  name: GetOppositeSelectedInteractable
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectedInteractable_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable
+  nameWithType: XRHandednessContext.GetOppositeSelectedInteractable
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable``1(IXRSelectInteractable)
+  name: GetOppositeSelectedInteractable<T>(IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectedInteractable__1_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable``1(IXRSelectInteractable)
+  name.vb: GetOppositeSelectedInteractable(Of T)(IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable<T>(IXRSelectInteractable)
+  fullName.vb: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractable(Of T)(IXRSelectInteractable)
+  nameWithType: XRHandednessContext.GetOppositeSelectedInteractable<T>(IXRSelectInteractable)
+  nameWithType.vb: XRHandednessContext.GetOppositeSelectedInteractable(Of T)(IXRSelectInteractable)
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables(IXRSelectInteractable)
+  name: GetOppositeSelectedInteractables(IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectedInteractables_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables(IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables(IXRSelectInteractable)
+  nameWithType: XRHandednessContext.GetOppositeSelectedInteractables(IXRSelectInteractable)
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables*
+  name: GetOppositeSelectedInteractables
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectedInteractables_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables
+  nameWithType: XRHandednessContext.GetOppositeSelectedInteractables
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables``1(IXRSelectInteractable)
+  name: GetOppositeSelectedInteractables<T>(IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectedInteractables__1_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables``1(IXRSelectInteractable)
+  name.vb: GetOppositeSelectedInteractables(Of T)(IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables<T>(IXRSelectInteractable)
+  fullName.vb: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectedInteractables(Of T)(IXRSelectInteractable)
+  nameWithType: XRHandednessContext.GetOppositeSelectedInteractables<T>(IXRSelectInteractable)
+  nameWithType.vb: XRHandednessContext.GetOppositeSelectedInteractables(Of T)(IXRSelectInteractable)
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor(IXRSelectInteractable)
+  name: GetOppositeSelectingInteractor(IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectingInteractor_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor(IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor(IXRSelectInteractable)
+  nameWithType: XRHandednessContext.GetOppositeSelectingInteractor(IXRSelectInteractable)
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor*
+  name: GetOppositeSelectingInteractor
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectingInteractor_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor
+  nameWithType: XRHandednessContext.GetOppositeSelectingInteractor
+- uid: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor``1(IXRSelectInteractable)
+  name: GetOppositeSelectingInteractor<T>(IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_GetOppositeSelectingInteractor__1_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor``1(IXRSelectInteractable)
+  name.vb: GetOppositeSelectingInteractor(Of T)(IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor<T>(IXRSelectInteractable)
+  fullName.vb: ToolkitEngine.XR.XRHandednessContext.GetOppositeSelectingInteractor(Of T)(IXRSelectInteractable)
+  nameWithType: XRHandednessContext.GetOppositeSelectingInteractor<T>(IXRSelectInteractable)
+  nameWithType.vb: XRHandednessContext.GetOppositeSelectingInteractor(Of T)(IXRSelectInteractable)
+- uid: ToolkitEngine.XR.XRHandednessContext.InteractorPair
+  name: XRHandednessContext.InteractorPair
+  href: api/ToolkitEngine.XR.XRHandednessContext.InteractorPair.html
+  commentId: T:ToolkitEngine.XR.XRHandednessContext.InteractorPair
+  fullName: ToolkitEngine.XR.XRHandednessContext.InteractorPair
+  nameWithType: XRHandednessContext.InteractorPair
+- uid: ToolkitEngine.XR.XRHandednessContext.InteractorPair.left
+  name: left
+  href: api/ToolkitEngine.XR.XRHandednessContext.InteractorPair.html#ToolkitEngine_XR_XRHandednessContext_InteractorPair_left
+  commentId: F:ToolkitEngine.XR.XRHandednessContext.InteractorPair.left
+  fullName: ToolkitEngine.XR.XRHandednessContext.InteractorPair.left
+  nameWithType: XRHandednessContext.InteractorPair.left
+- uid: ToolkitEngine.XR.XRHandednessContext.InteractorPair.right
+  name: right
+  href: api/ToolkitEngine.XR.XRHandednessContext.InteractorPair.html#ToolkitEngine_XR_XRHandednessContext_InteractorPair_right
+  commentId: F:ToolkitEngine.XR.XRHandednessContext.InteractorPair.right
+  fullName: ToolkitEngine.XR.XRHandednessContext.InteractorPair.right
+  nameWithType: XRHandednessContext.InteractorPair.right
+- uid: ToolkitEngine.XR.XRHandednessContext.IsAnyHand(IXRInteractor)
+  name: IsAnyHand(IXRInteractor)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_IsAnyHand_IXRInteractor_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.IsAnyHand(IXRInteractor)
+  fullName: ToolkitEngine.XR.XRHandednessContext.IsAnyHand(IXRInteractor)
+  nameWithType: XRHandednessContext.IsAnyHand(IXRInteractor)
+- uid: ToolkitEngine.XR.XRHandednessContext.IsAnyHand*
+  name: IsAnyHand
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_IsAnyHand_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.IsAnyHand
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.IsAnyHand
+  nameWithType: XRHandednessContext.IsAnyHand
+- uid: ToolkitEngine.XR.XRHandednessContext.IsLeftHand(IXRInteractor)
+  name: IsLeftHand(IXRInteractor)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_IsLeftHand_IXRInteractor_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.IsLeftHand(IXRInteractor)
+  fullName: ToolkitEngine.XR.XRHandednessContext.IsLeftHand(IXRInteractor)
+  nameWithType: XRHandednessContext.IsLeftHand(IXRInteractor)
+- uid: ToolkitEngine.XR.XRHandednessContext.IsLeftHand*
+  name: IsLeftHand
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_IsLeftHand_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.IsLeftHand
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.IsLeftHand
+  nameWithType: XRHandednessContext.IsLeftHand
+- uid: ToolkitEngine.XR.XRHandednessContext.IsRightHand(IXRInteractor)
+  name: IsRightHand(IXRInteractor)
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_IsRightHand_IXRInteractor_
+  commentId: M:ToolkitEngine.XR.XRHandednessContext.IsRightHand(IXRInteractor)
+  fullName: ToolkitEngine.XR.XRHandednessContext.IsRightHand(IXRInteractor)
+  nameWithType: XRHandednessContext.IsRightHand(IXRInteractor)
+- uid: ToolkitEngine.XR.XRHandednessContext.IsRightHand*
+  name: IsRightHand
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_IsRightHand_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.IsRightHand
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.IsRightHand
+  nameWithType: XRHandednessContext.IsRightHand
+- uid: ToolkitEngine.XR.XRHandednessContext.pairs
+  name: pairs
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_pairs
+  commentId: P:ToolkitEngine.XR.XRHandednessContext.pairs
+  fullName: ToolkitEngine.XR.XRHandednessContext.pairs
+  nameWithType: XRHandednessContext.pairs
+- uid: ToolkitEngine.XR.XRHandednessContext.pairs*
+  name: pairs
+  href: api/ToolkitEngine.XR.XRHandednessContext.html#ToolkitEngine_XR_XRHandednessContext_pairs_
+  commentId: Overload:ToolkitEngine.XR.XRHandednessContext.pairs
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.XRHandednessContext.pairs
+  nameWithType: XRHandednessContext.pairs
 - uid: ToolkitEngine.XR.XRHandednessEvents
   name: XRHandednessEvents
   href: api/ToolkitEngine.XR.XRHandednessEvents.html
