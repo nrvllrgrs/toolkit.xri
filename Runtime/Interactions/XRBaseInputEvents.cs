@@ -29,6 +29,7 @@ namespace ToolkitEngine.XR
 		protected bool m_performing;
 		protected Dictionary<InputActionProperty, InputAction> m_map = new();
 
+		private static Dictionary<InputAction, uint> s_actionRefCount = new();
 		private static InputActionManager s_inputActionManager;
 
 		#endregion
@@ -118,7 +119,13 @@ namespace ToolkitEngine.XR
 
 			if (action != null)
 			{
-				action.Enable();
+				if (!s_actionRefCount.TryGetValue(action, out uint count))
+				{
+					s_actionRefCount.Add(action, 0);
+					action.Enable();
+				}
+				++s_actionRefCount[action];
+
 				action.performed += Performed;
 				action.canceled += Canceled;
 			}
@@ -134,7 +141,19 @@ namespace ToolkitEngine.XR
 
 			if (action != null)
 			{
-				action.Disable();
+				if (s_actionRefCount.TryGetValue(action, out uint count))
+				{
+					if (--count == 0)
+					{
+						s_actionRefCount.Remove(action);
+						action.Disable();
+					}
+					else
+					{
+						s_actionRefCount[action] = count;
+					}
+				}
+
 				action.performed -= Performed;
 				action.canceled -= Canceled;
 			}
