@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -96,13 +97,15 @@ namespace ToolkitEngine.XR
 			Unregister(m_anyAction);
 		}
 
-		private void Register(InputActionProperty inputAction)
+		private async void Register(InputActionProperty inputAction)
 		{
 			if (inputAction == null || inputAction.action?.actionMap?.asset == null)
 				return;
 
 			if (!m_map.TryGetValue(inputAction, out InputAction action))
 			{
+				await UniTask.WaitUntil(() => inputActionManager != null);
+
 				if (!inputActionManager.actionAssets.Contains(inputAction.action.actionMap.asset))
 				{
 					action = inputActionManager.actionAssets.FirstOrDefault(x => Equals(x.name, inputAction.action.actionMap.asset.name))

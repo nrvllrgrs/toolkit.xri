@@ -29,7 +29,7 @@ namespace ToolkitEngine.XR
 		#region Fields
 
 		[SerializeField]
-		private UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable m_interactable;
+		private XRBaseInteractable m_interactable;
 
 		[SerializeField]
 		protected InteractionType m_interactionType;
@@ -53,7 +53,21 @@ namespace ToolkitEngine.XR
 
 		#region Properties
 
-		public UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable => m_interactable;
+		public XRBaseInteractable interactable
+		{
+			get => m_interactable;
+			set
+			{
+				// No change, skip
+				if (m_interactable == value)
+					return;
+
+				UnregisterInteractable();
+				m_interactable = value;
+				RegisterInteractable();
+			}
+		}
+
 		public InteractionType interactionType => m_interactionType;
 		public bool interacting => m_interacting;
 		public UnityEvent<BaseInteractionEventArgs> onInteracted => m_onInteracted;
@@ -65,11 +79,24 @@ namespace ToolkitEngine.XR
 
 		protected virtual void Awake()
 		{
-			m_interactable = m_interactable ?? GetComponentInParent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable>();
+			m_interactable = m_interactable ?? GetComponentInParent<XRBaseInteractable>();
 		}
 
 		protected virtual void OnEnable()
 		{
+			RegisterInteractable();
+		}
+
+		protected virtual void OnDisable()
+		{
+			UnregisterInteractable();
+		}
+
+		private void RegisterInteractable()
+		{
+			if (m_interactable == null)
+				return;
+
 			switch (m_interactionType)
 			{
 				case InteractionType.Touch:
@@ -160,8 +187,11 @@ namespace ToolkitEngine.XR
 			}
 		}
 
-		protected virtual void OnDisable()
+		private void UnregisterInteractable()
 		{
+			if (m_interactable == null)
+				return;
+
 			switch (m_interactionType)
 			{
 				case InteractionType.Touch:

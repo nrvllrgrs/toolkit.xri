@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using ToolkitEngine.Scoring;
 
 namespace ToolkitEngine.XR
 {

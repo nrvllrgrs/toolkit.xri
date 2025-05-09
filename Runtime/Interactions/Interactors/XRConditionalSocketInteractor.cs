@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using ToolkitEngine.Scoring;
 
 namespace ToolkitEngine.XR
 {
