@@ -1,5 +1,6 @@
 using UnityEngine.XR.Interaction.Toolkit;
 using Unity.VisualScripting;
+using ToolkitEngine.VisualScripting;
 
 namespace ToolkitEngine.XR.VisualScripting
 {

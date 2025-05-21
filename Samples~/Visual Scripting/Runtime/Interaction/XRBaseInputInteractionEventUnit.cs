@@ -1,5 +1,6 @@
 using UnityEngine.InputSystem;
 using Unity.VisualScripting;
+using ToolkitEngine.VisualScripting;
 
 namespace ToolkitEngine.XR
 {
