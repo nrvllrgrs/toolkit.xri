@@ -162,6 +162,8 @@ namespace ToolkitEngine.XR.Transformers
 		private void OnDrawGizmosSelected()
 		{
 			var point = transform.position;
+			var scale = HandleUtility.GetHandleSize(point);
+
 			//if (m_useSteps)
 			//{
 			//	float theta = range / m_stepCount;
@@ -202,11 +204,9 @@ namespace ToolkitEngine.XR.Transformers
 			if (!wrapping)
 			{
 				Handles.color = Color.green;
-				Handles.DrawLine(point, point + Quaternion.AngleAxis(minAngle, upward) * forward * 0.5f, SCREEN_SPACE_SIZE);
-				Handles.DrawLine(point, point + Quaternion.AngleAxis(maxAngle, upward) * forward * 0.5f, SCREEN_SPACE_SIZE);
+				Handles.DrawLine(point, point + Quaternion.AngleAxis(minAngle, upward) * forward * 0.5f * scale, SCREEN_SPACE_SIZE);
+				Handles.DrawLine(point, point + Quaternion.AngleAxis(maxAngle, upward) * forward * 0.5f * scale, SCREEN_SPACE_SIZE);
 			}
-
-			var scale = HandleUtility.GetHandleSize(point);
 
 			Handles.color = Color.green;
 			Handles.DrawWireArc(point, upward, Quaternion.AngleAxis(minAngle, upward) * forward, range, 0.5f * scale, SCREEN_SPACE_SIZE);
