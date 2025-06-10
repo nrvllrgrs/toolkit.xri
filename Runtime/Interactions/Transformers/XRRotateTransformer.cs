@@ -57,6 +57,8 @@ namespace ToolkitEngine.XR.Transformers
 		private Vector3 m_defaultPosition;
 		private Quaternion m_defaultLocalRotation;
 
+		private float m_angle = 0f;
+
 #if UNITY_EDITOR
 		private const float SCREEN_SPACE_SIZE = 2f;
 #endif
@@ -88,6 +90,19 @@ namespace ToolkitEngine.XR.Transformers
 		/// Maximum angle of interactable
 		/// </summary>
 		public float maxAngle => m_range.y;
+
+		public float angle
+		{
+			get => m_angle;
+			set
+			{
+				// No change, skip
+				if (Mathf.Clamp(value, minAngle, maxAngle) == m_angle)
+					return;
+
+				transform.rotation = GetRotation(value);
+			}
+		}
 
 		public float range => m_range.y - m_range.x;
 
@@ -141,7 +156,7 @@ namespace ToolkitEngine.XR.Transformers
 
 		private Quaternion GetRotation(float angle)
 		{
-			angle = Mathf.Clamp(angle, minAngle, maxAngle);
+			m_angle = angle = Mathf.Clamp(angle, minAngle, maxAngle);
 			return Quaternion.LookRotation(
 				GetRotation(m_forward) * Quaternion.AngleAxis(angle, upward) * forward,
 				upward);

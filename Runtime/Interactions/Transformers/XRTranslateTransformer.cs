@@ -27,6 +27,8 @@ namespace ToolkitEngine.XR.Transformers
 		private Vector3 m_defaultLocalPosition;
 		private Quaternion m_defaultLocalRotation;
 
+		private float m_depth;
+
 #if UNITY_EDITOR
 		private const float SCREEN_SPACE_SIZE = 2f;
 #endif
@@ -39,6 +41,19 @@ namespace ToolkitEngine.XR.Transformers
 		#region Properties
 
 		public Vector3 direction => GetDirection(m_direction);
+
+		public float depth
+		{
+			get => m_depth;
+			set
+			{
+				// No change, skip
+				if (Mathf.Clamp(value, 0f, m_maxDepth) == m_depth)
+					return;
+
+				m_depth = value;
+            }
+		}
 
 		#endregion
 
@@ -69,7 +84,8 @@ namespace ToolkitEngine.XR.Transformers
 
 		private Vector3 GetPosition(float depth)
 		{
-			return GetDefaultPosition() + direction * Mathf.Clamp(depth, 0f, m_maxDepth);
+			m_depth = Mathf.Clamp(depth, 0f, m_maxDepth);
+			return GetDefaultPosition() + direction * m_depth;
 		}
 
 		private Vector3 GetDirection(Axis axis)
