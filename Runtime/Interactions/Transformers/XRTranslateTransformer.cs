@@ -9,6 +9,7 @@ using UnityEditor;
 
 namespace ToolkitEngine.XR.Transformers
 {
+	[AddComponentMenu("XR/Transformers/XR Translate Transformer")]
 	[RequireComponent(typeof(XRGrabInteractable))]
 	public class XRTranslateTransformer : XRBaseGrabTransformer
 	{

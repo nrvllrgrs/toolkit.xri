@@ -1,13 +1,17 @@
+using UnityEngine;
 using UnityEngine.Assertions;
+using UnityEngine.XR.Interaction.Toolkit.Filtering;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-namespace UnityEngine.XR.Interaction.Toolkit.Filtering
+namespace ToolkitEngine.XR.Filtering
 {
 	public class XRSocketInteractableFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter
 	{
 		#region Fields
 
 		[SerializeField]
-		private UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable m_interactable;
+		private XRBaseInteractable m_interactable;
 
 		[SerializeField]
 		private bool m_ifSocketed = true;
@@ -24,16 +28,16 @@ namespace UnityEngine.XR.Interaction.Toolkit.Filtering
 
 		private void Awake()
 		{
-			m_interactable = m_interactable ?? GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable>();
+			m_interactable = m_interactable ?? GetComponent<XRBaseInteractable>();
 			Assert.IsNotNull(m_interactable);
 		}
 
-		public bool Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor interactor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable interactable)
+		public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable)
 		{
 			return Process();
 		}
 
-		public bool Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor interactor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable interactable)
+		public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable)
 		{
 			return Process();
 		}
@@ -45,7 +49,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Filtering
 
 			foreach (var interactor in m_interactable.interactorsSelecting)
 			{
-				if (interactor is UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor)
+				if (interactor is XRSocketInteractor)
 					return m_ifSocketed;
 			}
 

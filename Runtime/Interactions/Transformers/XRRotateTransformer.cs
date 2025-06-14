@@ -12,6 +12,7 @@ using UnityEditor;
 
 namespace ToolkitEngine.XR.Transformers
 {
+	[AddComponentMenu("XR/Transformers/XR Rotate Transformer")]
 	[RequireComponent(typeof(XRGrabInteractable))]
     public class XRRotateTransformer : XRBaseGrabTransformer
 	{

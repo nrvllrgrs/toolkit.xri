@@ -1,13 +1,18 @@
+using UnityEngine;
 using UnityEngine.Assertions;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Filtering;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-namespace UnityEngine.XR.Interaction.Toolkit.Filtering
+namespace ToolkitEngine.XR.Filtering
 {
 	public class XRSocketInteractorLockFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter
 	{
 		#region Fields
 
 		[SerializeField]
-		private UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor m_interactor;
+		private XRSocketInteractor m_interactor;
 
 		[SerializeField, Tooltip("Indicates whether socketed interactable cannot be removed with another interactor.")]
 		private bool m_locked = false;
@@ -29,7 +34,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Filtering
 
 		private void Awake()
 		{
-			m_interactor = m_interactor ?? GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>();
+			m_interactor = m_interactor ?? GetComponent<XRSocketInteractor>();
 			Assert.IsNotNull(m_interactor);
 		}
 
@@ -47,7 +52,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Filtering
 
 		private void Socket_SelectEntered(SelectEnterEventArgs e)
 		{
-			var interactable = e.interactableObject.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable>();
+			var interactable = e.interactableObject.transform.GetComponent<XRBaseInteractable>();
 			if (interactable == null)
 				return;
 
@@ -63,7 +68,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Filtering
 				m_locked = false;
 			}
 
-			var interactable = e.interactableObject.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable>();
+			var interactable = e.interactableObject.transform.GetComponent<XRBaseInteractable>();
 			if (interactable == null)
 				return;
 
@@ -72,17 +77,17 @@ namespace UnityEngine.XR.Interaction.Toolkit.Filtering
 			interactable.selectFilters.Remove(this);
 		}
 
-		public bool Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor interactor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable interactable)
+		public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable)
 		{
 			return Process(interactor);
 		}
 
-		public bool Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor interactor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable interactable)
+		public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable)
 		{
 			return Process(interactor);
 		}
 
-		private bool Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRInteractor interactor)
+		private bool Process(IXRInteractor interactor)
 		{
 			// Socketed to interactor, skip
 			if (Equals(interactor, m_interactor))

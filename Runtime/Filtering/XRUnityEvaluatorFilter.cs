@@ -1,3 +1,4 @@
+using ToolkitEngine.Scoring;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Filtering;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
@@ -5,18 +6,18 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace ToolkitEngine.XR.Filtering
 {
-	public class XRUnityConditionFilter : MonoBehaviour, IXRHoverFilter, IXRSelectFilter
-	{
+    public class XRUnityEvaluatorFilter : MonoBehaviour, IXRSelectFilter, IXRHoverFilter
+    {
 		#region Fields
 
-		[SerializeField, Tooltip("If ALL conditions are true, then interaction can occur. If empty, return true.")]
-		private UnityCondition m_predicate = new UnityCondition(UnityCondition.ConditionType.All);
+		[SerializeField]
+		private UnityEvaluator m_evaluator = new();
 
 		#endregion
 
 		#region Properties
 
-		public bool canProcess => true;
+		public bool canProcess => m_evaluator.weight > 0f;
 
 		#endregion
 
@@ -24,12 +25,12 @@ namespace ToolkitEngine.XR.Filtering
 
 		public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable)
 		{
-			return m_predicate.isTrueAndEnabled;
+			return m_evaluator.Evaluate(interactor.transform.gameObject, interactable.transform.gameObject) > 0f;
 		}
 
 		public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable)
 		{
-			return m_predicate.isTrueAndEnabled;
+			return m_evaluator.Evaluate(interactor.transform.gameObject, interactable.transform.gameObject) > 0f;
 		}
 
 		#endregion

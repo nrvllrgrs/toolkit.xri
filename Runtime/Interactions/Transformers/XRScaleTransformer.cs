@@ -4,6 +4,7 @@ using DG.Tweening.Plugins.Options;
 
 namespace UnityEngine.XR.Interaction.Toolkit.Transformers
 {
+	[AddComponentMenu("XR/Transformers/XR Scale Transformer")]
 	public class XRScaleTransformer : XRBaseGrabTransformer
 	{
 		#region Fields
