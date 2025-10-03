@@ -21,7 +21,11 @@
           "relative_path": "api/Global.XRDeveloperButton.StateInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XRDeveloperButton.StateInfo",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/Global.XRDeveloperButton.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XRDeveloperButton",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/Global.XRDeveloperKnob.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XRDeveloperKnob",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/Global.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/ToolkitEditor.XR.HapticSettingsDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.HapticSettingsDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/ToolkitEditor.XR.MenuItemEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.MenuItemEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/ToolkitEditor.XR.VisualScripting.Setup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.VisualScripting.Setup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/ToolkitEditor.XR.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -101,7 +133,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRBaseInputEventsEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRBaseInputEventsEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +147,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRBasePositionInteractableEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRBasePositionInteractableEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -121,7 +161,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRBaseRotationInteractableEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRBaseRotationInteractableEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -131,7 +175,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRButtonInteractableEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRButtonInteractableEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -141,7 +189,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRConditionalSocketInteractorEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRConditionalSocketInteractorEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -151,7 +203,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRHandednessActionDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRHandednessActionDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -161,7 +217,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRHandednessContextEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRHandednessContextEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -171,7 +231,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRHolsterInteractorEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRHolsterInteractorEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -181,7 +245,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRInteractableEventsEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRInteractableEventsEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -191,7 +259,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRInteractorCollectionEventsEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRInteractorCollectionEventsEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -201,7 +273,25 @@
           "relative_path": "api/ToolkitEditor.XR.XRPocketInteractorEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRPocketInteractorEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.XR.XRRotateTransformerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.XR.XRRotateTransformerEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRRotateTransformerEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -211,7 +301,25 @@
           "relative_path": "api/ToolkitEditor.XR.XRSlideInteractableEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRSlideInteractableEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.XR.XRTranslateTransformerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.XR.XRTranslateTransformerEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRTranslateTransformerEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -221,7 +329,11 @@
           "relative_path": "api/ToolkitEditor.XR.XRVelocityInputEventsEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR.XRVelocityInputEventsEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -231,7 +343,11 @@
           "relative_path": "api/ToolkitEditor.XR.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.XR",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -241,7 +357,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.DeveloperEventHooks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.DeveloperEventHooks",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -251,7 +371,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnXRDeveloperButtonDisabled.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnXRDeveloperButtonDisabled",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -261,7 +385,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnXRDeveloperButtonDisabledMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnXRDeveloperButtonDisabledMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -271,7 +399,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnXRDeveloperButtonValueChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnXRDeveloperButtonValueChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -281,7 +413,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnXRDeveloperButtonValueChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnXRDeveloperButtonValueChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -291,7 +427,81 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Filtering.XRSocketInteractableFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Filtering.XRUnityConditionFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Filtering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Filtering.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Filtering",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -301,7 +511,11 @@
           "relative_path": "api/ToolkitEngine.XR.HapticSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.HapticSettings",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -311,7 +525,11 @@
           "relative_path": "api/ToolkitEngine.XR.HolsterEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.HolsterEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -321,7 +539,11 @@
           "relative_path": "api/ToolkitEngine.XR.Inputs.Haptics.HandednessHapticImpulsePlayer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Inputs.Haptics.HandednessHapticImpulsePlayer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -331,7 +553,11 @@
           "relative_path": "api/ToolkitEngine.XR.Inputs.Haptics.HapticManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Inputs.Haptics.HapticManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -341,7 +567,11 @@
           "relative_path": "api/ToolkitEngine.XR.Inputs.Haptics.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Inputs.Haptics",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -351,7 +581,109 @@
           "relative_path": "api/ToolkitEngine.XR.RotationInteractionEvent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.RotationInteractionEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Transformers.XRRotateTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Transformers.XRRotateTransformer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.SocketAttachPointMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.SocketAttachPointMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.SocketAttachPointMap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Transformers.XRTranslateTransformer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.XR.Transformers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.XR.Transformers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.Transformers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -361,7 +693,11 @@
           "relative_path": "api/ToolkitEngine.XR.TranslationProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.TranslationProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -371,7 +707,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.EventHooks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.EventHooks",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -381,7 +721,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponent.InteractionObject.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.GetInteractionComponent.InteractionObject",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -391,7 +735,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.GetInteractionComponent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -401,7 +749,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponentInChildren.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.GetInteractionComponentInChildren",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -411,7 +763,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.GetInteractionComponentInParent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.GetInteractionComponentInParent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -421,7 +777,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceled.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceled",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -431,7 +791,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceledMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInputInteractionCanceledMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -441,7 +805,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformed",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -451,7 +819,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInputInteractionPerformedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -461,7 +833,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableActivated.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableActivated",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -471,7 +847,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableActivatedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableActivatedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -481,7 +861,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivated.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivated",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -491,7 +875,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivatedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableDeactivatedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -501,7 +889,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -511,7 +903,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableDepthChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -521,7 +917,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableFirstHoverEnteredMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableFirstHoverEnteredMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -531,7 +931,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableGazed",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -541,7 +945,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableGazedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -551,7 +959,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEntered.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEntered",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -561,7 +973,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEnteredMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverEnteredMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -571,7 +987,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExited.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExited",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -581,7 +1001,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExitedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableHoverExitedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -591,7 +1015,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableLastHoverExitedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableLastHoverExitedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -601,7 +1029,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractablePlugged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractablePlugged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -611,7 +1043,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractablePluggedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractablePluggedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -621,7 +1057,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntered.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntered",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -631,7 +1071,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntereddMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectEntereddMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -641,7 +1085,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExited.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExited",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -651,7 +1099,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExitedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableSelectExitedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -661,7 +1113,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflow.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflow",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -671,7 +1127,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflowMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableTailflowMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -681,7 +1141,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflow.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflow",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -691,7 +1155,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflowMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableTipflowMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -701,7 +1169,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazed",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -711,7 +1183,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableUngazedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -721,7 +1197,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUnplugged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableUnplugged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -731,7 +1211,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractableUnpluggedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractableUnpluggedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -741,7 +1225,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHover.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorHover",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -751,7 +1239,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExited.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExited",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -761,7 +1253,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExitedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverExitedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -771,7 +1267,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorHoverMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -781,7 +1281,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectEntered.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectEntered",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -791,7 +1295,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectEnteredMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectEnteredMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -801,7 +1309,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectExited.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectExited",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -811,7 +1323,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectExitedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRInteractorSelectExitedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -821,7 +1337,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketPlugged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRSocketPlugged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -831,7 +1351,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketPluggedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRSocketPluggedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -841,7 +1365,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketUnplugged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRSocketUnplugged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -851,7 +1379,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.OnXRSocketUnpluggedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.OnXRSocketUnpluggedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -861,7 +1393,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.XRBaseInteractableEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.XRBaseInteractableEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -871,7 +1407,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.XRBaseInteractorEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting.XRBaseInteractorEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -881,7 +1421,11 @@
           "relative_path": "api/ToolkitEngine.XR.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -891,7 +1435,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBaseInputEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBaseInputEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -901,7 +1449,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBaseInputInteractionEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBaseInputInteractionEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -911,7 +1463,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBaseInteractableExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBaseInteractableExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -921,7 +1477,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBaseInteractorExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBaseInteractorExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -931,7 +1491,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBasePositionInteractable.SnapMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBasePositionInteractable.SnapMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -941,7 +1505,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBasePositionInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBasePositionInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -951,7 +1519,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBaseRotationInteractable.RotationMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBaseRotationInteractable.RotationMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -961,7 +1533,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBaseRotationInteractable.SnapMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBaseRotationInteractable.SnapMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -971,7 +1547,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRBaseRotationInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRBaseRotationInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -981,7 +1561,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRButtonInputEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRButtonInputEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -991,7 +1575,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRButtonInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRButtonInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1001,7 +1589,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRConditionalSocketInteractor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRConditionalSocketInteractor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1011,7 +1603,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHandAnimatorControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHandAnimatorControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1021,7 +1617,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHandednessContext.InteractorPair.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHandednessContext.InteractorPair",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1031,7 +1631,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHandednessContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHandednessContext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1041,7 +1645,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHandednessEvents.HandednessAction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHandednessEvents.HandednessAction",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1051,7 +1659,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHandednessEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHandednessEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1061,7 +1673,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHapticEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHapticEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1071,7 +1687,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHapticInputEventsListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHapticInputEventsListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1081,7 +1701,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHips.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHips",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1091,7 +1715,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHolsterInteractor.DropBehavior.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHolsterInteractor.DropBehavior",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1101,7 +1729,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRHolsterInteractor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRHolsterInteractor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1111,7 +1743,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRInteractableEvents.InteractionType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRInteractableEvents.InteractionType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1121,7 +1757,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRInteractableEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRInteractableEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1131,7 +1771,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRInteractablePriority.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRInteractablePriority",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1141,7 +1785,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRInteractableSelectionFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRInteractableSelectionFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1151,7 +1799,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRInteractorCollectionEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRInteractorCollectionEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1161,7 +1813,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRInventoryPocketInteractor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRInventoryPocketInteractor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1171,7 +1827,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRItemInteractionFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRItemInteractionFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1181,7 +1841,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRKnobInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRKnobInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1191,7 +1855,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRLeverInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRLeverInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1201,7 +1869,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRPocketInteractor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRPocketInteractor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1211,7 +1883,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRPriorityEvaluator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRPriorityEvaluator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1221,7 +1897,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRPriorityTargetFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRPriorityTargetFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1231,7 +1911,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRRedirectorInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRRedirectorInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1241,7 +1925,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRSelectedProxy.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRSelectedProxy",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1251,7 +1939,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRSlideInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRSlideInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1261,17 +1953,25 @@
           "relative_path": "api/ToolkitEngine.XR.XRSpawnerInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRSpawnerInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.XR.XRUnityConditionFilter.yml",
+      "source_relative_path": "api/ToolkitEngine.XR.XRTransformerInteractable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.XR.XRUnityConditionFilter.html"
+          "relative_path": "api/ToolkitEngine.XR.XRTransformerInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRTransformerInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1281,7 +1981,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRUseInteractable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRUseInteractable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1291,7 +1995,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRVelocityInputEvents.DirectionMask.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRVelocityInputEvents.DirectionMask",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1301,7 +2009,11 @@
           "relative_path": "api/ToolkitEngine.XR.XRVelocityInputEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR.XRVelocityInputEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1311,37 +2023,11 @@
           "relative_path": "api/ToolkitEngine.XR.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Filtering.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.XR",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1351,7 +2037,11 @@
           "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1361,7 +2051,11 @@
           "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Transformers.XRScaleTransformer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.XR.Interaction.Toolkit.Transformers.XRScaleTransformer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1371,7 +2065,11 @@
           "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.Transformers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.XR.Interaction.Toolkit.Transformers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1381,7 +2079,11 @@
           "relative_path": "api/UnityEngine.XR.Interaction.Toolkit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.XR.Interaction.Toolkit",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -1397,11 +2099,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -1420,11 +2122,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -1453,11 +2155,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -1476,11 +2178,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

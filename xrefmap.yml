@@ -1162,6 +1162,55 @@ references:
   commentId: F:ToolkitEditor.XR.XRPocketInteractorEditor.m_usePocketLayer
   fullName: ToolkitEditor.XR.XRPocketInteractorEditor.m_usePocketLayer
   nameWithType: XRPocketInteractorEditor.m_usePocketLayer
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor
+  name: XRRotateTransformerEditor
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html
+  commentId: T:ToolkitEditor.XR.XRRotateTransformerEditor
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor
+  nameWithType: XRRotateTransformerEditor
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html#ToolkitEditor_XR_XRRotateTransformerEditor_DrawProperties
+  commentId: M:ToolkitEditor.XR.XRRotateTransformerEditor.DrawProperties
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor.DrawProperties()
+  nameWithType: XRRotateTransformerEditor.DrawProperties()
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html#ToolkitEditor_XR_XRRotateTransformerEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.XR.XRRotateTransformerEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor.DrawProperties
+  nameWithType: XRRotateTransformerEditor.DrawProperties
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor.m_forward
+  name: m_forward
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html#ToolkitEditor_XR_XRRotateTransformerEditor_m_forward
+  commentId: F:ToolkitEditor.XR.XRRotateTransformerEditor.m_forward
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor.m_forward
+  nameWithType: XRRotateTransformerEditor.m_forward
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor.m_range
+  name: m_range
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html#ToolkitEditor_XR_XRRotateTransformerEditor_m_range
+  commentId: F:ToolkitEditor.XR.XRRotateTransformerEditor.m_range
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor.m_range
+  nameWithType: XRRotateTransformerEditor.m_range
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor.m_rotationDirection
+  name: m_rotationDirection
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html#ToolkitEditor_XR_XRRotateTransformerEditor_m_rotationDirection
+  commentId: F:ToolkitEditor.XR.XRRotateTransformerEditor.m_rotationDirection
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor.m_rotationDirection
+  nameWithType: XRRotateTransformerEditor.m_rotationDirection
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor.m_startingAngle
+  name: m_startingAngle
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html#ToolkitEditor_XR_XRRotateTransformerEditor_m_startingAngle
+  commentId: F:ToolkitEditor.XR.XRRotateTransformerEditor.m_startingAngle
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor.m_startingAngle
+  nameWithType: XRRotateTransformerEditor.m_startingAngle
+- uid: ToolkitEditor.XR.XRRotateTransformerEditor.m_upward
+  name: m_upward
+  href: api/ToolkitEditor.XR.XRRotateTransformerEditor.html#ToolkitEditor_XR_XRRotateTransformerEditor_m_upward
+  commentId: F:ToolkitEditor.XR.XRRotateTransformerEditor.m_upward
+  fullName: ToolkitEditor.XR.XRRotateTransformerEditor.m_upward
+  nameWithType: XRRotateTransformerEditor.m_upward
 - uid: ToolkitEditor.XR.XRSlideInteractableEditor
   name: XRSlideInteractableEditor
   href: api/ToolkitEditor.XR.XRSlideInteractableEditor.html
@@ -1200,6 +1249,43 @@ references:
   commentId: F:ToolkitEditor.XR.XRSlideInteractableEditor.m_cancelInteractionOnUnhover
   fullName: ToolkitEditor.XR.XRSlideInteractableEditor.m_cancelInteractionOnUnhover
   nameWithType: XRSlideInteractableEditor.m_cancelInteractionOnUnhover
+- uid: ToolkitEditor.XR.XRTranslateTransformerEditor
+  name: XRTranslateTransformerEditor
+  href: api/ToolkitEditor.XR.XRTranslateTransformerEditor.html
+  commentId: T:ToolkitEditor.XR.XRTranslateTransformerEditor
+  fullName: ToolkitEditor.XR.XRTranslateTransformerEditor
+  nameWithType: XRTranslateTransformerEditor
+- uid: ToolkitEditor.XR.XRTranslateTransformerEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.XR.XRTranslateTransformerEditor.html#ToolkitEditor_XR_XRTranslateTransformerEditor_DrawProperties
+  commentId: M:ToolkitEditor.XR.XRTranslateTransformerEditor.DrawProperties
+  fullName: ToolkitEditor.XR.XRTranslateTransformerEditor.DrawProperties()
+  nameWithType: XRTranslateTransformerEditor.DrawProperties()
+- uid: ToolkitEditor.XR.XRTranslateTransformerEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.XR.XRTranslateTransformerEditor.html#ToolkitEditor_XR_XRTranslateTransformerEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.XR.XRTranslateTransformerEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.XR.XRTranslateTransformerEditor.DrawProperties
+  nameWithType: XRTranslateTransformerEditor.DrawProperties
+- uid: ToolkitEditor.XR.XRTranslateTransformerEditor.m_direction
+  name: m_direction
+  href: api/ToolkitEditor.XR.XRTranslateTransformerEditor.html#ToolkitEditor_XR_XRTranslateTransformerEditor_m_direction
+  commentId: F:ToolkitEditor.XR.XRTranslateTransformerEditor.m_direction
+  fullName: ToolkitEditor.XR.XRTranslateTransformerEditor.m_direction
+  nameWithType: XRTranslateTransformerEditor.m_direction
+- uid: ToolkitEditor.XR.XRTranslateTransformerEditor.m_maxDepth
+  name: m_maxDepth
+  href: api/ToolkitEditor.XR.XRTranslateTransformerEditor.html#ToolkitEditor_XR_XRTranslateTransformerEditor_m_maxDepth
+  commentId: F:ToolkitEditor.XR.XRTranslateTransformerEditor.m_maxDepth
+  fullName: ToolkitEditor.XR.XRTranslateTransformerEditor.m_maxDepth
+  nameWithType: XRTranslateTransformerEditor.m_maxDepth
+- uid: ToolkitEditor.XR.XRTranslateTransformerEditor.m_startingDepth
+  name: m_startingDepth
+  href: api/ToolkitEditor.XR.XRTranslateTransformerEditor.html#ToolkitEditor_XR_XRTranslateTransformerEditor_m_startingDepth
+  commentId: F:ToolkitEditor.XR.XRTranslateTransformerEditor.m_startingDepth
+  fullName: ToolkitEditor.XR.XRTranslateTransformerEditor.m_startingDepth
+  nameWithType: XRTranslateTransformerEditor.m_startingDepth
 - uid: ToolkitEditor.XR.XRVelocityInputEventsEditor
   name: XRVelocityInputEventsEditor
   href: api/ToolkitEditor.XR.XRVelocityInputEventsEditor.html
@@ -1343,6 +1429,177 @@ references:
   commentId: N:ToolkitEngine.XR
   fullName: ToolkitEngine.XR
   nameWithType: ToolkitEngine.XR
+- uid: ToolkitEngine.XR.Filtering
+  name: ToolkitEngine.XR.Filtering
+  href: api/ToolkitEngine.XR.Filtering.html
+  commentId: N:ToolkitEngine.XR.Filtering
+  fullName: ToolkitEngine.XR.Filtering
+  nameWithType: ToolkitEngine.XR.Filtering
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter
+  name: XRSocketInteractableFilter
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.html
+  commentId: T:ToolkitEngine.XR.Filtering.XRSocketInteractableFilter
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter
+  nameWithType: XRSocketInteractableFilter
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  name: Process(IXRHoverInteractor, IXRHoverInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractableFilter_Process_IXRHoverInteractor_IXRHoverInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+  nameWithType: XRSocketInteractableFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  name: Process(IXRSelectInteractor, IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractableFilter_Process_IXRSelectInteractor_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+  nameWithType: XRSocketInteractableFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process*
+  name: Process
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractableFilter_Process_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.Process
+  nameWithType: XRSocketInteractableFilter.Process
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.canProcess
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractableFilter_canProcess
+  commentId: P:ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.canProcess
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.canProcess
+  nameWithType: XRSocketInteractableFilter.canProcess
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.canProcess*
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractableFilter_canProcess_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.canProcess
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractableFilter.canProcess
+  nameWithType: XRSocketInteractableFilter.canProcess
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter
+  name: XRSocketInteractorLockFilter
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html
+  commentId: T:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter
+  nameWithType: XRSocketInteractorLockFilter
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  name: Process(IXRHoverInteractor, IXRHoverInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractorLockFilter_Process_IXRHoverInteractor_IXRHoverInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+  nameWithType: XRSocketInteractorLockFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  name: Process(IXRSelectInteractor, IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractorLockFilter_Process_IXRSelectInteractor_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+  nameWithType: XRSocketInteractorLockFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process*
+  name: Process
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractorLockFilter_Process_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.Process
+  nameWithType: XRSocketInteractorLockFilter.Process
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.canProcess
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractorLockFilter_canProcess
+  commentId: P:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.canProcess
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.canProcess
+  nameWithType: XRSocketInteractorLockFilter.canProcess
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.canProcess*
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractorLockFilter_canProcess_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.canProcess
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.canProcess
+  nameWithType: XRSocketInteractorLockFilter.canProcess
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.locked
+  name: locked
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractorLockFilter_locked
+  commentId: P:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.locked
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.locked
+  nameWithType: XRSocketInteractorLockFilter.locked
+- uid: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.locked*
+  name: locked
+  href: api/ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.html#ToolkitEngine_XR_Filtering_XRSocketInteractorLockFilter_locked_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.locked
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRSocketInteractorLockFilter.locked
+  nameWithType: XRSocketInteractorLockFilter.locked
+- uid: ToolkitEngine.XR.Filtering.XRUnityConditionFilter
+  name: XRUnityConditionFilter
+  href: api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.html
+  commentId: T:ToolkitEngine.XR.Filtering.XRUnityConditionFilter
+  fullName: ToolkitEngine.XR.Filtering.XRUnityConditionFilter
+  nameWithType: XRUnityConditionFilter
+- uid: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  name: Process(IXRHoverInteractor, IXRHoverInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.html#ToolkitEngine_XR_Filtering_XRUnityConditionFilter_Process_IXRHoverInteractor_IXRHoverInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+  nameWithType: XRUnityConditionFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  name: Process(IXRSelectInteractor, IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.html#ToolkitEngine_XR_Filtering_XRUnityConditionFilter_Process_IXRSelectInteractor_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+  nameWithType: XRUnityConditionFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process*
+  name: Process
+  href: api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.html#ToolkitEngine_XR_Filtering_XRUnityConditionFilter_Process_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.Process
+  nameWithType: XRUnityConditionFilter.Process
+- uid: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.canProcess
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.html#ToolkitEngine_XR_Filtering_XRUnityConditionFilter_canProcess
+  commentId: P:ToolkitEngine.XR.Filtering.XRUnityConditionFilter.canProcess
+  fullName: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.canProcess
+  nameWithType: XRUnityConditionFilter.canProcess
+- uid: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.canProcess*
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRUnityConditionFilter.html#ToolkitEngine_XR_Filtering_XRUnityConditionFilter_canProcess_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRUnityConditionFilter.canProcess
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRUnityConditionFilter.canProcess
+  nameWithType: XRUnityConditionFilter.canProcess
+- uid: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter
+  name: XRUnityEvaluatorFilter
+  href: api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.html
+  commentId: T:ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter
+  fullName: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter
+  nameWithType: XRUnityEvaluatorFilter
+- uid: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  name: Process(IXRHoverInteractor, IXRHoverInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.html#ToolkitEngine_XR_Filtering_XRUnityEvaluatorFilter_Process_IXRHoverInteractor_IXRHoverInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process(IXRHoverInteractor,IXRHoverInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+  nameWithType: XRUnityEvaluatorFilter.Process(IXRHoverInteractor, IXRHoverInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  name: Process(IXRSelectInteractor, IXRSelectInteractable)
+  href: api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.html#ToolkitEngine_XR_Filtering_XRUnityEvaluatorFilter_Process_IXRSelectInteractor_IXRSelectInteractable_
+  commentId: M:ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process(IXRSelectInteractor,IXRSelectInteractable)
+  fullName: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+  nameWithType: XRUnityEvaluatorFilter.Process(IXRSelectInteractor, IXRSelectInteractable)
+- uid: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process*
+  name: Process
+  href: api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.html#ToolkitEngine_XR_Filtering_XRUnityEvaluatorFilter_Process_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.Process
+  nameWithType: XRUnityEvaluatorFilter.Process
+- uid: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.canProcess
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.html#ToolkitEngine_XR_Filtering_XRUnityEvaluatorFilter_canProcess
+  commentId: P:ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.canProcess
+  fullName: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.canProcess
+  nameWithType: XRUnityEvaluatorFilter.canProcess
+- uid: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.canProcess*
+  name: canProcess
+  href: api/ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.html#ToolkitEngine_XR_Filtering_XRUnityEvaluatorFilter_canProcess_
+  commentId: Overload:ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.canProcess
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Filtering.XRUnityEvaluatorFilter.canProcess
+  nameWithType: XRUnityEvaluatorFilter.canProcess
 - uid: ToolkitEngine.XR.HapticSettings
   name: HapticSettings
   href: api/ToolkitEngine.XR.HapticSettings.html
@@ -1633,6 +1890,304 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.XR.RotationInteractionEvent.value
   nameWithType: RotationInteractionEvent.value
+- uid: ToolkitEngine.XR.Transformers
+  name: ToolkitEngine.XR.Transformers
+  href: api/ToolkitEngine.XR.Transformers.html
+  commentId: N:ToolkitEngine.XR.Transformers
+  fullName: ToolkitEngine.XR.Transformers
+  nameWithType: ToolkitEngine.XR.Transformers
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer
+  name: XRRotateTransformer
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html
+  commentId: T:ToolkitEngine.XR.Transformers.XRRotateTransformer
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer
+  nameWithType: XRRotateTransformer
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.Process(XRGrabInteractable,XRInteractionUpdateOrder.UpdatePhase,Pose@,Vector3@)
+  name: Process(XRGrabInteractable, UpdatePhase, ref Pose, ref Vector3)
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_Process_XRGrabInteractable_XRInteractionUpdateOrder_UpdatePhase_Pose__Vector3__
+  commentId: M:ToolkitEngine.XR.Transformers.XRRotateTransformer.Process(XRGrabInteractable,XRInteractionUpdateOrder.UpdatePhase,Pose@,Vector3@)
+  name.vb: Process(XRGrabInteractable, UpdatePhase, Pose, Vector3)
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, ref Pose, ref Vector3)
+  fullName.vb: ToolkitEngine.XR.Transformers.XRRotateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, Pose, Vector3)
+  nameWithType: XRRotateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, ref Pose, ref Vector3)
+  nameWithType.vb: XRRotateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, Pose, Vector3)
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.Process*
+  name: Process
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_Process_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.Process
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.Process
+  nameWithType: XRRotateTransformer.Process
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode
+  name: XRRotateTransformer.RotationMode
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.html
+  commentId: T:ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode
+  nameWithType: XRRotateTransformer.RotationMode
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.Clockwise
+  name: Clockwise
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_RotationMode_Clockwise
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.Clockwise
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.Clockwise
+  nameWithType: XRRotateTransformer.RotationMode.Clockwise
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.Counterclockwise
+  name: Counterclockwise
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_RotationMode_Counterclockwise
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.Counterclockwise
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.RotationMode.Counterclockwise
+  nameWithType: XRRotateTransformer.RotationMode.Counterclockwise
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode
+  name: XRRotateTransformer.SnapMode
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.html
+  commentId: T:ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode
+  nameWithType: XRRotateTransformer.SnapMode
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.Angle
+  name: Angle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_SnapMode_Angle
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.Angle
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.Angle
+  nameWithType: XRRotateTransformer.SnapMode.Angle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.None
+  name: None
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_SnapMode_None
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.None
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.None
+  nameWithType: XRRotateTransformer.SnapMode.None
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.Step
+  name: Step
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_SnapMode_Step
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.Step
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.SnapMode.Step
+  nameWithType: XRRotateTransformer.SnapMode.Step
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.angle
+  name: angle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_angle
+  commentId: P:ToolkitEngine.XR.Transformers.XRRotateTransformer.angle
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.angle
+  nameWithType: XRRotateTransformer.angle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.angle*
+  name: angle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_angle_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.angle
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.angle
+  nameWithType: XRRotateTransformer.angle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.forward
+  name: forward
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_forward
+  commentId: P:ToolkitEngine.XR.Transformers.XRRotateTransformer.forward
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.forward
+  nameWithType: XRRotateTransformer.forward
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.forward*
+  name: forward
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_forward_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.forward
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.forward
+  nameWithType: XRRotateTransformer.forward
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_forward
+  name: m_forward
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_m_forward
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.m_forward
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_forward
+  nameWithType: XRRotateTransformer.m_forward
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_range
+  name: m_range
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_m_range
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.m_range
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_range
+  nameWithType: XRRotateTransformer.m_range
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_rotationDirection
+  name: m_rotationDirection
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_m_rotationDirection
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.m_rotationDirection
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_rotationDirection
+  nameWithType: XRRotateTransformer.m_rotationDirection
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_startingAngle
+  name: m_startingAngle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_m_startingAngle
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.m_startingAngle
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_startingAngle
+  nameWithType: XRRotateTransformer.m_startingAngle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_upward
+  name: m_upward
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_m_upward
+  commentId: F:ToolkitEngine.XR.Transformers.XRRotateTransformer.m_upward
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.m_upward
+  nameWithType: XRRotateTransformer.m_upward
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.maxAngle
+  name: maxAngle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_maxAngle
+  commentId: P:ToolkitEngine.XR.Transformers.XRRotateTransformer.maxAngle
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.maxAngle
+  nameWithType: XRRotateTransformer.maxAngle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.maxAngle*
+  name: maxAngle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_maxAngle_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.maxAngle
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.maxAngle
+  nameWithType: XRRotateTransformer.maxAngle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.minAngle
+  name: minAngle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_minAngle
+  commentId: P:ToolkitEngine.XR.Transformers.XRRotateTransformer.minAngle
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.minAngle
+  nameWithType: XRRotateTransformer.minAngle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.minAngle*
+  name: minAngle
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_minAngle_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.minAngle
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.minAngle
+  nameWithType: XRRotateTransformer.minAngle
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.range
+  name: range
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_range
+  commentId: P:ToolkitEngine.XR.Transformers.XRRotateTransformer.range
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.range
+  nameWithType: XRRotateTransformer.range
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.range*
+  name: range
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_range_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.range
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.range
+  nameWithType: XRRotateTransformer.range
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.upward
+  name: upward
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_upward
+  commentId: P:ToolkitEngine.XR.Transformers.XRRotateTransformer.upward
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.upward
+  nameWithType: XRRotateTransformer.upward
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.upward*
+  name: upward
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_upward_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.upward
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.upward
+  nameWithType: XRRotateTransformer.upward
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.wrapping
+  name: wrapping
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_wrapping
+  commentId: P:ToolkitEngine.XR.Transformers.XRRotateTransformer.wrapping
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.wrapping
+  nameWithType: XRRotateTransformer.wrapping
+- uid: ToolkitEngine.XR.Transformers.XRRotateTransformer.wrapping*
+  name: wrapping
+  href: api/ToolkitEngine.XR.Transformers.XRRotateTransformer.html#ToolkitEngine_XR_Transformers_XRRotateTransformer_wrapping_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRRotateTransformer.wrapping
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRRotateTransformer.wrapping
+  nameWithType: XRRotateTransformer.wrapping
+- uid: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer
+  name: XRSocketAttachPointTransformer
+  href: api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.html
+  commentId: T:ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer
+  fullName: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer
+  nameWithType: XRSocketAttachPointTransformer
+- uid: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.GetAttachTranform(XRGrabInteractable)
+  name: GetAttachTranform(XRGrabInteractable)
+  href: api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.html#ToolkitEngine_XR_Transformers_XRSocketAttachPointTransformer_GetAttachTranform_XRGrabInteractable_
+  commentId: M:ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.GetAttachTranform(XRGrabInteractable)
+  fullName: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.GetAttachTranform(XRGrabInteractable)
+  nameWithType: XRSocketAttachPointTransformer.GetAttachTranform(XRGrabInteractable)
+- uid: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.GetAttachTranform*
+  name: GetAttachTranform
+  href: api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.html#ToolkitEngine_XR_Transformers_XRSocketAttachPointTransformer_GetAttachTranform_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.GetAttachTranform
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.GetAttachTranform
+  nameWithType: XRSocketAttachPointTransformer.GetAttachTranform
+- uid: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.Process(XRGrabInteractable,XRInteractionUpdateOrder.UpdatePhase,Pose@,Vector3@)
+  name: Process(XRGrabInteractable, UpdatePhase, ref Pose, ref Vector3)
+  href: api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.html#ToolkitEngine_XR_Transformers_XRSocketAttachPointTransformer_Process_XRGrabInteractable_XRInteractionUpdateOrder_UpdatePhase_Pose__Vector3__
+  commentId: M:ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.Process(XRGrabInteractable,XRInteractionUpdateOrder.UpdatePhase,Pose@,Vector3@)
+  name.vb: Process(XRGrabInteractable, UpdatePhase, Pose, Vector3)
+  fullName: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, ref Pose, ref Vector3)
+  fullName.vb: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, Pose, Vector3)
+  nameWithType: XRSocketAttachPointTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, ref Pose, ref Vector3)
+  nameWithType.vb: XRSocketAttachPointTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, Pose, Vector3)
+- uid: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.Process*
+  name: Process
+  href: api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.html#ToolkitEngine_XR_Transformers_XRSocketAttachPointTransformer_Process_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.Process
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.Process
+  nameWithType: XRSocketAttachPointTransformer.Process
+- uid: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.SocketAttachPointMap
+  name: XRSocketAttachPointTransformer.SocketAttachPointMap
+  href: api/ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.SocketAttachPointMap.html
+  commentId: T:ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.SocketAttachPointMap
+  fullName: ToolkitEngine.XR.Transformers.XRSocketAttachPointTransformer.SocketAttachPointMap
+  nameWithType: XRSocketAttachPointTransformer.SocketAttachPointMap
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer
+  name: XRTranslateTransformer
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html
+  commentId: T:ToolkitEngine.XR.Transformers.XRTranslateTransformer
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer
+  nameWithType: XRTranslateTransformer
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.Process(XRGrabInteractable,XRInteractionUpdateOrder.UpdatePhase,Pose@,Vector3@)
+  name: Process(XRGrabInteractable, UpdatePhase, ref Pose, ref Vector3)
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_Process_XRGrabInteractable_XRInteractionUpdateOrder_UpdatePhase_Pose__Vector3__
+  commentId: M:ToolkitEngine.XR.Transformers.XRTranslateTransformer.Process(XRGrabInteractable,XRInteractionUpdateOrder.UpdatePhase,Pose@,Vector3@)
+  name.vb: Process(XRGrabInteractable, UpdatePhase, Pose, Vector3)
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, ref Pose, ref Vector3)
+  fullName.vb: ToolkitEngine.XR.Transformers.XRTranslateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, Pose, Vector3)
+  nameWithType: XRTranslateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, ref Pose, ref Vector3)
+  nameWithType.vb: XRTranslateTransformer.Process(XRGrabInteractable, XRInteractionUpdateOrder.UpdatePhase, Pose, Vector3)
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.Process*
+  name: Process
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_Process_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRTranslateTransformer.Process
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.Process
+  nameWithType: XRTranslateTransformer.Process
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.depth
+  name: depth
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_depth
+  commentId: P:ToolkitEngine.XR.Transformers.XRTranslateTransformer.depth
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.depth
+  nameWithType: XRTranslateTransformer.depth
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.depth*
+  name: depth
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_depth_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRTranslateTransformer.depth
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.depth
+  nameWithType: XRTranslateTransformer.depth
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.direction
+  name: direction
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_direction
+  commentId: P:ToolkitEngine.XR.Transformers.XRTranslateTransformer.direction
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.direction
+  nameWithType: XRTranslateTransformer.direction
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.direction*
+  name: direction
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_direction_
+  commentId: Overload:ToolkitEngine.XR.Transformers.XRTranslateTransformer.direction
+  isSpec: "True"
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.direction
+  nameWithType: XRTranslateTransformer.direction
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_direction
+  name: m_direction
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_m_direction
+  commentId: F:ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_direction
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_direction
+  nameWithType: XRTranslateTransformer.m_direction
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_maxDepth
+  name: m_maxDepth
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_m_maxDepth
+  commentId: F:ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_maxDepth
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_maxDepth
+  nameWithType: XRTranslateTransformer.m_maxDepth
+- uid: ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_startingDepth
+  name: m_startingDepth
+  href: api/ToolkitEngine.XR.Transformers.XRTranslateTransformer.html#ToolkitEngine_XR_Transformers_XRTranslateTransformer_m_startingDepth
+  commentId: F:ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_startingDepth
+  fullName: ToolkitEngine.XR.Transformers.XRTranslateTransformer.m_startingDepth
+  nameWithType: XRTranslateTransformer.m_startingDepth
 - uid: ToolkitEngine.XR.TranslationProvider
   name: TranslationProvider
   href: api/ToolkitEngine.XR.TranslationProvider.html
@@ -5683,44 +6238,12 @@ references:
   commentId: F:ToolkitEngine.XR.XRSpawnerInteractable.m_spawner
   fullName: ToolkitEngine.XR.XRSpawnerInteractable.m_spawner
   nameWithType: XRSpawnerInteractable.m_spawner
-- uid: ToolkitEngine.XR.XRUnityConditionFilter
-  name: XRUnityConditionFilter
-  href: api/ToolkitEngine.XR.XRUnityConditionFilter.html
-  commentId: T:ToolkitEngine.XR.XRUnityConditionFilter
-  fullName: ToolkitEngine.XR.XRUnityConditionFilter
-  nameWithType: XRUnityConditionFilter
-- uid: ToolkitEngine.XR.XRUnityConditionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  name: Process(IXRHoverInteractor, IXRHoverInteractable)
-  href: api/ToolkitEngine.XR.XRUnityConditionFilter.html#ToolkitEngine_XR_XRUnityConditionFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRHoverInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRHoverInteractable_
-  commentId: M:ToolkitEngine.XR.XRUnityConditionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  fullName: ToolkitEngine.XR.XRUnityConditionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  nameWithType: XRUnityConditionFilter.Process(Interactors.IXRHoverInteractor, Interactables.IXRHoverInteractable)
-- uid: ToolkitEngine.XR.XRUnityConditionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  name: Process(IXRSelectInteractor, IXRSelectInteractable)
-  href: api/ToolkitEngine.XR.XRUnityConditionFilter.html#ToolkitEngine_XR_XRUnityConditionFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRSelectInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_
-  commentId: M:ToolkitEngine.XR.XRUnityConditionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  fullName: ToolkitEngine.XR.XRUnityConditionFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  nameWithType: XRUnityConditionFilter.Process(Interactors.IXRSelectInteractor, Interactables.IXRSelectInteractable)
-- uid: ToolkitEngine.XR.XRUnityConditionFilter.Process*
-  name: Process
-  href: api/ToolkitEngine.XR.XRUnityConditionFilter.html#ToolkitEngine_XR_XRUnityConditionFilter_Process_
-  commentId: Overload:ToolkitEngine.XR.XRUnityConditionFilter.Process
-  isSpec: "True"
-  fullName: ToolkitEngine.XR.XRUnityConditionFilter.Process
-  nameWithType: XRUnityConditionFilter.Process
-- uid: ToolkitEngine.XR.XRUnityConditionFilter.canProcess
-  name: canProcess
-  href: api/ToolkitEngine.XR.XRUnityConditionFilter.html#ToolkitEngine_XR_XRUnityConditionFilter_canProcess
-  commentId: P:ToolkitEngine.XR.XRUnityConditionFilter.canProcess
-  fullName: ToolkitEngine.XR.XRUnityConditionFilter.canProcess
-  nameWithType: XRUnityConditionFilter.canProcess
-- uid: ToolkitEngine.XR.XRUnityConditionFilter.canProcess*
-  name: canProcess
-  href: api/ToolkitEngine.XR.XRUnityConditionFilter.html#ToolkitEngine_XR_XRUnityConditionFilter_canProcess_
-  commentId: Overload:ToolkitEngine.XR.XRUnityConditionFilter.canProcess
-  isSpec: "True"
-  fullName: ToolkitEngine.XR.XRUnityConditionFilter.canProcess
-  nameWithType: XRUnityConditionFilter.canProcess
+- uid: ToolkitEngine.XR.XRTransformerInteractable
+  name: XRTransformerInteractable
+  href: api/ToolkitEngine.XR.XRTransformerInteractable.html
+  commentId: T:ToolkitEngine.XR.XRTransformerInteractable
+  fullName: ToolkitEngine.XR.XRTransformerInteractable
+  nameWithType: XRTransformerInteractable
 - uid: ToolkitEngine.XR.XRUseInteractable
   name: XRUseInteractable
   href: api/ToolkitEngine.XR.XRUseInteractable.html
@@ -5909,101 +6432,6 @@ references:
   commentId: N:UnityEngine.XR.Interaction.Toolkit
   fullName: UnityEngine.XR.Interaction.Toolkit
   nameWithType: UnityEngine.XR.Interaction.Toolkit
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering
-  name: UnityEngine.XR.Interaction.Toolkit.Filtering
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.html
-  commentId: N:UnityEngine.XR.Interaction.Toolkit.Filtering
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering
-  nameWithType: UnityEngine.XR.Interaction.Toolkit.Filtering
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter
-  name: XRSocketInteractableFilter
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html
-  commentId: T:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter
-  nameWithType: XRSocketInteractableFilter
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  name: Process(IXRHoverInteractor, IXRHoverInteractable)
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractableFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRHoverInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRHoverInteractable_
-  commentId: M:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  nameWithType: XRSocketInteractableFilter.Process(Interactors.IXRHoverInteractor, Interactables.IXRHoverInteractable)
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  name: Process(IXRSelectInteractor, IXRSelectInteractable)
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractableFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRSelectInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_
-  commentId: M:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  nameWithType: XRSocketInteractableFilter.Process(Interactors.IXRSelectInteractor, Interactables.IXRSelectInteractable)
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process*
-  name: Process
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractableFilter_Process_
-  commentId: Overload:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process
-  isSpec: "True"
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.Process
-  nameWithType: XRSocketInteractableFilter.Process
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.canProcess
-  name: canProcess
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractableFilter_canProcess
-  commentId: P:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.canProcess
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.canProcess
-  nameWithType: XRSocketInteractableFilter.canProcess
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.canProcess*
-  name: canProcess
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractableFilter_canProcess_
-  commentId: Overload:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.canProcess
-  isSpec: "True"
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractableFilter.canProcess
-  nameWithType: XRSocketInteractableFilter.canProcess
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter
-  name: XRSocketInteractorLockFilter
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html
-  commentId: T:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter
-  nameWithType: XRSocketInteractorLockFilter
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  name: Process(IXRHoverInteractor, IXRHoverInteractable)
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractorLockFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRHoverInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRHoverInteractable_
-  commentId: M:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRHoverInteractor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRHoverInteractable)
-  nameWithType: XRSocketInteractorLockFilter.Process(Interactors.IXRHoverInteractor, Interactables.IXRHoverInteractable)
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  name: Process(IXRSelectInteractor, IXRSelectInteractable)
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractorLockFilter_Process_UnityEngine_XR_Interaction_Toolkit_Interactors_IXRSelectInteractor_UnityEngine_XR_Interaction_Toolkit_Interactables_IXRSelectInteractable_
-  commentId: M:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor,UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process(UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor, UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable)
-  nameWithType: XRSocketInteractorLockFilter.Process(Interactors.IXRSelectInteractor, Interactables.IXRSelectInteractable)
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process*
-  name: Process
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractorLockFilter_Process_
-  commentId: Overload:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process
-  isSpec: "True"
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.Process
-  nameWithType: XRSocketInteractorLockFilter.Process
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.canProcess
-  name: canProcess
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractorLockFilter_canProcess
-  commentId: P:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.canProcess
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.canProcess
-  nameWithType: XRSocketInteractorLockFilter.canProcess
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.canProcess*
-  name: canProcess
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractorLockFilter_canProcess_
-  commentId: Overload:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.canProcess
-  isSpec: "True"
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.canProcess
-  nameWithType: XRSocketInteractorLockFilter.canProcess
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.locked
-  name: locked
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractorLockFilter_locked
-  commentId: P:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.locked
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.locked
-  nameWithType: XRSocketInteractorLockFilter.locked
-- uid: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.locked*
-  name: locked
-  href: api/UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.html#UnityEngine_XR_Interaction_Toolkit_Filtering_XRSocketInteractorLockFilter_locked_
-  commentId: Overload:UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.locked
-  isSpec: "True"
-  fullName: UnityEngine.XR.Interaction.Toolkit.Filtering.XRSocketInteractorLockFilter.locked
-  nameWithType: XRSocketInteractorLockFilter.locked
 - uid: UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs
   name: InteractionEventArgs
   href: api/UnityEngine.XR.Interaction.Toolkit.InteractionEventArgs.html
